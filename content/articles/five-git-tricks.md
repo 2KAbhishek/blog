@@ -2,8 +2,8 @@
 title = "Five Git Tricks To Make Crafting Software Easier"
 slug = "five-git-tricks"
 date = 2022-06-14T00:10:46+05:30
-description = ""
-tags = ["git", "open-source","tools"]
+description = "Five common git workflows, which you will be using a lot"
+tags = ["git", "open-source", "tools", "software-craftsmanship"]
 +++
 
 Git is the most widely used version control system in the world, and it is something that every Software Craftsperson should master.
