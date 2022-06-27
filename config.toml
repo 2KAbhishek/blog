@@ -53,19 +53,19 @@ disqusShortname = "2kabhishek"
 
 [[params.nav.custom]]
   title = "Index"
-  url = "/"
+  url = "/blog/"
 
 [[params.nav.custom]]
   title = "Tags"
-  url = "/tags/"
+  url = "/blog/tags/"
 
 [[params.nav.custom]]
   title = "Archives"
-  url = "/archives/"
+  url = "/blog/archives/"
 
 [[params.nav.custom]]
   title = "About"
-  url = "/about/"
+  url = "/blog/about/"
 
 # Chroma highlight
 [markup.highlight]
