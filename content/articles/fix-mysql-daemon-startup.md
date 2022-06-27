@@ -1,5 +1,5 @@
 +++
-title = "Fix MySQL Daemon startup #Fixit 01 🛠️🕵️"
+title = "MySQL Daemon Startup Fix 🛠️🕵️"
 date = 2020-08-28T11:54:00+05:30
 tags = ["webdev","database","linux","tutorial"]
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Microsoft actually Loves❤️ Linux?"
+title = "Microsoft Actually Loves️ Linux? 🐧❤"
 date = 2020-03-19T08:40:00+05:30
 tags = ["microsoft","opinion","opensource"]
 +++

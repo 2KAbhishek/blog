@@ -1,12 +1,8 @@
 +++
-title = "Add two numbers without arithmetic operators 🙅‍♂️➕"
+title = "Add Numbers Without Arithmetic Operators 🙅‍♂️➕"
 date = 2020-05-03T11:36:00+05:30
 tags = ["leetcode","problem-solving","programming"]
 +++
-
-
-
-[![](https://lh3.googleusercontent.com/-yq2Qa1F9Fds/Xq6rqqlwSrI/AAAAAAAASh4/JXgbUBMbwt0huDVJYf-pthJg-w5PzkzpgCLcBGAsYHQ/s640/1588505511128999-0.png)](https://lh3.googleusercontent.com/-yq2Qa1F9Fds/Xq6rqqlwSrI/AAAAAAAASh4/JXgbUBMbwt0huDVJYf-pthJg-w5PzkzpgCLcBGAsYHQ/s1600/1588505511128999-0.png)
 
 What if you are given a problem where you have to add two integers but you can't use any arithmetic operators (+ - \* / % // \*\*), like LeetCode's problem [#371](https://leetcode.com/problems/sum-of-two-integers).
 

@@ -1,5 +1,5 @@
 +++
-title = "What I Learned From Hacktoberfest"
+title = "What I Learned From Hacktoberfest 🥳🧑‍💻"
 date = 2020-10-08T00:01:00+05:30
 tags = ["github","hackathon","opensource"]
 +++

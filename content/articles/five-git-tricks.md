@@ -1,5 +1,5 @@
 +++
-title = "Five Git Tricks To Make Crafting Software Easier"
+title = "Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼"
 slug = "five-git-tricks"
 date = 2022-06-14T00:10:46+05:30
 description = "Five common git workflows, which you will be using a lot"

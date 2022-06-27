@@ -1,5 +1,5 @@
 +++
-title = "The GitHub Project Manager"
+title = "Manage GitHub Projects Easily ♻📂"
 date = 2020-06-14T00:00:00+05:30
 tags = ["github","tools","opensource"]
 +++
@@ -24,4 +24,3 @@ You can find all the installation and usage information [here](https://github.co
 If you have any issues or requests feel free to create an issue over on GitHub, and if you have any contributions you are always welcome.
 
 I hope this tool helps you to manage your GitHub projects as much as it helped me.
-

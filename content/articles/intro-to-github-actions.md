@@ -1,5 +1,5 @@
 +++
-title = "Hello Github Actions"
+title = "My Intro To Github Actions ⚙️🤷"
 date = 2020-09-14T00:00:00+05:30
 tags = ["github","devops","opensource"]
 +++

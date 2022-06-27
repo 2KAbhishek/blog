@@ -1,5 +1,5 @@
 +++
-title = "Navigating JavaScript  🤷‍♂️⁉️"
+title = "Navigating JavaScript  🤷‍♂️🧭"
 date = 2019-08-08T09:31:00+05:30
 tags = ["javascript", "learning", "webdev"]
 +++
