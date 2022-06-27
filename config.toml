@@ -27,7 +27,7 @@ disqusShortname = "2kabhishek"
   author = "2KAbhishek"
   description = "2KAbhishek's Personal Blog"
   keywords = "blog, technology, programming, computer-science, articles, open-source"
-  style = "auto"  # auto, light, dark
+  style = "dark"  # auto, light, dark
   logo = "https://avatars.githubusercontent.com/u/25423853?v=4"
   slogan = "Thoughts of a Passion Driven Developer"
 
