@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/blog">blog</a></h1>
+<h1><a href="https://2kabhishek.github.io/blog">My Blog</a></h1>
 
 <a href="https://github.com/2KAbhishek/blog/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/blog?style=plastic&color=white&label=License"> </a>
@@ -23,82 +23,15 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="blog Demo">
-  <br/>
-  <figcaption>blog screenshot</figcaption>
-</figure>
+<h3>My personal blog 🧑‍💻🖋</h3>
 
 </div>
 
-## What is this
-
-blog is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
-
-## Inspiration
-
-blog was inspired by `<reason/idea>`.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
-
-## Getting blog
-
-To get blog, follow these steps:
-
-```bash
-git clone https://github.com/2kabhishek/blog
-cd blog
-<install_command>
-```
-
-## Using blog
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+My personal blog where I write about software development, computers and tech in general.
 
 ## How it was built
 
-blog was built using `<tech/library>`
-
-## Challenges faced
-
-While building blog the main challenges were `<issue/difficulty>`
-
-## What I learned
-
-While building blog I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+My blog was built using `hugo`, and the [neonote](https://github.com/2kabhishek/neonote) theme
 
 Hit the ⭐ button if you found this useful.
 
