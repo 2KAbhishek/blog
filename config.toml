@@ -52,16 +52,12 @@ disqusShortname = "2kabhishek"
   tag = "tags"
 
 [[params.nav.custom]]
-  title = "Index"
+  title = "Articles"
   url = "/blog/"
 
 [[params.nav.custom]]
   title = "Tags"
   url = "/blog/tags/"
-
-[[params.nav.custom]]
-  title = "Archives"
-  url = "/blog/archives/"
 
 [[params.nav.custom]]
   title = "About"
