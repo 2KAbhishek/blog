@@ -8,7 +8,9 @@ tags = ["webdev","database","linux","tutorial"]
 
 Brief: MySQL daemon fails to start
 
-Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with: sudo systemctl start mysqld
+Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with:
+
+`sudo systemctl start mysqld`
 
 This is the error I get:
 

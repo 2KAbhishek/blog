@@ -15,4 +15,5 @@ On KDE the steps are as follows:
 3. Click on Compositor
 4. Here, change Tearing Prevention (vsync) to Never
 
-This should do the trick. Try again, and you shouldn't face flickering issues anymore.
+This should do the trick.
+Try again, and you shouldn't face flickering issues anymore.

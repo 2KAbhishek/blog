@@ -10,7 +10,8 @@ What if you are given a problem where you have to add two integers but you can't
 
 Answer: Bit manipulation
 
-Problems like this can be solved using bit-wise operators as basic mathematics rules work in the same way whether it be binary or decimal. All we have to do is:
+Problems like this can be solved using bit-wise operators as basic mathematics rules work in the same way whether it be binary or decimal.
+All we have to do is:
 
 1. Figure out how the basic mathematical operation works step by step.
 2. Replicate these operators using bit-wise operators (& | ~ ^ << >>).
@@ -103,4 +104,5 @@ class Solution:
 #   return sum([a,b])
 ```
 
-Hopefully, I was able to explain this problem and solution. Thanks for reading.
+Hopefully, I was able to explain this problem and solution.
+Thanks for reading.

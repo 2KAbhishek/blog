@@ -14,7 +14,8 @@ If your answer to any of these questions was yes, well I have a solution for you
 
 It is a utility to fix a few problems a developer faces while managing GitHub projects.
 
-GHPM allows you to clone all the repositories in a user's GitHub profile, saving you lots of time. All the repositories will be cloned in the current directory.
+GHPM allows you to clone all the repositories in a user's GitHub profile, saving you lots of time.
+All the repositories will be cloned in the current directory.
 
 It lets you pull and push changes for all the git repositories in a directory, saving you lots of cd and git pull/push.
 

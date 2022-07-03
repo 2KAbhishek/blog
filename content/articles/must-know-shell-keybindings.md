@@ -36,7 +36,7 @@ Alt + d        - Delete next word
 Alt +. or !$ - Previous commands last arguement
 !\*                - All arguments of previous command
 Alt + t        - Swap current word with previous
-Ctrl + t       - Swap the last two characters before the cursor (typo). <br>
+Ctrl + t       - Swap the last two characters before the cursor (typo).
 Esc + t       - Swap the last two words before the cursor
 Ctrl + y      - Paste
 Ctrl + \_      - Undo

@@ -13,9 +13,9 @@ You also have to remember other information like credit card informations, licen
 
 A simple solution to those problems is a password manager.
 A password manager creates a database of your passwords, username and other details.
+
 Those passwords could then be easily synced across your devices and with things like autofill they make the whole online experience much simpler to everyone without worrying about a gazillion passwords.
 You do have to remember the master password for your specific database and that's a necessary evil.
 
 A good option is [KeePass](https://keepass.info/) it has both online and offline sync capabilities and is completely free.
 KeePass is available on all the major platforms including Windows, Android, Linux, macOS, iOS, Firefox, Chrome etc.
-

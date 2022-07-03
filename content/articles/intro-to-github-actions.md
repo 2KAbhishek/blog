@@ -17,7 +17,8 @@ The only issue is when I have to make some quick updates to the styles or script
 
 While reading up on GitHub actions this is the problem that came up to my mind, that can be fixed quite easily using a simple workflow. 🤔
 
-What this action does is, on push events it looks at changes in the script and styles file. If it does find any changes It runs and carries out the gulp tasks (sass -> css & minifying) and makes a new commit.
+What this action does is, on push events it looks at changes in the script and styles file.
+If it does find any changes It runs and carries out the gulp tasks (sass -> css & minifying) and makes a new commit.
 
 Thus allowing me to tweak my site from anywhere without worrying about node or npm at all. 📱😁
 

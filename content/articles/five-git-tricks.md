@@ -28,7 +28,8 @@ If you have set up git with ssh credentials earlier then you definitely know how
 - Generate a new ssh key
 - Add the ssh key to GitHub
 
-But wait, there's a smarter (and foolproof) way of setting up git with your GitHub credentials. All you need is the GitHub CLI installed on your system.
+But wait, there's a smarter (and foolproof) way of setting up git with your GitHub credentials.
+All you need is the GitHub CLI installed on your system.
 
 After that, it's as simple as:
 
@@ -163,7 +164,8 @@ Alright! you made it to the end of this article, and you have already seen a lot
 
 But how do you remember all this? Easy!
 
-You can use git aliases to make your life easier. You can add these aliases to your `.gitconfig` file.
+You can use git aliases to make your life easier.
+You can add these aliases to your `.gitconfig` file.
 
 ```bash
 [alias]
@@ -195,6 +197,7 @@ Add as many aliases as you want, saving these few keystrokes will make your life
 
 ## More to explore
 
-This is only the tip of the iceberg when it comes to `git`, there are many more awesome things you can do with it. Go ahead and explore!
+This is only the tip of the iceberg when it comes to `git`, there are many more awesome things you can do with it.
+Go ahead and explore!
 
 We will be covering more commands and tricks in the future.

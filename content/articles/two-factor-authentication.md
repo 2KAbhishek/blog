@@ -4,13 +4,15 @@ date = 2019-05-05T10:48:00+05:30
 tags = ["internet","password","security"]
 +++
 
-In a previous post, I wrote about password managers and why you should have one, In this follow-up article I'll try to explain Two-Factor Authentication or 2FA and how it can make your security more robust.
+In a previous post, I wrote about password managers and why you should have one.
+In this follow-up article I'll try to explain Two-Factor Authentication or 2FA and how it can make your security more robust.
 
 So what 2FA does is that It adds another layer to your security.
 After you provide your username and password 2FA will ask for a special code that you may receive via SMS or an authenticator app.
 You can only login after providing the 2FA code.
 
-So now, even if someone manages to get their hands on your login credentials they still won't be able to access your account. 2FA is not unbreakable, but it is more secure than passwords.
+So now, even if someone manages to get their hands on your login credentials they still won't be able to access your account.
+2FA is not unbreakable, but it is more secure than passwords.
 
 Most of the online services provide 2FA including Google, Facebook, Twitter, GitHub, Steam etc.
 You can setup 2FA for your account by going to the security settings of that platform.
