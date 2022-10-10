@@ -1,5 +1,5 @@
 +++
-title = "I Made a Web App to Showcase all your Profiles 🔮✨"
+title = "Links - Present Your Links In Style 🔗🔮"
 date = 2022-08-13T10:36:00+05:30
 tags = ["github","side-project","open-source","portfolio","webdev"]
 +++

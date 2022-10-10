@@ -1,5 +1,5 @@
 +++
-title = "I Made a Web App to Showcase all your GitHub Projects 😍✨"
+title = "Projects - Showcase All Your Projects 🛍️🎇"
 date = 2022-07-31T11:36:00+05:30
 tags = ["github","side-project","open-source","portfolio","webdev"]
 +++
