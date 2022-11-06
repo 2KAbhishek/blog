@@ -1,5 +1,5 @@
 +++
-title = "Data Structure and Algorithms are Overrated! Focus on these skills instead 🚫🪴"
+title = "Data Structure and Algorithms are Overrated! 🚫🪴"
 slug = "dsa-is-overrated"
 date = 2022-10-28T00:10:46+05:30
 description = "What skills should a Software Develooer focus on, not just DSA."
