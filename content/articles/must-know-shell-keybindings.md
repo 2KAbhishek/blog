@@ -62,7 +62,7 @@ Some of these shortcuts may work with other shells too.
 ---
 
 ## **Modes** 🕹️
--
+
 - Ctrl +x,v - vi mode (zsh)
 - set -o vi - Vi mode
 
