@@ -1,5 +1,5 @@
 +++
-title = "tmux-tilit - Better tiling for tmux 🪟🪓"
+title = "tmux-tilit : Better tiling for tmux 🪟🪓"
 date = 2023-01-11T00:58:00+05:30
 tags = ["cli","terminal","tools","side-projects","open-source","tmux","productivity"]
 +++
