@@ -63,7 +63,7 @@ while a "pane" is what `i3wm` would call a "window" and `vim` would call a "spli
 | <kbd>Alt</kbd> + <kbd>d</kbd> | Exit (detach) `tmux` |
 | <kbd>Alt</kbd> + <kbd>r</kbd> | Reload config |
 
-For detailed instructions please read [DOCS](./DOCS.md)
+For detailed instructions please read [DOCS](https://github.com/2KAbhishek/tmux-tilit/blob/main/DOCS.md)
 
 ## How it was built
 
