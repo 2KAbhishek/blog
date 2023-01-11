@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/blog">My Blog</a></h1>
+<h1><a href="https://2kabhishek.github.io/blog">Blog</a></h1>
 
 <a href="https://github.com/2KAbhishek/blog/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/blog?style=flat&color=eee&label="> </a>
@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/blog/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/blog?style=flat&color=e06c75&label="> </a>
 
-<h3>My personal blog 🧑‍💻🖋</h3>
+<h3>Thoughts of a Passion Driven Developer 🧑‍💻🖋</h3>
 
 </div>
 
