@@ -8,12 +8,12 @@ If you have used tmux then you already know that tmux provides ways to create mu
 
 You might have also felt that the default way of doing these things is kind of clumsy and doesn't feel natural.
 
-# Introducing tmux-tilit:
+# Introducing [tmux-tilit](https://github.com/2KAbhishek/tmux-tilit):
 ![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3p6b2sqivrf1xajhbh27.jpg)
 
 ## What is this
 
-tmux-tilit is a tmux plugin that adds tiling window manager like features and keybindings to tmux.
+[tmux-tilit](https://github.com/2KAbhishek/tmux-tilit) is a tmux plugin that adds tiling window manager like features and keybindings to tmux.
 
 ## Inspiration
 
@@ -80,6 +80,8 @@ Making sure the keybindings work accross different cli programs was challenging.
 ## What's next
 
 You tell me!
+
+[Repo Link[(https://github.com/2KAbhishek/tmux-tilit)
 
 Hit the ⭐ button if you found this useful.
 
