@@ -9,6 +9,7 @@ If you have used tmux then you already know that tmux provides ways to create mu
 You might have also felt that the default way of doing these things is kind of clumsy and doesn't feel natural.
 
 # Introducing [tmux-tilit](https://github.com/2KAbhishek/tmux-tilit):
+
 ![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3p6b2sqivrf1xajhbh27.jpg)
 
 ## What is this
@@ -38,7 +39,7 @@ set -g @plugin '2kabhishek/tmux-tilit'
 
 ### Keybindings
 
-Finally, here is a list of the actual keybindings. Most are [taken from `i3wm`][1].
+Finally, here is a list of the actual keybindings. Most are taken from `i3wm`.
 Below, a "workspace" is what `tmux` would call a "window" and `vim` would call a "tab",
 while a "pane" is what `i3wm` would call a "window" and `vim` would call a "split".
 
@@ -88,5 +89,5 @@ Hit the ⭐ button if you found this useful.
 ## More Info
 
 Major credits to [tmux-tilish](https://github.com/jabirali/tmux-tilish)
-Also checkout the nice powerline plugin you see on the screenshot, [tmux2k](https://github.com/2KAbhishek/tmux2k)
 
+Also checkout the nice powerline plugin you see on the screenshot, [tmux2k](https://github.com/2KAbhishek/tmux2k)
