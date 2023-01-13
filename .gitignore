@@ -1,2 +1,5 @@
 # Hugo build
 .hugo_build.lock
+
+# Build files
+public/
