@@ -1,1 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>database on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/database/</link><description>Recent content in database on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2022 2KAbhishek</copyright><lastBuildDate>Fri, 28 Aug 2020 11:54:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/database/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>database on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/database/</link><description>Recent content in database on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2022 2KAbhishek</copyright><lastBuildDate>Fri, 28 Aug 2020 11:54:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/articles/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/articles/fix-mysql-daemon-startup/</guid><description>Problem Brief: MySQL daemon fails to start
+Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with:
+sudo systemctl start mysqld
+This is the error I get:
+Job for mariadb.service failed because the control process exited with error code.
+Let&amp;rsquo;s look at journalctl -xe:
+A start job for unit mariadb.service has finished with a failure.
+Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: systemctl status mysqld</description></item></channel></rss>
