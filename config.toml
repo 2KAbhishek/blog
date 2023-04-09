@@ -61,7 +61,7 @@ disqusShortname = "2kabhishek"
 
 [[params.nav.custom]]
   title = "About"
-  url = "https://2kabhishek.github.io"
+  url = "https://2kabhishek.github.io/links"
 
 # Chroma highlight
 [markup.highlight]
