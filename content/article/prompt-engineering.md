@@ -1,13 +1,12 @@
 +++
-title = "Prompt Engineering 101"
-date = 2023-06-06
-tags = []
-categories = []
-imgs = []
+title = "Prompt Engineering 101 🤖🪄"
+date = 2023-06-23
+tags = ["ai","promptengineering","chatgpt","guide"]
+categories = ["ai","promptengineering","chatgpt","guide"]
 toc = true
-comments = false
+comments = true
 justify = false  # text-align: justify;
-license = ""  # CC License
+license = "GPL"  # CC License
 draft = false
 +++
 
@@ -16,7 +15,7 @@ Don't worry, we got you!
 In this article, we'll demystify everything and equip you with the knowledge you need to get the most out of AI tools like ChatGPT.
 So, let's get started!
 
-# What Is Prompt Engineering?
+## What Is Prompt Engineering?
 
 Prompt engineering is like being the conductor of an AI orchestra.
 It's the art of crafting carefully tailored instructions, or prompts, that guide language models like GPT-3.5 (Used in ChatGPT) to produce the outputs we desire.
@@ -30,38 +29,27 @@ The clarity and specificity of instructions greatly influence the output generat
 Here are some guidelines to follow:
 
 1. Use delimiters to clearly indicate distinct parts of the input.
-   Delimiters can be anything like triple backticks (```) or hyphens (---).
+   Delimiters can be anything like triple backticks (```) or semicolon (;).
    For example, when providing multiple inputs, you can separate them using delimiters to ensure the model processes them correctly.
 
-```
-Input 1: This is the first input.
----
-Input 2: This is the second input.
-```
+
+![delimiter-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8bn108ayy771jaai5yba.jpg)
 
 2. Ask for a structured output format such as JSON or HTML.
    This helps in obtaining well-organized and easily parseable results.
-   For instance, if you want the model to generate an HTML table, specify the desired structure in your prompt.
+
+![json-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b8k725gdpyh6uoyxmwfo.jpg)
 
 3. Instruct the model to check whether certain conditions are satisfied.
    This allows you to incorporate logical checks in the output.
-   For example, you can ask the model to verify if a given statement is true or false based on the provided information.
+
+![conditional-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n6rjj0h7cduovbet1jpj.jpg)
 
 4. Utilize the power of "few-shot" prompting.
    Instead of asking the model to perform a task from scratch, provide an example or a partial solution and ask it to do something similar.
    This enables the model to generalize from the given example and produce the desired output.
 
-Let's consider an example to illustrate these principles.
-Suppose we want the model to generate a JSON response with information about a user.
-We can prompt the model as follows:
-
-```
-Input: Please generate a JSON response for the user information.
----
-User: John Doe
-Age: 30
-Email: johndoe@example.com
-```
+![few-shot-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nvkpzh8c4uq353cbjqnj.jpg)
 
 By clearly specifying the desired output format and providing structured inputs, we increase the likelihood of obtaining the desired JSON response.
 
@@ -74,27 +62,19 @@ To facilitate this, follow these guidelines:
    Number and list the steps clearly in your instructions.
    This helps the model understand the desired process and ensures a logical flow of information.
 
+![list-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ht4p2fkwkldnctg38pll.jpg)
+
 2. Ask for output in a specified format and provide an output template.
    By providing a template, you guide the model to generate output that adheres to the desired structure.
    For example, if you want the model to generate a formatted email, provide a template with placeholders for the recipient, subject and body.
 
+![output-format-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wn1cyh5reeeagu8i13t5.jpg)
+
 3. Instruct the model to work out its own solution before rushing to a conclusion.
    Allowing the model to ponder and analyze the problem can lead to more thoughtful and accurate outputs.
 
-Now, let's consider an example where we want the model to write a step-by-step guide on setting up a blog.
-We can prompt the model as follows:
 
-```
-Input: Please provide a detailed guide on setting up a blog.
----
-Steps:
-1. Choose a blogging platform.
-2. Register a domain name.
-3. Select a hosting provider.
-4. Install and configure the blogging software.
-5. Customize the blog's appearance.
-6. Create and publish your first blog post.
-```
+![evaluation-example](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fqsnnkmqg0c36io4d22m.jpg)
 
 By specifying the steps clearly and providing a template for the output, we enable the model to generate a well-structured guide.
 
@@ -140,3 +120,7 @@ Here are a few key capabilities and their applications:
 
 That's all folks, you now have all the fundamentals you need to go out there and craft your own prompts.
 Use this knowledge to unleash the power of prompt engineering and watch your AI companion create wonders at your command.
+
+This article is a condensed version of [this course](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction) by Isa Fulford and Andrew Ng, you can take a look to explore more and try different examples.
+
+This article was first published on Incubyte's blog, It can be found [here](https://blog.incubyte.co/blog/prompt-engg/)
