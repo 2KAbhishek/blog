@@ -4,7 +4,7 @@ date = 2023-09-24T08:28:00+05:30
 tags = ["cli","terminal","tools","side-projects","open-source","neovim","plugin"]
 +++
 
-![nerdy.nvim screenshot](https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.png)
+![nerdy.nvim screenshot](https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg)
 
 Do you like [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)? but don't like going over to [their site](https://www.nerdfonts.com/cheat-sheet) just to fetch a glyph for your pretty terminal?
 
