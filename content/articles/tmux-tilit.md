@@ -10,7 +10,8 @@ You might have also felt that the default way of doing these things is kind of c
 
 # Introducing [tmux-tilit](https://github.com/2KAbhishek/tmux-tilit):
 
-![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3p6b2sqivrf1xajhbh27.jpg)
+![tmux-tilit screenshot](https://raw.githubusercontent.com/2kabhishek/tmux-tilit/main/images/screenshot.jpg)
+
 
 ## What is this
 
@@ -61,7 +62,7 @@ while a "pane" is what `i3wm` would call a "window" and `vim` would call a "spli
 | <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>r</kbd> | Refresh current layout |
 | <kbd>Alt</kbd> + <kbd>n</kbd> | Name current workspace |
 | <kbd>Alt</kbd> + <kbd>x</kbd> | Quit (close) pane |
-| <kbd>Alt</kbd> + <kbd>d</kbd> | Exit (detach) `tmux` |
+| <kbd>Alt</kbd> + <kbd>d</kbd> | tmux dmenu launcher |
 | <kbd>Alt</kbd> + <kbd>r</kbd> | Reload config |
 
 For detailed instructions please read [DOCS](https://github.com/2KAbhishek/tmux-tilit/blob/main/DOCS.md)

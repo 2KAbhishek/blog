@@ -10,7 +10,7 @@ Well I felt the same way too. That's why I combined a package manager, a powerfu
 
 # Introducing [win2k](https://github.com/2KAbhishek/win2k)
 
-![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fxxv09z0gvlkxwhaqabv.png)
+![win2k screenshot](https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png)
 
 win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.
 

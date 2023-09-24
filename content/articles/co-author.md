@@ -4,7 +4,7 @@ date = 2023-01-02T10:28:00+05:30
 tags = ["cli","terminal","tools","side-projects","open-source","neovim","plugin"]
 +++
 
-![co-author.nvim screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c1ywoxceu9cmenacegcf.png)
+![co-author.nvim screenshot](https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png)
 
 ## What is this
 
