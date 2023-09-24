@@ -1,5 +1,5 @@
 +++
-title = "Winfiles - Ultimate Dev Setup for Windows 🪟🪄"
+title = "win2k - Ultimate Dev Setup for Windows 🪟🪄"
 date = 2023-01-29
 tags = ["cli","terminal","tools","side-projects","open-source","windows", "powershell", "productivity"]
 +++
@@ -8,11 +8,11 @@ Do you find the Windows dev environment lacking? Do you miss your precious CLI t
 
 Well I felt the same way too. That's why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.
 
-# Introducing [Winfiles](https://github.com/2KAbhishek/Winfiles)
+# Introducing [win2k](https://github.com/2KAbhishek/win2k)
 
 ![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fxxv09z0gvlkxwhaqabv.png)
 
-Winfiles is a set of handcrafted configs for setting up a complete dev environment on Windows.
+win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.
 
 It makes developing on Windows much more pleasant for CLI lovers.
 
@@ -46,8 +46,8 @@ irm get.scoop.sh | iex
 # Install git if you haven't already
 scoop install git
 
-git clone https://github.com/2kabhishek/Winfiles
-cd Winfiles
+git clone https://github.com/2kabhishek/win2k
+cd win2k
 
 .\setup.ps1
 ```
@@ -73,7 +73,7 @@ I recommend using PowerTools to add some keybindings, for example:
 You can use yasb to show a status bar, similar to polybar.
 Follow instructions on [yasb](https://github.com/denBot/yasb) to set up.
 
-My yasb configs are [here](https://github.com/2KAbhishek/Winfiles/tree/main/config/yasb)
+My yasb configs are [here](https://github.com/2KAbhishek/win2k/tree/main/config/yasb)
 
 #### Extra Fonts
 
@@ -130,7 +130,7 @@ That's why I decided to set up a dev environment using native windows tooling.
 
 <strong>⭐ hit the star button if you found this useful ⭐</strong><br>
 
-<a href="https://github.com/2KAbhishek/Winfiles">Source</a>
+<a href="https://github.com/2KAbhishek/win2k">Source</a>
 | <a href="https://2kabhishek.github.io/blog" target="_blank">Blog </a>
 | <a href="https://twitter.com/2kabhishek" target="_blank">Twitter </a>
 | <a href="https://linkedin.com/in/2kabhishek" target="_blank">LinkedIn </a>
