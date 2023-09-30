@@ -1,6 +1,6 @@
 baseURL = "https://2kabhishek.github.io/blog/"
 title = "2KAbhishek Blogs"
-copyright = "©2022 2KAbhishek"
+copyright = "©2023 2KAbhishek"
 
 languageCode = "en"
 hasCJKLanguage = true
@@ -12,9 +12,6 @@ enableEmoji = true
 
 # Enable Disqus
 disqusShortname = "2kabhishek"
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
 
 [module]
   [[module.imports]]
@@ -44,7 +41,7 @@ disqusShortname = "2kabhishek"
 
 [params.nav]
   showCategories = false
-  showTags = false
+  showTags = true
 
 # You can add taxonomies here, then link new pages in [[params.nav.custom]]
 [taxonomies]
@@ -54,10 +51,6 @@ disqusShortname = "2kabhishek"
 [[params.nav.custom]]
   title = "Articles"
   url = "/blog/"
-
-[[params.nav.custom]]
-  title = "Tags"
-  url = "/blog/tags/"
 
 [[params.nav.custom]]
   title = "About"

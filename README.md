@@ -30,6 +30,12 @@ My personal blog where I write about software development, computers and tech in
 
 My blog was built using `hugo`, and the [neonote](https://github.com/2kabhishek/neonote) theme
 
+Update theme module with latest changes:
+
+```bash
+hugo mod get -u
+```
+
 Hit the ⭐ button if you found this useful.
 
 ## More Info
