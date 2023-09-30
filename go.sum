@@ -26,3 +26,5 @@ github.com/2kabhishek/neonote v0.0.0-20230930182014-8b7691176733 h1:kMC2P1n7LKaz
 github.com/2kabhishek/neonote v0.0.0-20230930182014-8b7691176733/go.mod h1:W9HMUwBJIN0sp9ATuuV3vngm7cHiggP/9G3hch1rZXs=
 github.com/2kabhishek/neonote v0.0.0-20230930184228-ad2e4096ebcd h1:62JHyedT7hocH0dlxKd3D6/EMMwVZsQywt2NkiJcqGE=
 github.com/2kabhishek/neonote v0.0.0-20230930184228-ad2e4096ebcd/go.mod h1:W9HMUwBJIN0sp9ATuuV3vngm7cHiggP/9G3hch1rZXs=
+github.com/2kabhishek/neonote v0.0.0-20230930191338-0412758158bc h1:Dq35UfSekgElCvcAD4I14P6E73rRlkGEbgsS281ehKU=
+github.com/2kabhishek/neonote v0.0.0-20230930191338-0412758158bc/go.mod h1:W9HMUwBJIN0sp9ATuuV3vngm7cHiggP/9G3hch1rZXs=
