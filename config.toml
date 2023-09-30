@@ -30,7 +30,6 @@ disqusShortname = "2kabhishek"
   style = "dark"  # auto, light, dark
   logo = "https://avatars.githubusercontent.com/u/25423853?v=4"
   slogan = "Thoughts of a Passion Driven Developer"
-  homepage = "https://2kabhishek.github.io/blog"
 
 # Declare custom css here
 [params.assets]
