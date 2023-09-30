@@ -28,6 +28,17 @@ disqusShortname = "2kabhishek"
   logo = "https://avatars.githubusercontent.com/u/25423853?v=4"
   slogan = "Thoughts of a Passion Driven Developer"
 
+[mediaTypes]
+[mediaTypes."text/toml"]
+  suffixes = ["toml"]
+
+[outputFormats]
+[outputFormats.TOML]
+  mediaType = "text/toml"
+
+[outputs]
+  home = ["HTML", "RSS", "TOML"]
+
 # Declare custom css here
 [params.assets]
   css = ["css/fonts.css", "css/custom.css"]
