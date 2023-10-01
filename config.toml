@@ -52,7 +52,7 @@ disqusShortname = "2kabhishek"
 
 [params.nav]
   showCategories = false
-  showTags = true
+  showTags = false
 
 # You can add taxonomies here, then link new pages in [[params.nav.custom]]
 [taxonomies]
@@ -62,6 +62,10 @@ disqusShortname = "2kabhishek"
 [[params.nav.custom]]
   title = "Articles"
   url = "/blog/"
+
+[[params.nav.custom]]
+  title = "Tags"
+  url = "/blog/tags"
 
 [[params.nav.custom]]
   title = "About"
