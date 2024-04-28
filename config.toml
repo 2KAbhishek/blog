@@ -60,20 +60,20 @@ disqusShortname = "2kabhishek"
   tag = "tags"
 
 [[params.nav.custom]]
-  title = "Articles"
-  url = "/blog/"
-
-[[params.nav.custom]]
-  title = "Tags"
-  url = "/blog/tags"
+  title = "About"
+  url = "https://2kabhishek.github.io/links"
 
 [[params.nav.custom]]
   title = "Archives"
   url = "/blog/archives"
 
 [[params.nav.custom]]
-  title = "About"
-  url = "https://2kabhishek.github.io/links"
+  title = "Articles"
+  url = "/blog/"
+
+[[params.nav.custom]]
+  title = "Tags"
+  url = "/blog/tags"
 
 # Chroma highlight
 [markup.highlight]
