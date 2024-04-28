@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/be-good-at-open-source.md"
+url = "https://2kabhishek.github.io/blog/2024/03/how-to-be-good-at-open-source/"
+title = "How to be good at Open Source 🧑‍💻🌏"
+
+[[input.files]]
 path = "content/post/nerdy.md"
 url = "https://2kabhishek.github.io/blog/2023/09/nerdy.nvim-find-nerd-glyphs-easily/"
 title = "Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭"
