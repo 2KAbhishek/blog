@@ -68,6 +68,10 @@ disqusShortname = "2kabhishek"
   url = "/blog/tags"
 
 [[params.nav.custom]]
+  title = "Archives"
+  url = "/blog/archives"
+
+[[params.nav.custom]]
   title = "About"
   url = "https://2kabhishek.github.io/links"
 
