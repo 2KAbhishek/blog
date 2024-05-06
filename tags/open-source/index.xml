@@ -24,6 +24,6 @@ Prerequisites Before you begin, ensure you have met the following requirements:
 You have installed the latest version of tmux. tpm for managing tmux plugins. A patched nerd font for powerline and glyphs support. Installing tmux2k Using tpm
 If you are a tpm user, you can install the theme and keep up to date by adding the following to your .</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/2022/07/projects-showcase-all-your-projects-%EF%B8%8F/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/2022/07/projects-showcase-all-your-projects-%EF%B8%8F/</guid><description>Introducing Projects Present all your projects in style with a super customizable web app! ✨
 Projects uses the GitHub API to list all your GitHub projects in a nice searchable grid. Also shows pretty programming icons using devicons.
-Inspiration Needed a way to display all my projects, used my portfolio&amp;rsquo;s project section as inspiration.
+Inspiration Needed a way to display all my projects, that should auto update from my GitHub
 Getting Projects To get projects, follow these steps:
-git clone https://github.com/2kabhishek/projects cd projects Setup Your Own Projects You can easily set up projects to show your own repos.</description></item></channel></rss>
+git clone https://github.com/2kabhishek/projects cd projects Setup Your Own Projects You can set up projects for yourself by following these steps:</description></item></channel></rss>
