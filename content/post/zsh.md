@@ -5,16 +5,14 @@ tags = ["cli","zsh","terminal","tools","shell","open-source","linux","productivi
 +++
 
 I have been using zsh as my shell for over 6 years now.
-During this time, I've experimented with various configurations and setups and I have finally settled on a setup that I like.
+During this time, I've experimented with various configurations and setups, and I've finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.
 
 Let's get started.
 
 ## Config Structure
 
-Before we dive into the config files, let's look at the structure of my config directory.
-
-Here is the structure of my config directory, with all the files related to zsh:
+Before diving into the config files, let's examine the structure of my config directory:
 
 ```sh
 ├── shell
@@ -41,16 +39,16 @@ Every file under the `shell` directory is a shared configuration file that is co
 
 ### Config Location and [.zshenv](https://github.com/2KAbhishek/dots2k/blob/main/config/zsh/.zshenv)
 
-I like to keep my zsh config in the `~/.config/zsh` directory to keep my home directory uncluttered.
-To do this, you need to set the `ZDOTDIR` environment variable to `~/.config/zsh`.
+I keep my zsh config in the `~/.config/zsh` directory to keep my home directory uncluttered.
+To do this, set the `ZDOTDIR` environment variable to `~/.config/zsh` in the `~/.zshenv` file.
 
-Similarly, I symlink the `~/.config/.zshenv` file to `~/.zshenv`, with the following contents:
+Similarly, I symlink my `~/.config/zsh/.zshenv` file to `~/.zshenv`, with the following contents:
 
 ```sh
 ZDOTDIR="${${(%):-%x}:P:h}"
 ```
 
-This sets the `ZDOTDIR` to the directory where the `.zshenv` file is present and allows me to keep the `.zshenv` file in the `~/.config/zsh` directory.
+This sets the `ZDOTDIR` to the directory where the `.zshenv` file is present (`~/.config/zsh`).
 
 ### [.zshrc](https://github.com/2KAbhishek/dots2k/blob/main/config/zsh/.zshrc)
 
@@ -121,13 +119,13 @@ This file is last to allow it to override any key bindings set by plugins.
 
 ### local.sh
 
-This is an optional file that I use to store local configurations specific to that machine or any one off configurations.
+This is an optional file that I use to store local configurations specific to that machine or any one-off configurations.
 This file is intentionally not checked into the repository.
 
 ## Conclusion
 
 This setup provides a fast and modular shell experience, allowing easy addition or removal of features without cluttering the config.
-I hope this post helps you organize your own zsh config
+I hope this post helps you organize your own zsh config.
 
 For more details, you can check out my [dots2k repo](https://github.com/2KAbhishek/dots2k/) where I keep all my dotfiles.
 
