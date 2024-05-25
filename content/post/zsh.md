@@ -8,6 +8,8 @@ I have been using zsh as my shell for over 6 years now.
 During this time, I've experimented with various configurations and setups, and I've finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.
 
+If you want a longer video version, check you [ZSH Deep Dive](https://youtu.be/Zuw3xZIDAKo)
+
 Let's get started.
 
 ## Config Structure
