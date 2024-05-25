@@ -25,6 +25,11 @@ url = "https://2kabhishek.github.io/blog/2023/01/win2k-ultimate-dev-setup-for-wi
 title = "win2k - Ultimate Dev Setup for Windows 🪟🪄"
 
 [[input.files]]
+path = "content/post/zsh.md"
+url = "https://2kabhishek.github.io/blog/2023/01/how-i-organize-my-zsh-config/"
+title = "How I organize my zsh config 🐚📂"
+
+[[input.files]]
 path = "content/post/tmux-tilit.md"
 url = "https://2kabhishek.github.io/blog/2023/01/tmux-tilit-better-tiling-for-tmux/"
 title = "tmux-tilit - better tiling for tmux 🪟🪓"
