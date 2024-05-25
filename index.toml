@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/zsh.md"
+url = "https://2kabhishek.github.io/blog/2024/05/how-i-organize-my-zsh-config/"
+title = "How I organize my zsh config 🐚📂"
+
+[[input.files]]
 path = "content/post/be-good-at-open-source.md"
 url = "https://2kabhishek.github.io/blog/2024/03/how-to-be-good-at-open-source/"
 title = "How to be good at Open Source 🧑‍💻🌏"
@@ -23,11 +28,6 @@ title = "Prompt Engineering 101 🤖🪄"
 path = "content/post/win2k.md"
 url = "https://2kabhishek.github.io/blog/2023/01/win2k-ultimate-dev-setup-for-windows/"
 title = "win2k - Ultimate Dev Setup for Windows 🪟🪄"
-
-[[input.files]]
-path = "content/post/zsh.md"
-url = "https://2kabhishek.github.io/blog/2023/01/how-i-organize-my-zsh-config/"
-title = "How I organize my zsh config 🐚📂"
 
 [[input.files]]
 path = "content/post/tmux-tilit.md"
