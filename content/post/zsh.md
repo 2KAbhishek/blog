@@ -1,6 +1,6 @@
 +++
 title = "How I organize my zsh config 🐚📂"
-date = 2023-01-29
+date = 2024-05-25
 tags = ["cli","zsh","terminal","tools","shell","open-source","linux","productivity"]
 +++
 
