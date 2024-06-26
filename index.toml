@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/dont-parse-ls.md"
+url = "https://2kabhishek.github.io/blog/2024/06/do-not-parse-ls/"
+title = "DO NOT PARSE ls!!!"
+
+[[input.files]]
 path = "content/post/zsh.md"
 url = "https://2kabhishek.github.io/blog/2024/05/how-i-organize-my-zsh-config/"
 title = "How I organize my zsh config 🐚📂"
