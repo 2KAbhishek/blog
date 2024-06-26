@@ -67,3 +67,6 @@ That's it, go try it out now! (don't forget to add error handling 😐)
 
 [Inspired by this discussion](https://unix.stackexchange.com/questions/128985/why-not-parse-ls-and-what-to-do-instead) - 👆🏼 this article was just supposed to be on my notes, with the TLDR. 🤐
 
+> P.S - I know you will doomscroll again, but I hope you learned something new 🤓
+
+> P.P.S - Ask AI to write a blog post like this! 😏
