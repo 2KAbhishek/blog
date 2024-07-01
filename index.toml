@@ -1,8 +1,8 @@
 
 [[input.files]]
 path = "content/post/dont-parse-ls.md"
-url = "https://2kabhishek.github.io/blog/2024/06/do-not-parse-ls/"
-title = "DO NOT PARSE ls!!!"
+url = "https://2kabhishek.github.io/blog/2024/06/do-not-parse-ls-use-this-instead/"
+title = "Do Not Parse ls! (Use this instead) ❌📂"
 
 [[input.files]]
 path = "content/post/zsh.md"
