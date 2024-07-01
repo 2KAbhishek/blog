@@ -1,5 +1,5 @@
 +++
-title = "DO NOT PARSE ls!!!"
+title = "Do Not Parse ls! (Use this instead) ❌📂"
 date = 2024-06-26
 tags = ["filesystem","unix","shell","open-source","linux","programming"]
 +++
