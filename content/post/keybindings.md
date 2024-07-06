@@ -1,5 +1,5 @@
 +++
-title = "Documenting Keybindings I Use Everyday ⌨️📆"
+title = "Keybindings FTW ⌨️🥂"
 date = 2024-07-01
 tags = ["keybindings","macos","shell","open-source","linux","tools","productivity","workflow"]
 +++
@@ -20,8 +20,11 @@ Here's all that I covered:
 - Aerospace (Window Tiling)
 - Alacritty (Terminal)
 - Tmux (with tilit)
+- Shell
+- Zsh
 - Neovim (Editor)
-- Arc Browser (with Vimium)
+- Arc Browser
+- Vimium
 - Qutebrowser (Alternate Browser)
 
 ## MacOS
@@ -34,5 +37,4 @@ I remap the `Caps Lock` key to `Escape` (neovim btw!) and Swap `Fn` and `Ctrl` k
 Other than that, I have few mappings for screenshots and mission control.
 
 Check out [my MacOS keybindings](https://github.com/2KAbhishek/mac2k/blob/main/docs/macos.md).
-
 
