@@ -91,7 +91,8 @@ disqusShortname = "2kabhishek"
   startLevel = 2
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  # post = "/:year/:month/:title/"
+  post = "/:slug/"
 
 [minify]
   # Deploy with --minify command to minify assets
