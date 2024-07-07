@@ -1,7 +1,7 @@
 
 [[input.files]]
-path = "content/post/dont-parse-ls.md"
-url = "https://2kabhishek.github.io/blog/do-not-parse-ls-use-this-instead/"
+path = "content/post/do-not-parse-ls.md"
+url = "https://2kabhishek.github.io/blog/do-not-parse-ls/"
 title = "Do Not Parse ls! (Use this instead) ❌📂"
 
 [[input.files]]
@@ -135,8 +135,8 @@ url = "https://2kabhishek.github.io/blog/navigating-javascript-%EF%B8%8F/"
 title = "Navigating JavaScript  🤷‍♂️🧭"
 
 [[input.files]]
-path = "content/post/must-know-shell-keybindings.md"
-url = "https://2kabhishek.github.io/blog/must-know-shell-keybindings/"
+path = "content/post/shell-keybindings.md"
+url = "https://2kabhishek.github.io/blog/shell-keybindings/"
 title = "Must Know Shell Keybindings 🐧🐚"
 
 [[input.files]]
