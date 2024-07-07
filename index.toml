@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/keybindings.md"
+url = "https://2kabhishek.github.io/blog/keybindings/"
+title = "Keybindings FTW! ⌨️🥂"
+
+[[input.files]]
 path = "content/post/do-not-parse-ls.md"
 url = "https://2kabhishek.github.io/blog/do-not-parse-ls/"
 title = "Do Not Parse ls! (Use this instead) ❌📂"
