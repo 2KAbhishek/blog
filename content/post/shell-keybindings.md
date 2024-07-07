@@ -69,4 +69,5 @@ Some of these shortcuts may work with other shells too.
 | `set -o vi` / `bindkey -v`       | Vi mode       |
 
 If you know any other useful keybindings, feel free to comment below.
-GitHub gist [here](https://gist.github.com/9c6d607e160b0439a186d4fbd1bd81df).
+
+You can find the original GitHub gist [here](https://gist.github.com/9c6d607e160b0439a186d4fbd1bd81df).
