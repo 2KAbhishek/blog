@@ -1,6 +1,6 @@
 +++
-title = "Keybindings FTW ⌨️🥂"
-date = 2024-07-01
+title = "Keybindings FTW! ⌨️🥂"
+date = 2024-07-07
 slug = "keybindings"
 tags = ["keybindings","macos","shell","open-source","linux","tools","productivity","workflow"]
 +++
@@ -40,8 +40,6 @@ Its my primary browser on MacOS.
 - [Keybindings](https://github.com/2KAbhishek/mac2k/blob/main/docs/arc.md)
 
 ### MacOS
-
-> Full Disclosure: Although my heart lies with Linux, I have been using a Mac for work for past few months.
 
 I change very few of the default keybindings on MacOS at a system level.
 I remap the `Caps Lock` key to `Escape` and Swap `Fn` and `Ctrl` keys.
