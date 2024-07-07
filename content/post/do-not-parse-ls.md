@@ -1,6 +1,7 @@
 +++
 title = "Do Not Parse ls! (Use this instead) ❌📂"
 date = 2024-06-26
+slug = "do-not-parse-ls"
 tags = ["filesystem","unix","shell","open-source","linux","programming"]
 +++
 
