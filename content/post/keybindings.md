@@ -93,7 +93,7 @@ I manage all my tmux keybindings with [tmux-tilit](https://github.com/2KAbhishek
 Vimiun is a Chrome extension that provides keyboard shortcuts for navigation and control in the spirit of Vim.
 
 - [Configs](https://github.com/2KAbhishek/dots2k/tree/main/config/vimium.json)
-- [keybindings](https://github.com/2KAbhishek/dots2k/blob/main/docs/vimium.md)
+- [Keybindings](https://github.com/2KAbhishek/dots2k/blob/main/docs/vimium.md)
 
 ### Zsh
 
