@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/pending-code-reviews.md"
+url = "https://2kabhishek.github.io/blog/pending-code-reviews/"
+title = "Pending Code Reviews Are Blockers for Your Team 🚧"
+
+[[input.files]]
 path = "content/post/keybindings.md"
 url = "https://2kabhishek.github.io/blog/keybindings/"
 title = "Keybindings FTW! ⌨️🥂"
