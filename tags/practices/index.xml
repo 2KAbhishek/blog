@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practices on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/practices/</link><description>Recent content in Practices on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><guid>https://2kabhishek.github.io/blog/pending-code-reviews/</guid><description>I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.
-Long delays in code reviews can cause several issues:
-Slower Delivery Pipeline 🐢
-When reviews are delayed, the overall progress of the project is hindered, affecting delivery timelines.
-Idle Time and Context Switching 🦥
-Developers either move on to new tasks or, worse, sit idle waiting for reviews.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practices on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/practices/</link><description>Recent content in Practices on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Assume Positive Intent and Build Trust</title><link>https://2kabhishek.github.io/blog/assume-positive-intent/</link><pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate><guid>https://2kabhishek.github.io/blog/assume-positive-intent/</guid><description>&lt;h1 id="assume-positive-intent-and-build-trust">Assume Positive Intent and Build Trust&lt;/h1>
+&lt;p>As we continue working closely with clients, we often find ourselves in situations where we make recommendations that we believe to be in the best interest of the project.
+However, it&amp;rsquo;s not uncommon to face pushbacks.
+When this happens, it&amp;rsquo;s crucial to &lt;strong>&amp;ldquo;Assume Positive Intent.&amp;rdquo;&lt;/strong> This mindset is essential in navigating these challenges effectively.&lt;/p>
+&lt;h2 id="why-assume-positive-intent">Why Assume Positive Intent?&lt;/h2>
+&lt;p>When someone pushes back against an idea or suggestion, it&amp;rsquo;s easy to misinterpret their actions as being driven by personal motives like spite or a lack of trust.
+However, it&amp;rsquo;s far more productive to assume that they are not acting out of negativity.
+The person pushing back could be influenced by several factors:&lt;/p></description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><guid>https://2kabhishek.github.io/blog/pending-code-reviews/</guid><description>&lt;p>I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p>
+&lt;p>Long delays in code reviews can cause several issues:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Slower Delivery Pipeline 🐢&lt;/strong>&lt;/p>
+&lt;p>When reviews are delayed, the overall progress of the project is hindered, affecting delivery timelines.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Idle Time and Context Switching 🦥&lt;/strong>&lt;/p>
+&lt;p>Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p></description></item></channel></rss>

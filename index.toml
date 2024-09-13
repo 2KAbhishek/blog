@@ -1,5 +1,10 @@
 
 [[input.files]]
+path = "content/post/assume-positive-intent.md"
+url = "https://2kabhishek.github.io/blog/assume-positive-intent/"
+title = "Assume Positive Intent and Build Trust"
+
+[[input.files]]
 path = "content/post/pending-code-reviews.md"
 url = "https://2kabhishek.github.io/blog/pending-code-reviews/"
 title = "Pending Code Reviews Are Blockers for Your Team 🚧"

@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Side-Project on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/side-project/</link><description>Recent content in Side-Project on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sat, 13 Aug 2022 10:36:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/side-project/index.xml" rel="self" type="application/rss+xml"/><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</guid><description>Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?
-Well, now you can!
-Introducing links Present all your links in style with an easily accessible and highly customizable web app! ✨
-Inspiration Needed a place to display all my profiles, used my project&amp;rsquo;s repo as inspiration.
-Getting links To get links, follow these steps:
-git clone https://github.com/2kabhishek/links cd links Setup Your Own links You can easily set up links to show your own profiles.</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</guid><description>Introducing Projects Present all your projects in style with a super customizable web app! ✨
-Projects uses the GitHub API to list all your GitHub projects in a nice searchable grid. Also shows pretty programming icons using devicons.
-Inspiration Needed a way to display all my projects, that should auto update from my GitHub
-Getting Projects To get projects, follow these steps:
-git clone https://github.com/2kabhishek/projects cd projects Setup Your Own Projects You can set up projects for yourself by following these steps:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Side-Project on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/side-project/</link><description>Recent content in Side-Project on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sat, 13 Aug 2022 10:36:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/side-project/index.xml" rel="self" type="application/rss+xml"/><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</guid><description>&lt;p>Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p>
+&lt;p>Well, now you can!&lt;/p>
+&lt;h2 id="introducing-links">Introducing links&lt;/h2>
+&lt;p>Present all your links in style with an easily accessible and highly customizable web app! ✨&lt;/p>
+&lt;h2 id="inspiration">Inspiration&lt;/h2>
+&lt;p>Needed a place to display all my profiles, used my &lt;a href="https://2kabhishek.github.io/projects"target="_blank" rel="noopener">project&amp;rsquo;s repo&lt;/a> as inspiration.&lt;/p>
+&lt;h2 id="getting-links">Getting links&lt;/h2>
+&lt;p>To get links, follow these steps:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/2kabhishek/links
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">cd&lt;/span> links
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="setup-your-own-links">Setup Your Own links&lt;/h2>
+&lt;p>You can easily set up links to show your own profiles.&lt;/p></description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><guid>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</guid><description>&lt;h2 id="introducing-projects">Introducing Projects&lt;/h2>
+&lt;p>Present all your projects in style with a super customizable web app! ✨&lt;/p>
+&lt;p>&lt;code>Projects&lt;/code> uses the GitHub API to list all your GitHub projects in a nice searchable grid.
+Also shows pretty programming icons using &lt;code>devicons&lt;/code>.&lt;/p>
+&lt;h2 id="inspiration">Inspiration&lt;/h2>
+&lt;p>Needed a way to display all my projects, that should auto update from my GitHub&lt;/p>
+&lt;h2 id="getting-projects">Getting Projects&lt;/h2>
+&lt;p>To get projects, follow these steps:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/2kabhishek/projects
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">cd&lt;/span> projects
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="setup-your-own-projects">Setup Your Own Projects&lt;/h3>
+&lt;p>You can set up projects for yourself by following these steps:&lt;/p></description></item></channel></rss>
