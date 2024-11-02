@@ -7,21 +7,23 @@ hasCJKLanguage = true
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 7  # number of articles per page
+[pagination]
+  pagerSize = 7  # number of articles per page
 enableEmoji = true
 
 # Enable Disqus
-disqusShortname = "2kabhishek"
+[config.services.disqus]
+  shortname = "2kabhishek"
 
 [module]
   [[module.imports]]
     path = "github.com/2kabhishek/neonote"
 
-[author]
+[params.author]
   name = "2KAbhishek"
+  email = "iam2kabhishek@gmail.com"
 
 [params]
-  author = "2KAbhishek"
   description = "2KAbhishek's Personal Blog"
   keywords = "blog, technology, programming, computer-science, articles, opensource"
   style = "dark"  # auto, light, dark
