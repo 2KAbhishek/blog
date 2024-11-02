@@ -5,8 +5,6 @@ slug = "assume-positive-intent"
 tags = ["teamwork","practices","agile","productivity","workflow"]
 +++
 
-# Assume Positive Intent and Build Trust
-
 As we continue working closely with clients, we often find ourselves in situations where we make recommendations that we believe to be in the best interest of the project.
 However, it's not uncommon to face pushbacks.
 When this happens, it's crucial to **"Assume Positive Intent."** This mindset is essential in navigating these challenges effectively.
