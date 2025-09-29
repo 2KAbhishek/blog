@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/bash/</link><description>Recent content in Bash on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Useful Shell Functions for Developers</title><link>https://2kabhishek.github.io/blog/useful-shell-functions/</link><pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/useful-shell-functions/</guid><description>&lt;p>A well-crafted shell function can be a game changer for developer productivity.
-These functions streamline repetitive tasks directly in the terminal, avoiding context switches and speeding up common workflows.&lt;/p>
-&lt;p>I recently introduced a few of these functions to my setup, and they’ve been invaluable.
-Here’s a rundown of each one, with descriptions of the tools you’ll need and how each function fits into a developer’s workflow.&lt;/p>
-&lt;h3 id="tools-youll-need">Tools You’ll Need&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>&lt;code>fzf&lt;/code>&lt;/strong>: Fuzzy finder for quick file and string searches.&lt;/li>
-&lt;li>&lt;strong>&lt;code>rg&lt;/code>&lt;/strong>: A fast, versatile text search tool.&lt;/li>
-&lt;li>&lt;strong>&lt;code>git&lt;/code>&lt;/strong> and &lt;strong>&lt;code>gh&lt;/code>&lt;/strong>: For version control and GitHub interactions.&lt;/li>
-&lt;li>&lt;strong>&lt;code>delta&lt;/code>&lt;/strong>: A syntax-highlighting pager for diffs.&lt;/li>
-&lt;li>&lt;strong>vim / neovim&lt;/strong> (recommended): A highly configurable text editor.&lt;/li>
-&lt;/ul>
-&lt;p>If you prefer a video, check out: &lt;a href="https://www.youtube.com/watch?v=56LAmHdxNTs"target="_blank" rel="noopener">Useful Shell Functions for Developers on Youtube&lt;/a>&lt;/p></description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/shell-keybindings/</guid><description>&lt;p>A shell also known as the command line is one of the most important tools for any software developer.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/bash/</link><description>Recent content in Bash on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Useful Shell Functions for Developers</title><link>https://2kabhishek.github.io/blog/useful-shell-functions/</link><pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/useful-shell-functions/</guid><description>&lt;p&gt;A well-crafted shell function can be a game changer for developer productivity.
+These functions streamline repetitive tasks directly in the terminal, avoiding context switches and speeding up common workflows.&lt;/p&gt;
+&lt;p&gt;I recently introduced a few of these functions to my setup, and they’ve been invaluable.
+Here’s a rundown of each one, with descriptions of the tools you’ll need and how each function fits into a developer’s workflow.&lt;/p&gt;
+&lt;h3 id="tools-youll-need"&gt;Tools You’ll Need&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;fzf&lt;/code&gt;&lt;/strong&gt;: Fuzzy finder for quick file and string searches.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rg&lt;/code&gt;&lt;/strong&gt;: A fast, versatile text search tool.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git&lt;/code&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;code&gt;gh&lt;/code&gt;&lt;/strong&gt;: For version control and GitHub interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;delta&lt;/code&gt;&lt;/strong&gt;: A syntax-highlighting pager for diffs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vim / neovim&lt;/strong&gt; (recommended): A highly configurable text editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you prefer a video, check out: &lt;a href="https://www.youtube.com/watch?v=56LAmHdxNTs"target="_blank" rel="noopener"&gt;Useful Shell Functions for Developers on Youtube&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/shell-keybindings/</guid><description>&lt;p&gt;A shell also known as the command line is one of the most important tools for any software developer.
 You can do very complex things very quickly here.
-Learning to use the shell efficiently can make your life much easier.&lt;/p>
-&lt;p>In this post I&amp;rsquo;ll be writing about the most useful keybindings for the bash and zsh shells.
+Learning to use the shell efficiently can make your life much easier.&lt;/p&gt;
+&lt;p&gt;In this post I&amp;rsquo;ll be writing about the most useful keybindings for the bash and zsh shells.
 *nix systems generally ship with the Bourne again shell or bash and zsh or Z shell is also quite popular among developers as it provides some very powerful features.
-Some of these shortcuts may work with other shells too.&lt;/p></description></item></channel></rss>
+Some of these shortcuts may work with other shells too.&lt;/p&gt;</description></item></channel></rss>

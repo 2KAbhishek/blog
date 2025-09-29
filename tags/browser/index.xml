@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Browser on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/browser/</link><description>Recent content in Browser on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Enable Dark Mode Across Chrome 🌚😎</title><link>https://2kabhishek.github.io/blog/enable-dark-mode-across-chrome/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/enable-dark-mode-across-chrome/</guid><description>&lt;p>There are lots of extensions out there that turn your web browsing experience much better if you prefer dark backgrounds (who doesn&amp;rsquo;t right?).&lt;/p>
-&lt;p>My favourite one is &lt;a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"target="_blank" rel="noopener">Dark Reader&lt;/a> but there&amp;rsquo;s just one problem, mobile versions of chrome don&amp;rsquo;t support extensions.&lt;/p>
-&lt;p>This trick will help you turn on dark mode everywhere.&lt;/p>
-&lt;p>Steps:&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Visit Chrome flags by entering &lt;code>chrome://flags/&lt;/code> into the address bar.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Search for dark in the flags search bar.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>On desktop versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Force Dark Mode for Web Contents&amp;rdquo; which is tagged &lt;code>#enable-force-dark&lt;/code>.
-On Android versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Darken websites checkbox in themes setting&amp;rdquo; which is tagged &lt;code>#darken-websites-checkbox-in-themes-setting&lt;/code>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Browser on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/browser/</link><description>Recent content in Browser on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Enable Dark Mode Across Chrome 🌚😎</title><link>https://2kabhishek.github.io/blog/enable-dark-mode-across-chrome/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/enable-dark-mode-across-chrome/</guid><description>&lt;p&gt;There are lots of extensions out there that turn your web browsing experience much better if you prefer dark backgrounds (who doesn&amp;rsquo;t right?).&lt;/p&gt;
+&lt;p&gt;My favourite one is &lt;a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"target="_blank" rel="noopener"&gt;Dark Reader&lt;/a&gt; but there&amp;rsquo;s just one problem, mobile versions of chrome don&amp;rsquo;t support extensions.&lt;/p&gt;
+&lt;p&gt;This trick will help you turn on dark mode everywhere.&lt;/p&gt;
+&lt;p&gt;Steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Visit Chrome flags by entering &lt;code&gt;chrome://flags/&lt;/code&gt; into the address bar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Search for dark in the flags search bar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On desktop versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Force Dark Mode for Web Contents&amp;rdquo; which is tagged &lt;code&gt;#enable-force-dark&lt;/code&gt;.
+On Android versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Darken websites checkbox in themes setting&amp;rdquo; which is tagged &lt;code&gt;#darken-websites-checkbox-in-themes-setting&lt;/code&gt;.&lt;/p&gt;</description></item></channel></rss>

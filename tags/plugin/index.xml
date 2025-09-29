@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plugin on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/plugin/</link><description>Recent content in Plugin on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sun, 24 Sep 2023 08:28:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
-alt="nerdy.nvim screenshot"/>&lt;/a>&lt;/p>
-&lt;p>Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener">Nerd fonts&lt;/a>? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener">their site&lt;/a> just to fetch a glyph for your pretty terminal?&lt;/p>
-&lt;p>Well, me too!&lt;/p>
-&lt;p>Introducing &lt;a href="https://github.com/2kabhishek/nerdy.nvim"target="_blank" rel="noopener">&lt;strong>nerdy.nvim&lt;/strong>&lt;/a>, a super handy plugin that lets you easily search, preview and insert all nerd font glyphs straight from neovim!&lt;/p>
-&lt;h2 id="-features">✨ Features&lt;/h2>
-&lt;ul>
-&lt;li>Fuzzy search nerd glyphs&lt;/li>
-&lt;li>Preview glyphs before inserting&lt;/li>
-&lt;li>Super lightweight&lt;/li>
-&lt;li>Can auto generate new icons from source&lt;/li>
-&lt;/ul>
-&lt;h2 id="setup">Setup&lt;/h2>
-&lt;h3 id="-requirements">⚡ Requirements&lt;/h3>
-&lt;ul>
-&lt;li>You have installed the latest version of &lt;code>neovim&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>These two plugins are optional but highly recommended for a smoother user experience.&lt;/p></description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
-alt="co-author.nvim screenshot"/>&lt;/a>&lt;/p>
-&lt;h2 id="what-is-this">What is this&lt;/h2>
-&lt;p>How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p>
-&lt;p>Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p>
-&lt;p>It shows you a list of all the unique authors in your current repo.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plugin on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/plugin/</link><description>Recent content in Plugin on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sun, 24 Sep 2023 08:28:00 +0530</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
+alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener"&gt;Nerd fonts&lt;/a&gt;? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener"&gt;their site&lt;/a&gt; just to fetch a glyph for your pretty terminal?&lt;/p&gt;
+&lt;p&gt;Well, me too!&lt;/p&gt;
+&lt;p&gt;Introducing &lt;a href="https://github.com/2kabhishek/nerdy.nvim"target="_blank" rel="noopener"&gt;&lt;strong&gt;nerdy.nvim&lt;/strong&gt;&lt;/a&gt;, a super handy plugin that lets you easily search, preview and insert all nerd font glyphs straight from neovim!&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fuzzy search nerd glyphs&lt;/li&gt;
+&lt;li&gt;Preview glyphs before inserting&lt;/li&gt;
+&lt;li&gt;Super lightweight&lt;/li&gt;
+&lt;li&gt;Can auto generate new icons from source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
+alt="co-author.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
+&lt;p&gt;How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p&gt;
+&lt;p&gt;Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p&gt;
+&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;</description></item></channel></rss>

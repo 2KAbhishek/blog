@@ -1,106 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/open-source/</link><description>Recent content in Open-Source on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/keybindings/</guid><description>&lt;p>Keybindings or keyboard shortcuts are essential to an efficient workflow.
-They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p>
-&lt;p>My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p></description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/do-not-parse-ls/</guid><description>&lt;h2 id="tldr">TLDR&lt;/h2>
-&lt;p>ls parsing bad, do this&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ls -1iq | grep -o &lt;span style="color:#f1fa8c">&amp;#39;^ *[0-9]*&amp;#39;&lt;/span> &lt;span style="color:#6272a4"># get file inodes&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>find /path/to/search -inum &amp;lt;inode_number&amp;gt; &lt;span style="color:#6272a4"># convert inodes to file info&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can continue your doomscroll now 👍🏼&lt;/p>
-&lt;hr>
-&lt;p>You still here? (thanks!! 😇) ok, then read on:&lt;/p>
-&lt;p>Do you know why its not recommended to parse &lt;code>ls&lt;/code> output for operation on a list of files?
-It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code>~&lt;/code> (and a lot more weird chars) are all valid.&lt;/p></description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/how-i-organize-my-zsh-config/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/how-i-organize-my-zsh-config/</guid><description>&lt;p>I have been using zsh as my shell for over 6 years now.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/open-source/</link><description>Recent content in Open-Source on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>©2023 2KAbhishek</copyright><lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
+They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
+&lt;p&gt;ls parsing bad, do this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -1iq | grep -o &lt;span style="color:#f1fa8c"&gt;&amp;#39;^ *[0-9]*&amp;#39;&lt;/span&gt; &lt;span style="color:#6272a4"&gt;# get file inodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;find /path/to/search -inum &amp;lt;inode_number&amp;gt; &lt;span style="color:#6272a4"&gt;# convert inodes to file info&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can continue your doomscroll now 👍🏼&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;You still here? (thanks!! 😇) ok, then read on:&lt;/p&gt;
+&lt;p&gt;Do you know why its not recommended to parse &lt;code&gt;ls&lt;/code&gt; output for operation on a list of files?
+It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/how-i-organize-my-zsh-config/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/how-i-organize-my-zsh-config/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
 During this time, I&amp;rsquo;ve experimented with various configurations and setups, and I&amp;rsquo;ve finally settled on one that I like.
-In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p>
-&lt;p>If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener">ZSH Deep Dive&lt;/a>&lt;/p>
-&lt;p>Let&amp;rsquo;s get started.&lt;/p>
-&lt;h2 id="config-structure">Config Structure&lt;/h2>
-&lt;p>Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p></description></item><item><title>How to be good at Open Source 🧑‍💻🌏</title><link>https://2kabhishek.github.io/blog/how-to-be-good-at-open-source/</link><pubDate>Sun, 24 Mar 2024 08:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/how-to-be-good-at-open-source/</guid><description>&lt;h2 id="whats-the-coolest-thing-about-open-source-software-">What&amp;rsquo;s the coolest thing about open source software? 💭&lt;/h2>
-&lt;p>If you need a new feature, you can just go ahead and add it yourself!&lt;/p>
-&lt;p>I recently did this with &lt;a href="https://github.com/jesseduffield/lazygit"target="_blank" rel="noopener">lazygit&lt;/a>, a terminal-based git client I use every day.
-I wanted to add co-authors to commits, which is handy for pair programming at Incubyte&lt;/p>
-&lt;p>&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener">My pull request&lt;/a> for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p></description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
-alt="nerdy.nvim screenshot"/>&lt;/a>&lt;/p>
-&lt;p>Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener">Nerd fonts&lt;/a>? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener">their site&lt;/a> just to fetch a glyph for your pretty terminal?&lt;/p>
-&lt;p>Well, me too!&lt;/p>
-&lt;p>Introducing &lt;a href="https://github.com/2kabhishek/nerdy.nvim"target="_blank" rel="noopener">&lt;strong>nerdy.nvim&lt;/strong>&lt;/a>, a super handy plugin that lets you easily search, preview and insert all nerd font glyphs straight from neovim!&lt;/p>
-&lt;h2 id="-features">✨ Features&lt;/h2>
-&lt;ul>
-&lt;li>Fuzzy search nerd glyphs&lt;/li>
-&lt;li>Preview glyphs before inserting&lt;/li>
-&lt;li>Super lightweight&lt;/li>
-&lt;li>Can auto generate new icons from source&lt;/li>
-&lt;/ul>
-&lt;h2 id="setup">Setup&lt;/h2>
-&lt;h3 id="-requirements">⚡ Requirements&lt;/h3>
-&lt;ul>
-&lt;li>You have installed the latest version of &lt;code>neovim&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>These two plugins are optional but highly recommended for a smoother user experience.&lt;/p></description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/win2k-ultimate-dev-setup-for-windows/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/win2k-ultimate-dev-setup-for-windows/</guid><description>&lt;p>Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p>
-&lt;p>Well I felt the same way too. That&amp;rsquo;s why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.&lt;/p>
-&lt;h1 id="introducing-win2khttpsgithubcom2kabhishekwin2k">Introducing &lt;a href="https://github.com/2KAbhishek/win2k"target="_blank" rel="noopener">win2k&lt;/a>&lt;/h1>
-&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
-alt="win2k screenshot"/>&lt;/a>&lt;/p>
-&lt;p>win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p></description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/tmux-tilit-better-tiling-for-tmux/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/tmux-tilit-better-tiling-for-tmux/</guid><description>&lt;p>If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p>
-&lt;p>You might have also felt that the default way of doing these things is kind of clumsy and doesn&amp;rsquo;t feel natural.&lt;/p>
-&lt;h1 id="introducing-tmux-tilithttpsgithubcom2kabhishektmux-tilit">Introducing &lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener">tmux-tilit&lt;/a>:&lt;/h1>
-&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/tmux-tilit/main/images/screenshot.jpg">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/tmux-tilit/main/images/screenshot.jpg" width="100%" height="auto"
-alt="tmux-tilit screenshot"/>&lt;/a>&lt;/p>
-&lt;h2 id="what-is-this">What is this&lt;/h2>
-&lt;p>&lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener">tmux-tilit&lt;/a> is a tmux plugin that adds tiling window manager like features and keybindings to tmux.&lt;/p>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>tmux-tilit was inspired by &lt;a href="https://github.com/jabirali/tmux-tilish"target="_blank" rel="noopener">tmux-tilish&lt;/a>.
-I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p></description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png">&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
-alt="co-author.nvim screenshot"/>&lt;/a>&lt;/p>
-&lt;h2 id="what-is-this">What is this&lt;/h2>
-&lt;p>How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p>
-&lt;p>Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p>
-&lt;p>It shows you a list of all the unique authors in your current repo.&lt;/p></description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/posh2k-a-universal-prompt-for-power-users/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/posh2k-a-universal-prompt-for-power-users/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png">&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png" width="100%" height="auto"
-alt="Posh2K"/>&lt;/a>&lt;/p>
-&lt;h2 id="what-is-this">What is this&lt;/h2>
-&lt;p>&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener">Posh2K&lt;/a> is a prompt for &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener">oh-my-posh&lt;/a>, it works on all shells, has multiple segments with aesthetically pleasing colors.&lt;/p>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.&lt;/p>
-&lt;p>So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p></description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</guid><description>&lt;p>Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p>
-&lt;p>Well, now you can!&lt;/p>
-&lt;h2 id="introducing-links">Introducing links&lt;/h2>
-&lt;p>Present all your links in style with an easily accessible and highly customizable web app! ✨&lt;/p>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>Needed a place to display all my profiles, used my &lt;a href="https://2kabhishek.github.io/projects"target="_blank" rel="noopener">project&amp;rsquo;s repo&lt;/a> as inspiration.&lt;/p>
-&lt;h2 id="getting-links">Getting links&lt;/h2>
-&lt;p>To get links, follow these steps:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/2kabhishek/links
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">cd&lt;/span> links
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="setup-your-own-links">Setup Your Own links&lt;/h2>
-&lt;p>You can easily set up links to show your own profiles.&lt;/p></description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/tmux2k-power-pizzazz-for-tmux/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/tmux2k-power-pizzazz-for-tmux/</guid><description>&lt;p>&lt;a target="_blank" rel="noopener noreferrer"
-href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png">&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png" width="100%" height="auto"
-alt="tmux2k"/>&lt;/a>&lt;/p>
-&lt;h2 id="what-is-this">What is this&lt;/h2>
-&lt;p>tmux2k is a &lt;code>tmux&lt;/code> plugin for that adds &lt;code>powerline&lt;/code> support and pretty colors to your &lt;code>tmux&lt;/code> status bar.&lt;/p>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>tmux2k was inspired by &lt;a href="https://github.com/dracula/tmux"target="_blank" rel="noopener">dracula/tmux&lt;/a>.&lt;/p>
-&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
-&lt;p>Before you begin, ensure you have met the following requirements:&lt;/p>
-&lt;ul>
-&lt;li>You have installed the latest version of &lt;code>tmux&lt;/code>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/tmux-plugins/tpm"target="_blank" rel="noopener">tpm&lt;/a> for managing &lt;code>tmux&lt;/code> plugins.&lt;/li>
-&lt;li>A &lt;a href="https://www.nerdfonts.com/"target="_blank" rel="noopener">patched nerd font&lt;/a> for &lt;code>powerline&lt;/code> and glyphs support.&lt;/li>
-&lt;/ul>
-&lt;h2 id="installing-tmux2k">Installing tmux2k&lt;/h2>
-&lt;p>Using &lt;code>tpm&lt;/code>&lt;/p>
-&lt;p>If you are a &lt;code>tpm&lt;/code> user, you can install the theme and keep up to date by adding the following to your &lt;code>.tmux.conf&lt;/code> file:&lt;/p></description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</guid><description>&lt;h2 id="introducing-projects">Introducing Projects&lt;/h2>
-&lt;p>Present all your projects in style with a super customizable web app! ✨&lt;/p>
-&lt;p>&lt;code>Projects&lt;/code> uses the GitHub API to list all your GitHub projects in a nice searchable grid.
-Also shows pretty programming icons using &lt;code>devicons&lt;/code>.&lt;/p>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>Needed a way to display all my projects, that should auto update from my GitHub&lt;/p>
-&lt;h2 id="getting-projects">Getting Projects&lt;/h2>
-&lt;p>To get projects, follow these steps:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/2kabhishek/projects
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">cd&lt;/span> projects
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="setup-your-own-projects">Setup Your Own Projects&lt;/h3>
-&lt;p>You can set up projects for yourself by following these steps:&lt;/p></description></item></channel></rss>
+In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p&gt;
+&lt;p&gt;If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener"&gt;ZSH Deep Dive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
+&lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
+&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;</description></item><item><title>How to be good at Open Source 🧑‍💻🌏</title><link>https://2kabhishek.github.io/blog/how-to-be-good-at-open-source/</link><pubDate>Sun, 24 Mar 2024 08:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/how-to-be-good-at-open-source/</guid><description>&lt;h2 id="whats-the-coolest-thing-about-open-source-software-"&gt;What&amp;rsquo;s the coolest thing about open source software? 💭&lt;/h2&gt;
+&lt;p&gt;If you need a new feature, you can just go ahead and add it yourself!&lt;/p&gt;
+&lt;p&gt;I recently did this with &lt;a href="https://github.com/jesseduffield/lazygit"target="_blank" rel="noopener"&gt;lazygit&lt;/a&gt;, a terminal-based git client I use every day.
+I wanted to add co-authors to commits, which is handy for pair programming at Incubyte&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;</description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
+alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener"&gt;Nerd fonts&lt;/a&gt;? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener"&gt;their site&lt;/a&gt; just to fetch a glyph for your pretty terminal?&lt;/p&gt;
+&lt;p&gt;Well, me too!&lt;/p&gt;
+&lt;p&gt;Introducing &lt;a href="https://github.com/2kabhishek/nerdy.nvim"target="_blank" rel="noopener"&gt;&lt;strong&gt;nerdy.nvim&lt;/strong&gt;&lt;/a&gt;, a super handy plugin that lets you easily search, preview and insert all nerd font glyphs straight from neovim!&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fuzzy search nerd glyphs&lt;/li&gt;
+&lt;li&gt;Preview glyphs before inserting&lt;/li&gt;
+&lt;li&gt;Super lightweight&lt;/li&gt;
+&lt;li&gt;Can auto generate new icons from source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/win2k-ultimate-dev-setup-for-windows/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/win2k-ultimate-dev-setup-for-windows/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
+&lt;p&gt;Well I felt the same way too. That&amp;rsquo;s why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.&lt;/p&gt;
+&lt;h1 id="introducing-win2k"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/win2k"target="_blank" rel="noopener"&gt;win2k&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
+alt="win2k screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/tmux-tilit-better-tiling-for-tmux/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/tmux-tilit-better-tiling-for-tmux/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
+&lt;p&gt;You might have also felt that the default way of doing these things is kind of clumsy and doesn&amp;rsquo;t feel natural.&lt;/p&gt;
+&lt;h1 id="introducing-tmux-tilit"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;:&lt;/h1&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/tmux-tilit/main/images/screenshot.jpg"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/tmux-tilit/main/images/screenshot.jpg" width="100%" height="auto"
+alt="tmux-tilit screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt; is a tmux plugin that adds tiling window manager like features and keybindings to tmux.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;tmux-tilit was inspired by &lt;a href="https://github.com/jabirali/tmux-tilish"target="_blank" rel="noopener"&gt;tmux-tilish&lt;/a&gt;.
+I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
+alt="co-author.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
+&lt;p&gt;How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p&gt;
+&lt;p&gt;Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p&gt;
+&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/posh2k-a-universal-prompt-for-power-users/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/posh2k-a-universal-prompt-for-power-users/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png" width="100%" height="auto"
+alt="Posh2K"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt; is a prompt for &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;, it works on all shells, has multiple segments with aesthetically pleasing colors.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.&lt;/p&gt;
+&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;</description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/links-present-your-links-in-style/</guid><description>&lt;p&gt;Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p&gt;
+&lt;p&gt;Well, now you can!&lt;/p&gt;
+&lt;h2 id="introducing-links"&gt;Introducing links&lt;/h2&gt;
+&lt;p&gt;Present all your links in style with an easily accessible and highly customizable web app! ✨&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Needed a place to display all my profiles, used my &lt;a href="https://2kabhishek.github.io/projects"target="_blank" rel="noopener"&gt;project&amp;rsquo;s repo&lt;/a&gt; as inspiration.&lt;/p&gt;
+&lt;h2 id="getting-links"&gt;Getting links&lt;/h2&gt;
+&lt;p&gt;To get links, follow these steps:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8be9fd;font-style:italic"&gt;cd&lt;/span&gt; links
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
+&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;</description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/tmux2k-power-pizzazz-for-tmux/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/tmux2k-power-pizzazz-for-tmux/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png" width="100%" height="auto"
+alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
+&lt;p&gt;tmux2k is a &lt;code&gt;tmux&lt;/code&gt; plugin for that adds &lt;code&gt;powerline&lt;/code&gt; support and pretty colors to your &lt;code&gt;tmux&lt;/code&gt; status bar.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;tmux2k was inspired by &lt;a href="https://github.com/dracula/tmux"target="_blank" rel="noopener"&gt;dracula/tmux&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;tmux&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tpm"target="_blank" rel="noopener"&gt;tpm&lt;/a&gt; for managing &lt;code&gt;tmux&lt;/code&gt; plugins.&lt;/li&gt;
+&lt;li&gt;A &lt;a href="https://www.nerdfonts.com/"target="_blank" rel="noopener"&gt;patched nerd font&lt;/a&gt; for &lt;code&gt;powerline&lt;/code&gt; and glyphs support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-tmux2k"&gt;Installing tmux2k&lt;/h2&gt;
+&lt;p&gt;Using &lt;code&gt;tpm&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you are a &lt;code&gt;tpm&lt;/code&gt; user, you can install the theme and keep up to date by adding the following to your &lt;code&gt;.tmux.conf&lt;/code&gt; file:&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
+&lt;p&gt;Present all your projects in style with a super customizable web app! ✨&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Projects&lt;/code&gt; uses the GitHub API to list all your GitHub projects in a nice searchable grid.
+Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Needed a way to display all my projects, that should auto update from my GitHub&lt;/p&gt;
+&lt;h2 id="getting-projects"&gt;Getting Projects&lt;/h2&gt;
+&lt;p&gt;To get projects, follow these steps:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8be9fd;font-style:italic"&gt;cd&lt;/span&gt; projects
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
+&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;</description></item></channel></rss>
