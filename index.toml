@@ -1,180 +1,180 @@
 
 [[input.files]]
 path = "content/post/useful-shell-functions.md"
-url = "https://2kabhishek.github.io/blog/useful-shell-functions/"
+url = "https://2kabhishek.github.io/blog/post/useful-shell-functions/"
 title = "Useful Shell Functions for Developers"
 
 [[input.files]]
 path = "content/post/assume-positive-intent.md"
-url = "https://2kabhishek.github.io/blog/assume-positive-intent/"
+url = "https://2kabhishek.github.io/blog/post/assume-positive-intent/"
 title = "Assume Positive Intent and Build Trust"
 
 [[input.files]]
 path = "content/post/pending-code-reviews.md"
-url = "https://2kabhishek.github.io/blog/pending-code-reviews/"
+url = "https://2kabhishek.github.io/blog/post/pending-code-reviews/"
 title = "Pending Code Reviews Are Blockers for Your Team 🚧"
 
 [[input.files]]
 path = "content/post/keybindings.md"
-url = "https://2kabhishek.github.io/blog/keybindings/"
+url = "https://2kabhishek.github.io/blog/post/keybindings/"
 title = "Keybindings FTW! ⌨️🥂"
 
 [[input.files]]
 path = "content/post/do-not-parse-ls.md"
-url = "https://2kabhishek.github.io/blog/do-not-parse-ls/"
+url = "https://2kabhishek.github.io/blog/post/do-not-parse-ls/"
 title = "Do Not Parse ls! (Use this instead) ❌📂"
 
 [[input.files]]
 path = "content/post/zsh.md"
-url = "https://2kabhishek.github.io/blog/how-i-organize-my-zsh-config/"
+url = "https://2kabhishek.github.io/blog/post/zsh/"
 title = "How I organize my zsh config 🐚📂"
 
 [[input.files]]
 path = "content/post/be-good-at-open-source.md"
-url = "https://2kabhishek.github.io/blog/how-to-be-good-at-open-source/"
+url = "https://2kabhishek.github.io/blog/post/be-good-at-open-source/"
 title = "How to be good at Open Source 🧑‍💻🌏"
 
 [[input.files]]
 path = "content/post/nerdy.md"
-url = "https://2kabhishek.github.io/blog/nerdy.nvim-find-nerd-glyphs-easily/"
+url = "https://2kabhishek.github.io/blog/post/nerdy/"
 title = "Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭"
 
 [[input.files]]
 path = "content/post/think-like-architect.md"
-url = "https://2kabhishek.github.io/blog/how-to-think-like-an-architect-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/think-like-architect/"
 title = "How to Think Like an Architect 🧠🏛️"
 
 [[input.files]]
 path = "content/post/prompt-engg.md"
-url = "https://2kabhishek.github.io/blog/prompt-engineering-101/"
+url = "https://2kabhishek.github.io/blog/post/prompt-engg/"
 title = "Prompt Engineering 101 🤖🪄"
 
 [[input.files]]
 path = "content/post/win2k.md"
-url = "https://2kabhishek.github.io/blog/win2k-ultimate-dev-setup-for-windows/"
+url = "https://2kabhishek.github.io/blog/post/win2k/"
 title = "win2k - Ultimate Dev Setup for Windows 🪟🪄"
 
 [[input.files]]
 path = "content/post/tmux-tilit.md"
-url = "https://2kabhishek.github.io/blog/tmux-tilit-better-tiling-for-tmux/"
+url = "https://2kabhishek.github.io/blog/post/tmux-tilit/"
 title = "tmux-tilit - better tiling for tmux 🪟🪓"
 
 [[input.files]]
 path = "content/post/co-author.md"
-url = "https://2kabhishek.github.io/blog/co-author.nvim-add-commit-authors-from-nvim/"
+url = "https://2kabhishek.github.io/blog/post/co-author/"
 title = "Co-author.nvim - Add commit authors from nvim 💻🪄"
 
 [[input.files]]
 path = "content/post/posh2k.md"
-url = "https://2kabhishek.github.io/blog/posh2k-a-universal-prompt-for-power-users/"
+url = "https://2kabhishek.github.io/blog/post/posh2k/"
 title = "Posh2K - A universal prompt for power users 💪🌈"
 
 [[input.files]]
 path = "content/post/dsa-is-overrated.md"
-url = "https://2kabhishek.github.io/blog/dsa-is-overrated/"
+url = "https://2kabhishek.github.io/blog/post/dsa-is-overrated/"
 title = "Data Structure and Algorithms are Overrated! 🚫🪴"
 
 [[input.files]]
 path = "content/post/links-showcase.md"
-url = "https://2kabhishek.github.io/blog/links-present-your-links-in-style/"
+url = "https://2kabhishek.github.io/blog/post/links-showcase/"
 title = "Links - Present Your Links In Style 🔗🔮"
 
 [[input.files]]
 path = "content/post/tmux2k.md"
-url = "https://2kabhishek.github.io/blog/tmux2k-power-pizzazz-for-tmux/"
+url = "https://2kabhishek.github.io/blog/post/tmux2k/"
 title = "Tmux2K - Power &amp; Pizzazz for tmux 🥊💅"
 
 [[input.files]]
 path = "content/post/projects-showcase-github.md"
-url = "https://2kabhishek.github.io/blog/projects-showcase-all-your-projects-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/projects-showcase-github/"
 title = "Projects - Showcase All Your Projects 🛍️🎇"
 
 [[input.files]]
 path = "content/post/five-git-tricks.md"
-url = "https://2kabhishek.github.io/blog/five-git-tricks/"
+url = "https://2kabhishek.github.io/blog/post/five-git-tricks/"
 title = "Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼"
 
 [[input.files]]
 path = "content/post/learnings-from-hacktoberfest.md"
-url = "https://2kabhishek.github.io/blog/what-i-learned-from-hacktoberfest/"
+url = "https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/"
 title = "What I Learned From Hacktoberfest 🥳🧑‍💻"
 
 [[input.files]]
 path = "content/post/intro-to-github-actions.md"
-url = "https://2kabhishek.github.io/blog/my-intro-to-github-actions-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/intro-to-github-actions/"
 title = "My Intro To Github Actions ⚙️🤷"
 
 [[input.files]]
 path = "content/post/fix-mysql-daemon-startup.md"
-url = "https://2kabhishek.github.io/blog/mysql-daemon-startup-fix-%EF%B8%8F%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/"
 title = "MySQL Daemon Startup Fix 🛠️🕵️"
 
 [[input.files]]
 path = "content/post/manage-your-github-projects.md"
-url = "https://2kabhishek.github.io/blog/manage-github-projects-easily/"
+url = "https://2kabhishek.github.io/blog/post/manage-your-github-projects/"
 title = "Manage GitHub Projects Easily ♻📂"
 
 [[input.files]]
 path = "content/post/remove-screen-flickering-obs.md"
-url = "https://2kabhishek.github.io/blog/remove-screen-flickering-obs/"
+url = "https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/"
 title = "Remove Screen Flickering OBS 💻📹"
 
 [[input.files]]
 path = "content/post/sync-forked-repository.md"
-url = "https://2kabhishek.github.io/blog/sync-forked-repository-with-upstream-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/sync-forked-repository/"
 title = "Sync Forked Repository With Upstream 🔁✔️"
 
 [[input.files]]
 path = "content/post/chrome-dark-mode.md"
-url = "https://2kabhishek.github.io/blog/enable-dark-mode-across-chrome/"
+url = "https://2kabhishek.github.io/blog/post/chrome-dark-mode/"
 title = "Enable Dark Mode Across Chrome 🌚😎"
 
 [[input.files]]
 path = "content/post/add-numbers-without-arithmetic.md"
-url = "https://2kabhishek.github.io/blog/add-numbers-without-arithmetic-operators-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/"
 title = "Add Numbers Without Arithmetic Operators 🙅‍♂️➕"
 
 [[input.files]]
 path = "content/post/control-android-device-from-pc.md"
-url = "https://2kabhishek.github.io/blog/control-your-android-device-from-pc/"
+url = "https://2kabhishek.github.io/blog/post/control-android-device-from-pc/"
 title = "Control your Android device from PC 📱💻"
 
 [[input.files]]
 path = "content/post/microsoft-loves-linux.md"
-url = "https://2kabhishek.github.io/blog/microsoft-actually-loves%EF%B8%8F-linux/"
+url = "https://2kabhishek.github.io/blog/post/microsoft-loves-linux/"
 title = "Microsoft Actually Loves️ Linux? 🐧❤"
 
 [[input.files]]
 path = "content/post/trim-unnecessary-files-from-git.md"
-url = "https://2kabhishek.github.io/blog/trim-unnecessary-files-from-git-history-%EF%B8%8F%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/"
 title = "Trim Unnecessary Files From Git History ✂️🗃️"
 
 [[input.files]]
 path = "content/post/navigating-javascript.md"
-url = "https://2kabhishek.github.io/blog/navigating-javascript-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/navigating-javascript/"
 title = "Navigating JavaScript  🤷‍♂️🧭"
 
 [[input.files]]
 path = "content/post/shell-keybindings.md"
-url = "https://2kabhishek.github.io/blog/shell-keybindings/"
+url = "https://2kabhishek.github.io/blog/post/shell-keybindings/"
 title = "Must Know Shell Keybindings 🐧🐚"
 
 [[input.files]]
 path = "content/post/two-factor-authentication.md"
-url = "https://2kabhishek.github.io/blog/two-factor-authentication/"
+url = "https://2kabhishek.github.io/blog/post/two-factor-authentication/"
 title = "Two Factor Authentication 🔏👤"
 
 [[input.files]]
 path = "content/post/tracking-code-time.md"
-url = "https://2kabhishek.github.io/blog/tracking-code-time-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/tracking-code-time/"
 title = "Tracking Code Time ⏲️💻"
 
 [[input.files]]
 path = "content/post/password-managers-101.md"
-url = "https://2kabhishek.github.io/blog/password-managers-101/"
+url = "https://2kabhishek.github.io/blog/post/password-managers-101/"
 title = "Password Managers 101 🔑🌐"
 
 [[input.files]]
 path = "content/post/hidden-world-of-podcasts.md"
-url = "https://2kabhishek.github.io/blog/hidden-world-of-podcasts-%EF%B8%8F/"
+url = "https://2kabhishek.github.io/blog/post/hidden-world-of-podcasts/"
 title = "Hidden World Of Podcasts 🎙️🎧"
