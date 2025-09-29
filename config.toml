@@ -7,13 +7,10 @@ hasCJKLanguage = true
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-[pagination]
-  pagerSize = 7  # number of articles per page
 enableEmoji = true
 
-# Enable Disqus
-[config.services.disqus]
-  shortname = "2kabhishek"
+[pagination]
+  pagerSize = 6
 
 [module]
   [[module.imports]]
@@ -26,7 +23,7 @@ enableEmoji = true
 [params]
   description = "2KAbhishek's Personal Blog"
   keywords = "blog, technology, programming, computer-science, articles, opensource"
-  style = "dark"  # auto, light, dark
+  style = "dark"
   logo = "https://avatars.githubusercontent.com/u/25423853?v=4"
   slogan = "Thoughts of a Passion Driven Developer"
 
@@ -41,88 +38,33 @@ enableEmoji = true
 [outputs]
   home = ["HTML", "RSS", "TOML"]
 
-# Declare custom css here
 [params.assets]
   css = ["css/fonts.css", "css/custom.css"]
 
 [params.comments]
-  enable = true  # En/Disable comments, You can also enable comments on per page.
+  enable = true
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params.math]
-  enable = false # Load math globally, You can also enable math on per page.
-  use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
+  enable = false
 
 [params.nav]
   showCategories = false
   showTags = false
 
-# You can add taxonomies here, then link new pages in [[params.nav.custom]]
 [taxonomies]
-  category = "categories"
   tag = "tags"
 
 [[params.nav.custom]]
   title = "About"
-  url = "https://2kabhishek.github.io/links"
+  url = "https://2kabhishek.github.io/"
 
 [[params.nav.custom]]
   title = "Archives"
   url = "/blog/archives"
 
 [[params.nav.custom]]
-  title = "Articles"
-  url = "/blog/"
-
-[[params.nav.custom]]
   title = "Tags"
   url = "/blog/tags"
-
-# Chroma highlight
-[markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  noClasses = true
-  style = "dracula"
-
-[markup.goldmark.renderer]
-  unsafe = true #enable raw HTML in Markdown
-
-[markup.tableOfContents]
-  endLevel = 3
-  ordered = false
-  startLevel = 2
-
-[permalinks]
-  # post = "/:year/:month/:title/"
-  post = "/:slug/"
-
-[minify]
-  # Deploy with --minify command to minify assets
-  disableCSS = false
-  disableHTML = false
-  disableJS = false
-  disableJSON = false
-  disableSVG = false
-  disableXML = false
-  minifyOutput = true
-  [minify.tdewolff]
-    [minify.tdewolff.css]
-      keepCSS2 = true
-      precision = 1
-    [minify.tdewolff.html]
-      keepComments = false
-      keepConditionalComments = true
-      keepDefaultAttrVals = true
-      keepDocumentTags = true
-      keepEndTags = true
-      keepQuotes = false
-      keepWhitespace = false
-    [minify.tdewolff.js]
-      keepVarNames = false
-      precision = 1
-    [minify.tdewolff.json]
-      precision = 0
-    [minify.tdewolff.svg]
-      precision = 1
-    [minify.tdewolff.xml]
-      keepWhitespace = false
