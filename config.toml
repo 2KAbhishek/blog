@@ -10,7 +10,7 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [pagination]
-  pagerSize = 6
+  pagerSize = 8
 
 [module]
   [[module.imports]]
