@@ -1,6 +1,6 @@
 baseURL = "https://2kabhishek.github.io/blog/"
 title = "2KAbhishek Blogs"
-copyright = "©2023 2KAbhishek"
+copyright = "2KAbhishek"
 
 languageCode = "en"
 hasCJKLanguage = true
