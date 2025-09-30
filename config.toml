@@ -5,6 +5,7 @@ copyright = "2KAbhishek"
 languageCode = "en"
 hasCJKLanguage = true
 defaultContentLanguage = "en"
+summaryLength = 120
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -25,7 +26,7 @@ enableEmoji = true
   keywords = "blog, technology, programming, computer-science, articles, opensource"
   style = "dark"
   logo = "https://avatars.githubusercontent.com/u/25423853?v=4"
-  slogan = "Thoughts of a Passion Driven Developer"
+  slogan = ""
 
 [mediaTypes]
 [mediaTypes."text/toml"]
