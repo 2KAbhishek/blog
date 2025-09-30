@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/tools/</link><description>Recent content in Tools on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>2KAbhishek</copyright><lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
 They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
-&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
+&lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
 During this time, I&amp;rsquo;ve experimented with various configurations and setups, and I&amp;rsquo;ve finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p&gt;
 &lt;p&gt;If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener"&gt;ZSH Deep Dive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
-&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;</description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/post/nerdy/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/nerdy/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── aliases.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── environment.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── functions.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ └── local.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── aliases.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── completions.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── keys.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── omz.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── options.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── init.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.mise.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── powerlevel2k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every file under the &lt;code&gt;shell&lt;/code&gt; directory is a shared configuration file that is common across shells, while files in the &lt;code&gt;zsh&lt;/code&gt; directory are zsh-specific configuration files.&lt;/p&gt;</description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/post/nerdy/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/nerdy/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
 alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener"&gt;Nerd fonts&lt;/a&gt;? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener"&gt;their site&lt;/a&gt; just to fetch a glyph for your pretty terminal?&lt;/p&gt;
@@ -24,13 +44,65 @@ alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
+&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/stevearc/dressing.nvim"target="_blank" rel="noopener"&gt;dressing.nvim&lt;/a&gt; — for prettier select UI&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nvim-telescope/telescope.nvim"target="_blank" rel="noopener"&gt;telescope&lt;/a&gt; — for fuzzy searching in list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-lua" data-lang="lua"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Lazy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; dependencies &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;stevearc/dressing.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;nvim-telescope/telescope.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cmd &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Nerdy&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Packer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="-usage"&gt;💻 Usage&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nerdy.nvim&lt;/code&gt; adds a new command &lt;code&gt;Nerdy&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
 &lt;p&gt;Well I felt the same way too. That&amp;rsquo;s why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.&lt;/p&gt;
 &lt;h1 id="introducing-win2k"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/win2k"target="_blank" rel="noopener"&gt;win2k&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
 alt="win2k screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
+&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;
+&lt;p&gt;It makes developing on Windows much more pleasant for CLI lovers.&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Can set up a complete dev environment within minutes&lt;/li&gt;
+&lt;li&gt;Full featured CLI dev environment on Windows (natively, without WSL!)&lt;/li&gt;
+&lt;li&gt;Powerful personalized editing with &lt;a href="https://github.com/2kabhishek/nvim2k"target="_blank" rel="noopener"&gt;nvim2k&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shiny and extensible prompt with &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt; and &lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modern and intuitive keybindings for Windows Terminal inspired by &lt;a href="https://github.com/2kabhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tiling window management with &lt;a href="https://github.com/LGUG2Z/komorebi"target="_blank" rel="noopener"&gt;komorebi&lt;/a&gt; and &lt;a href="https://www.autohotkey.com/"target="_blank" rel="noopener"&gt;AutoHotKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Statusbar support with &lt;a href="https://github.com/denBot/yasb"target="_blank" rel="noopener"&gt;yasb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Powershell &amp;gt;= 7 (recommended), Most features should work on Powershell 1.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scoop.sh/"target="_blank" rel="noopener"&gt;scoop&lt;/a&gt; — for package management&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/Regular/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.ttf"target="_blank" rel="noopener"&gt;Meslo Nerd Font&lt;/a&gt; — Recommended font for glyphs support&lt;/li&gt;
+&lt;li&gt;Git with SSH setup — for cloning submodules, you can easily do this with the &lt;a href="https://cli.github.com/"target="_blank" rel="noopener"&gt;GitHub CLI&lt;/a&gt; by running &lt;code&gt;gh auth login&lt;/code&gt; and selecting SSH as protocol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ps1" data-lang="ps1"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install scoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser &lt;span style="color:#75715e"&gt;# Optional: Needed to run a remote script the first time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;irm get.scoop.sh | iex
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install git if you haven&amp;#39;t already&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;scoop install git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/2kabhishek/win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;.\setup.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will install all necessary packages, modules and setup symlinks for you.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
 &lt;p&gt;You might have also felt that the default way of doing these things is kind of clumsy and doesn&amp;rsquo;t feel natural.&lt;/p&gt;
 &lt;h1 id="introducing-tmux-tilit"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;:&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
@@ -40,20 +112,66 @@ alt="tmux-tilit screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt; is a tmux plugin that adds tiling window manager like features and keybindings to tmux.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;tmux-tilit was inspired by &lt;a href="https://github.com/jabirali/tmux-tilish"target="_blank" rel="noopener"&gt;tmux-tilish&lt;/a&gt;.
-I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;tpm&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-tmux-tilit"&gt;Installing tmux-tilit&lt;/h2&gt;
+&lt;p&gt;To get tmux-tilit, add the following to your &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
 alt="co-author.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p&gt;
 &lt;p&gt;Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p&gt;
-&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;co-author.nvim&lt;/code&gt; automatically works with telescope and presents the list in a nice fuzzy searchable UI.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Noticed something similar on a co-workers using IntelliJ, and I wanted it!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-co-authornvim"&gt;Installing co-author.nvim&lt;/h2&gt;
+&lt;p&gt;To get co-author.nvim, add the following to your plugin list:&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png" width="100%" height="auto"
 alt="Posh2K"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt; is a prompt for &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;, it works on all shells, has multiple segments with aesthetically pleasing colors.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.&lt;/p&gt;
-&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;</description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/post/tmux2k/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;a href="https://ohmyposh.dev/docs/installation/linux"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="getting-posh2k"&gt;Getting Posh2K&lt;/h2&gt;
+&lt;p&gt;To get Posh2K, follow these steps:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/Posh2K
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Powershell, add this to $Profile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init pwsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | Invoke-Expression
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Zsh, add this to ~/.zshrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init zsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Bash, add this to ~/.bashrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init bash --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Fish, add this to ~/config/fish/config.fish&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init fish --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | source
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for nu shell, run&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init nu --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source ~/oh-my-posh.nu
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for cmd, install Clink, then add this&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;load&lt;span style="color:#f92672"&gt;(&lt;/span&gt;io.popen&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;oh-my-posh init cmd --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;:read&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*a&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;))()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="more"&gt;More&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K repo&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/post/tmux2k/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png" width="100%" height="auto"
 alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
@@ -69,7 +187,40 @@ alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id="installing-tmux2k"&gt;Installing tmux2k&lt;/h2&gt;
 &lt;p&gt;Using &lt;code&gt;tpm&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If you are a &lt;code&gt;tpm&lt;/code&gt; user, you can install the theme and keep up to date by adding the following to your &lt;code&gt;.tmux.conf&lt;/code&gt; file:&lt;/p&gt;</description></item><item><title>Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼</title><link>https://2kabhishek.github.io/blog/post/five-git-tricks/</link><pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/five-git-tricks/</guid><description>&lt;p&gt;Git is the most widely used version control system in the world, and it is something that every Software Craftsperson should master.&lt;/p&gt;
+&lt;p&gt;If you are a &lt;code&gt;tpm&lt;/code&gt; user, you can install the theme and keep up to date by adding the following to your &lt;code&gt;.tmux.conf&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @plugin &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/tmux2k&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add any configuration options below this line in your tmux config.&lt;/p&gt;
+&lt;h3 id="activating-tmux2k"&gt;Activating tmux2k&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure run -b &lt;code&gt;~/.tmux/plugins/tpm/tpm&lt;/code&gt; is at the bottom of your &lt;code&gt;.tmux.conf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;tmux&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;tpm&lt;/code&gt; install command: prefix + I (default prefix is &lt;code&gt;ctrl+b&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="configuring-tmux2k"&gt;Configuring tmux2k&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Tmux 2K default configs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# available plugins: battery, cpu-usage, git, gpu-usage, ram-usage, network, network-bandwidth, network-ping, weather, time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-left-plugins &lt;span style="color:#e6db74"&gt;&amp;#34;git cpu-usage ram-usage&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-right-plugins &lt;span style="color:#e6db74"&gt;&amp;#34;battery network time&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-powerline true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-fahrenheit false
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-military-time true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-border-contrast true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# available colors: white, gray, dark_gray, light_purple, dark_purple, cyan, green, orange, red, pink, yellow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-&lt;span style="color:#f92672"&gt;[&lt;/span&gt;plugin-name&lt;span style="color:#f92672"&gt;]&lt;/span&gt;-colors &lt;span style="color:#e6db74"&gt;&amp;#34;[background] [foreground]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-cpu-usage-colors &lt;span style="color:#e6db74"&gt;&amp;#34;blue dark_gray&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# it can accept `session`, `rocket`, `window`, or any character.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-left-icon &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# update powerline symbols&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-left-sep &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-right-sep &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# change refresh rate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-refresh-rate &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="how-it-was-built"&gt;How it was built&lt;/h2&gt;
+&lt;p&gt;tmux2k was built using &lt;code&gt;neovim&lt;/code&gt;, &lt;code&gt;shellcheck&lt;/code&gt;, &lt;code&gt;nerd-fonts&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼</title><link>https://2kabhishek.github.io/blog/post/five-git-tricks/</link><pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/five-git-tricks/</guid><description>&lt;p&gt;Git is the most widely used version control system in the world, and it is something that every Software Craftsperson should master.&lt;/p&gt;
 &lt;p&gt;In this article, we&amp;rsquo;ll be going through five git tricks that will make your software crafting easier.&lt;/p&gt;
 &lt;p&gt;Here are the tricks we&amp;rsquo;ll be covering in this article:&lt;/p&gt;
 &lt;ol&gt;
@@ -80,10 +231,16 @@ alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;li&gt;&lt;a href="#delete-a-branch-from-remote"&gt;Delete a branch from remote&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="quickly-set-up-git-ssh-credentials-with-github-cli"&gt;Quickly set up Git SSH credentials with GitHub CLI&lt;/h2&gt;
-&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
+&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;
+&lt;p&gt;If you have set up git with ssh credentials earlier then you definitely know how cumbersome the entire process can be, for those who are unaware here&amp;rsquo;s a very brief overview:&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
 Do you work on multiple machines, and are struggling to keep the repositories in sync?
 Have you ever moved to a new machine and spent what seems like an eternity cloning all your projects one by one?&lt;/p&gt;
-&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;</description></item><item><title>Remove Screen Flickering OBS 💻📹</title><link>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</link><pubDate>Mon, 08 Jun 2020 00:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</guid><description>&lt;p&gt;I was recently trying out OBS for my new &lt;a href="https://www.youtube.com/channel/UCTedGjRpeTc8NTbchraGIuw"target="_blank" rel="noopener"&gt;YouTube Channel&lt;/a&gt;! but faced weird flickering issues when recording, after a lot of tweaking I found the solution.&lt;/p&gt;
+&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;
+&lt;h2 id="introducing-ghpm---github-project-manager"&gt;Introducing &lt;a href="https://github.com/2kabhishek/ghpm"target="_blank" rel="noopener"&gt;GHPM - GitHub Project Manager&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is a utility to fix a few problems a developer faces while managing GitHub projects.&lt;/p&gt;
+&lt;p&gt;GHPM allows you to clone all the repositories in a user&amp;rsquo;s GitHub profile, saving you lots of time.
+All the repositories will be cloned in the current directory.&lt;/p&gt;
+&lt;p&gt;It lets you pull and push changes for all the git repositories in a directory, saving you lots of cd and git pull/push.&lt;/p&gt;</description></item><item><title>Remove Screen Flickering OBS 💻📹</title><link>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</link><pubDate>Mon, 08 Jun 2020 00:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</guid><description>&lt;p&gt;I was recently trying out OBS for my new &lt;a href="https://www.youtube.com/channel/UCTedGjRpeTc8NTbchraGIuw"target="_blank" rel="noopener"&gt;YouTube Channel&lt;/a&gt;! but faced weird flickering issues when recording, after a lot of tweaking I found the solution.&lt;/p&gt;
 &lt;p&gt;You have to turn of Vsync on your system.&lt;/p&gt;
 &lt;p&gt;On KDE the steps are as follows:&lt;/p&gt;
 &lt;ol&gt;

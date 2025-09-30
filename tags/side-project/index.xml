@@ -9,7 +9,18 @@
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd links
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
-&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
+&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo&lt;/li&gt;
+&lt;li&gt;Clone it&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your internet username.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;links&lt;/code&gt; JSON array in &lt;code&gt;script.js&lt;/code&gt;, add/remove link elements as required.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your username.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon, update the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub and enable GitHub Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/links&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
 &lt;p&gt;Present all your projects in style with a super customizable web app! ✨&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Projects&lt;/code&gt; uses the GitHub API to list all your GitHub projects in a nice searchable grid.
 Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;/p&gt;
@@ -20,4 +31,19 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd projects
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
-&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo: &lt;a href="https://github.com/2kabhishek/projects"target="_blank" rel="noopener"&gt;https://github.com/2kabhishek/projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone it locally / Open it in GitHub Codespaces&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your GitHub username.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your own.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon by updating the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit and push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub, under &lt;code&gt;Pages&lt;/code&gt; enable GitHub Pages.
+&lt;ul&gt;
+&lt;li&gt;Choose &amp;lsquo;Deploy from a branch&amp;rsquo; with the &lt;code&gt;main&lt;/code&gt; branch and &lt;code&gt;/&lt;/code&gt; as the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/projects&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

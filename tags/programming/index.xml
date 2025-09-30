@@ -6,8 +6,21 @@
 &lt;hr&gt;
 &lt;p&gt;You still here? (thanks!! 😇) ok, then read on:&lt;/p&gt;
 &lt;p&gt;Do you know why its not recommended to parse &lt;code&gt;ls&lt;/code&gt; output for operation on a list of files?
-It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;</description></item><item><title>Add Numbers Without Arithmetic Operators 🙅‍♂️➕</title><link>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</link><pubDate>Sun, 03 May 2020 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</guid><description>&lt;p&gt;What if you are given a problem where you have to add two integers but you can&amp;rsquo;t use any arithmetic operators (+ - * / % // **), like LeetCode&amp;rsquo;s problem &lt;a href="https://leetcode.com/problems/sum-of-two-integers"target="_blank" rel="noopener"&gt;#371&lt;/a&gt;.&lt;/p&gt;
+It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;
+&lt;p&gt;On a large enough fileset this can cause a lot of issues. So what to do now? Regex?! 😵‍💫&lt;/p&gt;
+&lt;p&gt;No!! I&amp;rsquo;ll stop you right there. Before you go and write (or copy paste 😏) a piece of regex, that you need to google (or ask ChatGPT) everytime to understand.&lt;/p&gt;</description></item><item><title>Add Numbers Without Arithmetic Operators 🙅‍♂️➕</title><link>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</link><pubDate>Sun, 03 May 2020 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</guid><description>&lt;p&gt;What if you are given a problem where you have to add two integers but you can&amp;rsquo;t use any arithmetic operators (+ - * / % // **), like LeetCode&amp;rsquo;s problem &lt;a href="https://leetcode.com/problems/sum-of-two-integers"target="_blank" rel="noopener"&gt;#371&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id="so-how-do-you-approach-this-problem"&gt;So how do you approach this problem?&lt;/h3&gt;
 &lt;p&gt;Answer: Bit manipulation&lt;/p&gt;
 &lt;p&gt;Problems like this can be solved using bit-wise operators as basic mathematics rules work in the same way whether it be binary or decimal.
-All we have to do is:&lt;/p&gt;</description></item></channel></rss>
+All we have to do is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Figure out how the basic mathematical operation works step by step.&lt;/li&gt;
+&lt;li&gt;Replicate these operators using bit-wise operators (&amp;amp; | ~ ^ &amp;laquo; &amp;raquo;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In case of addition in decimal system the process looks something like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If sum of two digits is less than 10 we add it to our sum.&lt;/li&gt;
+&lt;li&gt;If sum is greater than 10 then we add the least significant bit to sum and carry 1 to next operation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="when-doing-this-operation-in-binary-which-bit-wise-operators-do-we-need"&gt;When doing this operation in binary which bit-wise operators do we need?&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s look at an example: 2 + 1 = 3&lt;/p&gt;</description></item></channel></rss>

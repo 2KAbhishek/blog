@@ -16,7 +16,16 @@ When this happens, it&amp;rsquo;s crucial to &lt;strong&gt;&amp;ldquo;Assume Pos
 &lt;h2 id="why-assume-positive-intent"&gt;Why Assume Positive Intent?&lt;/h2&gt;
 &lt;p&gt;When someone pushes back against an idea or suggestion, it&amp;rsquo;s easy to misinterpret their actions as being driven by personal motives like spite or a lack of trust.
 However, it&amp;rsquo;s far more productive to assume that they are not acting out of negativity.
-The person pushing back could be influenced by several factors:&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
+The person pushing back could be influenced by several factors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Historical Reasons&lt;/strong&gt;:
+They may have been burned by similar decisions in the past and carry that caution forward.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceived Risks&lt;/strong&gt;:
+They might see risks that we haven&amp;rsquo;t considered or feel that the proposed solution is too risky given the current context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Different Perspectives&lt;/strong&gt;:
+They may have a different understanding of the problem or constraints based on their experiences.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By assuming positive intent, we approach the conversation with empathy and openness, making it easier to understand their concerns and build constructive dialogue.&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
 &lt;p&gt;Long delays in code reviews can cause several issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -25,21 +34,81 @@ The person pushing back could be influenced by several factors:&lt;/p&gt;</descr
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Idle Time and Context Switching 🦥&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
+&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are steps you can take to improve this process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start Early 🐦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You don’t have to wait until your PR is fully refined to start getting feedback. It’s beneficial to seek input early—either right after the first draft or even during the ideation phase. This approach helps align the team early on and reduces the scope of later revisions.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
 They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
-&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
+&lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
 During this time, I&amp;rsquo;ve experimented with various configurations and setups, and I&amp;rsquo;ve finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p&gt;
 &lt;p&gt;If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener"&gt;ZSH Deep Dive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
-&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
+&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── aliases.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── environment.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── functions.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ └── local.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── aliases.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── completions.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── keys.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── omz.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── options.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── init.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.mise.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── powerlevel2k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every file under the &lt;code&gt;shell&lt;/code&gt; directory is a shared configuration file that is common across shells, while files in the &lt;code&gt;zsh&lt;/code&gt; directory are zsh-specific configuration files.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
 &lt;p&gt;Well I felt the same way too. That&amp;rsquo;s why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.&lt;/p&gt;
 &lt;h1 id="introducing-win2k"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/win2k"target="_blank" rel="noopener"&gt;win2k&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
 alt="win2k screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
+&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;
+&lt;p&gt;It makes developing on Windows much more pleasant for CLI lovers.&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Can set up a complete dev environment within minutes&lt;/li&gt;
+&lt;li&gt;Full featured CLI dev environment on Windows (natively, without WSL!)&lt;/li&gt;
+&lt;li&gt;Powerful personalized editing with &lt;a href="https://github.com/2kabhishek/nvim2k"target="_blank" rel="noopener"&gt;nvim2k&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shiny and extensible prompt with &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt; and &lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modern and intuitive keybindings for Windows Terminal inspired by &lt;a href="https://github.com/2kabhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tiling window management with &lt;a href="https://github.com/LGUG2Z/komorebi"target="_blank" rel="noopener"&gt;komorebi&lt;/a&gt; and &lt;a href="https://www.autohotkey.com/"target="_blank" rel="noopener"&gt;AutoHotKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Statusbar support with &lt;a href="https://github.com/denBot/yasb"target="_blank" rel="noopener"&gt;yasb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Powershell &amp;gt;= 7 (recommended), Most features should work on Powershell 1.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scoop.sh/"target="_blank" rel="noopener"&gt;scoop&lt;/a&gt; — for package management&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/Regular/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.ttf"target="_blank" rel="noopener"&gt;Meslo Nerd Font&lt;/a&gt; — Recommended font for glyphs support&lt;/li&gt;
+&lt;li&gt;Git with SSH setup — for cloning submodules, you can easily do this with the &lt;a href="https://cli.github.com/"target="_blank" rel="noopener"&gt;GitHub CLI&lt;/a&gt; by running &lt;code&gt;gh auth login&lt;/code&gt; and selecting SSH as protocol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ps1" data-lang="ps1"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install scoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser &lt;span style="color:#75715e"&gt;# Optional: Needed to run a remote script the first time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;irm get.scoop.sh | iex
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install git if you haven&amp;#39;t already&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;scoop install git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/2kabhishek/win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;.\setup.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will install all necessary packages, modules and setup symlinks for you.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
 &lt;p&gt;You might have also felt that the default way of doing these things is kind of clumsy and doesn&amp;rsquo;t feel natural.&lt;/p&gt;
 &lt;h1 id="introducing-tmux-tilit"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;:&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
@@ -49,4 +118,11 @@ alt="tmux-tilit screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt; is a tmux plugin that adds tiling window manager like features and keybindings to tmux.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;tmux-tilit was inspired by &lt;a href="https://github.com/jabirali/tmux-tilish"target="_blank" rel="noopener"&gt;tmux-tilish&lt;/a&gt;.
-I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;</description></item></channel></rss>
+I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;tpm&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-tmux-tilit"&gt;Installing tmux-tilit&lt;/h2&gt;
+&lt;p&gt;To get tmux-tilit, add the following to your &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;</description></item></channel></rss>

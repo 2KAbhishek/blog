@@ -6,6 +6,17 @@
 &lt;p&gt;&lt;code&gt;Job for mariadb.service failed because the control process exited with error code.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s look at &lt;code&gt;journalctl -xe&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;A start job for unit mariadb.service has finished with a failure.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
+&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;InnoDB: The innodb\_system data file 'ibdata1' must be writable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ah, there&amp;rsquo;s the culprit mysql doesn&amp;rsquo;t have write access to this file.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+&lt;p&gt;A quick look at the man page and after some google searches the solution I came up with was simple:&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
 &lt;p&gt;The file wasn&amp;rsquo;t supposed to be there, maybe it was something you forgot to mention in your &lt;code&gt;gitignore&lt;/code&gt; or something that was supposed to be an environment variable, or maybe it was a binary not related to the project at all ( Cat GIFs? 😉).&lt;/p&gt;
-&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to fix it using a few commands:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Clone your repo and make sure all branches are up-to-date with remote.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identity the filename and its path that you want to remove.&lt;/p&gt;</description></item></channel></rss>

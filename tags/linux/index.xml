@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on 2KAbhishek Blogs</title><link>https://2kabhishek.github.io/blog/tags/linux/</link><description>Recent content in Linux on 2KAbhishek Blogs</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iam2kabhishek@gmail.com (2KAbhishek)</managingEditor><webMaster>iam2kabhishek@gmail.com (2KAbhishek)</webMaster><copyright>2KAbhishek</copyright><lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://2kabhishek.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
 They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
-&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
+&lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
 &lt;p&gt;ls parsing bad, do this&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -1iq | grep -o &lt;span style="color:#e6db74"&gt;&amp;#39;^ *[0-9]*&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# get file inodes&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;find /path/to/search -inum &amp;lt;inode_number&amp;gt; &lt;span style="color:#75715e"&gt;# convert inodes to file info&lt;/span&gt;
@@ -8,13 +9,34 @@ They help you navigate faster, be more productive and reduce the time you spend 
 &lt;hr&gt;
 &lt;p&gt;You still here? (thanks!! 😇) ok, then read on:&lt;/p&gt;
 &lt;p&gt;Do you know why its not recommended to parse &lt;code&gt;ls&lt;/code&gt; output for operation on a list of files?
-It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
+It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;
+&lt;p&gt;On a large enough fileset this can cause a lot of issues. So what to do now? Regex?! 😵‍💫&lt;/p&gt;
+&lt;p&gt;No!! I&amp;rsquo;ll stop you right there. Before you go and write (or copy paste 😏) a piece of regex, that you need to google (or ask ChatGPT) everytime to understand.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
 During this time, I&amp;rsquo;ve experimented with various configurations and setups, and I&amp;rsquo;ve finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p&gt;
 &lt;p&gt;If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener"&gt;ZSH Deep Dive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
-&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── aliases.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── environment.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── functions.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ └── local.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── aliases.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── completions.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── keys.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── omz.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── options.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── init.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.mise.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── powerlevel2k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every file under the &lt;code&gt;shell&lt;/code&gt; directory is a shared configuration file that is common across shells, while files in the &lt;code&gt;zsh&lt;/code&gt; directory are zsh-specific configuration files.&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
 &lt;p&gt;Brief: MySQL daemon fails to start&lt;/p&gt;
 &lt;p&gt;Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo systemctl start mysqld&lt;/code&gt;&lt;/p&gt;
@@ -22,15 +44,207 @@ In this post, I will discuss how I organize my zsh config and how you can do it 
 &lt;p&gt;&lt;code&gt;Job for mariadb.service failed because the control process exited with error code.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s look at &lt;code&gt;journalctl -xe&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;A start job for unit mariadb.service has finished with a failure.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
+&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;InnoDB: The innodb\_system data file 'ibdata1' must be writable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ah, there&amp;rsquo;s the culprit mysql doesn&amp;rsquo;t have write access to this file.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+&lt;p&gt;A quick look at the man page and after some google searches the solution I came up with was simple:&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
 &lt;p&gt;I have just the right tool for this job that lets you do all this and more and it&amp;rsquo;s called &amp;ldquo;scrcpy&amp;rdquo;.
 It is a tool created by folks at Genymotion.&lt;/p&gt;
 &lt;h3 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h3&gt;
 &lt;p&gt;Android device with Lollipop (API 21 / Android 5.0) or newer with USB debugging turned on.
 adb - Android debugging bridge.
-scrcpy itself.&lt;/p&gt;</description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/post/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/shell-keybindings/</guid><description>&lt;p&gt;A shell also known as the command line is one of the most important tools for any software developer.
+scrcpy itself.&lt;/p&gt;
+&lt;h3 id="installation-instructions"&gt;&lt;strong&gt;Installation instructions:&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id="windows"&gt;Windows&lt;/h4&gt;
+&lt;p&gt;You can get the pre built release which includes both adb and scrcpy from &lt;a href="https://github.com/Genymobile/scrcpy/releases/"target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="linux"&gt;Linux&lt;/h4&gt;
+&lt;p&gt;Install the packages android-tools and scrcpy using your distro&amp;rsquo;s package manager, there&amp;rsquo;s also a snap package.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Debian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt install android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Arch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo pacman -S android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="macos"&gt;macOS&lt;/h4&gt;
+&lt;p&gt;brew cask install android-platform-tools
+brew install scrcpy&lt;/p&gt;</description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/post/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/shell-keybindings/</guid><description>&lt;p&gt;A shell also known as the command line is one of the most important tools for any software developer.
 You can do very complex things very quickly here.
 Learning to use the shell efficiently can make your life much easier.&lt;/p&gt;
 &lt;p&gt;In this post I&amp;rsquo;ll be writing about the most useful keybindings for the bash and zsh shells.
 *nix systems generally ship with the Bourne again shell or bash and zsh or Z shell is also quite popular among developers as it provides some very powerful features.
-Some of these shortcuts may work with other shells too.&lt;/p&gt;</description></item></channel></rss>
+Some of these shortcuts may work with other shells too.&lt;/p&gt;
+&lt;h2 id="navigation-"&gt;Navigation 🚀&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;f/b&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Move cursor to previous/next word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;a/e&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Move cursor to beginning/end of command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;xx&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Toggle between the start of line and current cursor position&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="editing-"&gt;Editing ✏️&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;.&lt;/kbd&gt; or &lt;code&gt;!$&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Previous commands last argument&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Capitalize word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;d&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete next word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Del&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete previous word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;l/u&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Lowercase/Uppercase word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;r&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cancel the changes, revert&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap current word with previous&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;w&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete until beginning (zsh)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;_&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;k&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cut till end&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap the last two characters before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;u&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete whole line (zsh)/ cut until beginning (bash)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;w&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cut previous word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;x,e&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Open command in editor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;y&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Paste&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Esc&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap the last two words before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;!*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;All arguments of previous command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="process-"&gt;Process 📊&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Interrupt/Kill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;d&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Close current shell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;l&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Clear screen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;z&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Background/Foreground job&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="history-"&gt;History ⏳&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;r&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;History search&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;s&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Go back to the next most recent command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;^abc^def&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Run previous command, replacing abc with def&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="modes-"&gt;Modes 🕹️&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;x,v&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;vi mode (zsh)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;bindkey -e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Emacs mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;set -o vi&lt;/code&gt; / &lt;code&gt;bindkey -v&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Vi mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you know any other useful keybindings, feel free to comment below.&lt;/p&gt;</description></item></channel></rss>

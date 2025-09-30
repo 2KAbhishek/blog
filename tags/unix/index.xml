@@ -6,4 +6,6 @@
 &lt;hr&gt;
 &lt;p&gt;You still here? (thanks!! 😇) ok, then read on:&lt;/p&gt;
 &lt;p&gt;Do you know why its not recommended to parse &lt;code&gt;ls&lt;/code&gt; output for operation on a list of files?
-It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;</description></item></channel></rss>
+It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;
+&lt;p&gt;On a large enough fileset this can cause a lot of issues. So what to do now? Regex?! 😵‍💫&lt;/p&gt;
+&lt;p&gt;No!! I&amp;rsquo;ll stop you right there. Before you go and write (or copy paste 😏) a piece of regex, that you need to google (or ask ChatGPT) everytime to understand.&lt;/p&gt;</description></item></channel></rss>

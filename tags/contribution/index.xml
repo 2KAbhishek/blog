@@ -2,4 +2,11 @@
 &lt;p&gt;If you need a new feature, you can just go ahead and add it yourself!&lt;/p&gt;
 &lt;p&gt;I recently did this with &lt;a href="https://github.com/jesseduffield/lazygit"target="_blank" rel="noopener"&gt;lazygit&lt;/a&gt;, a terminal-based git client I use every day.
 I wanted to add co-authors to commits, which is handy for pair programming at Incubyte&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;
+&lt;p&gt;Here are some tips I learned along the way:&lt;/p&gt;
+&lt;h3 id="add-value"&gt;Add Value&lt;/h3&gt;
+&lt;p&gt;Make sure your contribution adds value to the project. Don&amp;rsquo;t just contribute because it&amp;rsquo;s trendy.&lt;/p&gt;
+&lt;h3 id="ask-for-help"&gt;Ask for Help&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t expect to get everything right on the first try. Ask the project maintainers for feedback and guidance.&lt;/p&gt;
+&lt;h3 id="be-patient"&gt;Be Patient&lt;/h3&gt;
+&lt;p&gt;Remember, many open source projects are labors of love. Be patient if things take time or responses are slow.&lt;/p&gt;</description></item></channel></rss>

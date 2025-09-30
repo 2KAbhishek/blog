@@ -16,7 +16,16 @@ When this happens, it&amp;rsquo;s crucial to &lt;strong&gt;&amp;ldquo;Assume Pos
 &lt;h2 id="why-assume-positive-intent"&gt;Why Assume Positive Intent?&lt;/h2&gt;
 &lt;p&gt;When someone pushes back against an idea or suggestion, it&amp;rsquo;s easy to misinterpret their actions as being driven by personal motives like spite or a lack of trust.
 However, it&amp;rsquo;s far more productive to assume that they are not acting out of negativity.
-The person pushing back could be influenced by several factors:&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
+The person pushing back could be influenced by several factors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Historical Reasons&lt;/strong&gt;:
+They may have been burned by similar decisions in the past and carry that caution forward.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceived Risks&lt;/strong&gt;:
+They might see risks that we haven&amp;rsquo;t considered or feel that the proposed solution is too risky given the current context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Different Perspectives&lt;/strong&gt;:
+They may have a different understanding of the problem or constraints based on their experiences.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By assuming positive intent, we approach the conversation with empathy and openness, making it easier to understand their concerns and build constructive dialogue.&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
 &lt;p&gt;Long delays in code reviews can cause several issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -25,9 +34,17 @@ The person pushing back could be influenced by several factors:&lt;/p&gt;</descr
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Idle Time and Context Switching 🦥&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
+&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are steps you can take to improve this process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start Early 🐦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You don’t have to wait until your PR is fully refined to start getting feedback. It’s beneficial to seek input early—either right after the first draft or even during the ideation phase. This approach helps align the team early on and reduces the scope of later revisions.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
 They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
-&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
+&lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
 &lt;p&gt;ls parsing bad, do this&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -1iq | grep -o &lt;span style="color:#e6db74"&gt;&amp;#39;^ *[0-9]*&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# get file inodes&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;find /path/to/search -inum &amp;lt;inode_number&amp;gt; &lt;span style="color:#75715e"&gt;# convert inodes to file info&lt;/span&gt;
@@ -35,17 +52,45 @@ They help you navigate faster, be more productive and reduce the time you spend 
 &lt;hr&gt;
 &lt;p&gt;You still here? (thanks!! 😇) ok, then read on:&lt;/p&gt;
 &lt;p&gt;Do you know why its not recommended to parse &lt;code&gt;ls&lt;/code&gt; output for operation on a list of files?
-It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
+It&amp;rsquo;s because the UNIX system allows any characters in filenames so things like newline, whitespaces, &lt;code&gt;~&lt;/code&gt; (and a lot more weird chars) are all valid.&lt;/p&gt;
+&lt;p&gt;On a large enough fileset this can cause a lot of issues. So what to do now? Regex?! 😵‍💫&lt;/p&gt;
+&lt;p&gt;No!! I&amp;rsquo;ll stop you right there. Before you go and write (or copy paste 😏) a piece of regex, that you need to google (or ask ChatGPT) everytime to understand.&lt;/p&gt;</description></item><item><title>How I organize my zsh config 🐚📂</title><link>https://2kabhishek.github.io/blog/post/zsh/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/zsh/</guid><description>&lt;p&gt;I have been using zsh as my shell for over 6 years now.
 During this time, I&amp;rsquo;ve experimented with various configurations and setups, and I&amp;rsquo;ve finally settled on one that I like.
 In this post, I will discuss how I organize my zsh config and how you can do it too.&lt;/p&gt;
 &lt;p&gt;If you want a longer video version, check you &lt;a href="https://youtu.be/Zuw3xZIDAKo"target="_blank" rel="noopener"&gt;ZSH Deep Dive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
-&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;</description></item><item><title>How to be good at Open Source 🧑‍💻🌏</title><link>https://2kabhishek.github.io/blog/post/be-good-at-open-source/</link><pubDate>Sun, 24 Mar 2024 08:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/be-good-at-open-source/</guid><description>&lt;h2 id="whats-the-coolest-thing-about-open-source-software-"&gt;What&amp;rsquo;s the coolest thing about open source software? 💭&lt;/h2&gt;
+&lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── aliases.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── environment.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── functions.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ └── local.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── aliases.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── completions.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── keys.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── omz.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── options.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── init.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.mise.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── p10k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── powerlevel2k.zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every file under the &lt;code&gt;shell&lt;/code&gt; directory is a shared configuration file that is common across shells, while files in the &lt;code&gt;zsh&lt;/code&gt; directory are zsh-specific configuration files.&lt;/p&gt;</description></item><item><title>How to be good at Open Source 🧑‍💻🌏</title><link>https://2kabhishek.github.io/blog/post/be-good-at-open-source/</link><pubDate>Sun, 24 Mar 2024 08:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/be-good-at-open-source/</guid><description>&lt;h2 id="whats-the-coolest-thing-about-open-source-software-"&gt;What&amp;rsquo;s the coolest thing about open source software? 💭&lt;/h2&gt;
 &lt;p&gt;If you need a new feature, you can just go ahead and add it yourself!&lt;/p&gt;
 &lt;p&gt;I recently did this with &lt;a href="https://github.com/jesseduffield/lazygit"target="_blank" rel="noopener"&gt;lazygit&lt;/a&gt;, a terminal-based git client I use every day.
 I wanted to add co-authors to commits, which is handy for pair programming at Incubyte&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;</description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/post/nerdy/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/nerdy/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;
+&lt;p&gt;Here are some tips I learned along the way:&lt;/p&gt;
+&lt;h3 id="add-value"&gt;Add Value&lt;/h3&gt;
+&lt;p&gt;Make sure your contribution adds value to the project. Don&amp;rsquo;t just contribute because it&amp;rsquo;s trendy.&lt;/p&gt;
+&lt;h3 id="ask-for-help"&gt;Ask for Help&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t expect to get everything right on the first try. Ask the project maintainers for feedback and guidance.&lt;/p&gt;
+&lt;h3 id="be-patient"&gt;Be Patient&lt;/h3&gt;
+&lt;p&gt;Remember, many open source projects are labors of love. Be patient if things take time or responses are slow.&lt;/p&gt;</description></item><item><title>Nerdy.nvim - Find Nerd Glyphs Easily 🤓🔭</title><link>https://2kabhishek.github.io/blog/post/nerdy/</link><pubDate>Sun, 24 Sep 2023 08:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/nerdy/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/nerdy.nvim/main/images/screenshot.jpg" width="100%" height="auto"
 alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Do you like &lt;a href="https://github.com/ryanoasis/nerd-fonts"target="_blank" rel="noopener"&gt;Nerd fonts&lt;/a&gt;? but don&amp;rsquo;t like going over to &lt;a href="https://www.nerdfonts.com/cheat-sheet"target="_blank" rel="noopener"&gt;their site&lt;/a&gt; just to fetch a glyph for your pretty terminal?&lt;/p&gt;
@@ -63,22 +108,79 @@ alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;</description></item><item><title>How to Think Like an Architect 🧠🏛️</title><link>https://2kabhishek.github.io/blog/post/think-like-architect/</link><pubDate>Mon, 14 Aug 2023 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/think-like-architect/</guid><description>&lt;p&gt;Have you ever wondered what skills it takes to be a software architect?&lt;/p&gt;
+&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/stevearc/dressing.nvim"target="_blank" rel="noopener"&gt;dressing.nvim&lt;/a&gt; — for prettier select UI&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nvim-telescope/telescope.nvim"target="_blank" rel="noopener"&gt;telescope&lt;/a&gt; — for fuzzy searching in list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-lua" data-lang="lua"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Lazy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; dependencies &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;stevearc/dressing.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;nvim-telescope/telescope.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cmd &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Nerdy&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Packer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="-usage"&gt;💻 Usage&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nerdy.nvim&lt;/code&gt; adds a new command &lt;code&gt;Nerdy&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>How to Think Like an Architect 🧠🏛️</title><link>https://2kabhishek.github.io/blog/post/think-like-architect/</link><pubDate>Mon, 14 Aug 2023 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/think-like-architect/</guid><description>&lt;p&gt;Have you ever wondered what skills it takes to be a software architect?&lt;/p&gt;
 &lt;p&gt;While civil architects design awe-inspiring structures that stand the test of time, software architects craft intricate architectures that form the foundation of modern technology. Software architects mold the digital landscape as we know it.&lt;/p&gt;
-&lt;p&gt;Architects possess a unique mindset that enables them to design and develop robust software architectures. Their ability to think strategically, make informed decisions, and balance trade-offs is vital for creating successful systems.&lt;/p&gt;</description></item><item><title>Prompt Engineering 101 🤖🪄</title><link>https://2kabhishek.github.io/blog/post/prompt-engg/</link><pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/prompt-engg/</guid><description>&lt;p&gt;Are you feeling lost in the new world of AI tools and Prompt Engineering?
+&lt;p&gt;Architects possess a unique mindset that enables them to design and develop robust software architectures. Their ability to think strategically, make informed decisions, and balance trade-offs is vital for creating successful systems.&lt;/p&gt;
+&lt;p&gt;In this article, we dive deep into key principles and strategies that will help you train your brain to think like an architect.&lt;/p&gt;
+&lt;h2 id="the-first-law-of-software-architecture-everything-is-a-trade-off"&gt;The First Law of Software Architecture: Everything is a Trade-off&lt;/h2&gt;
+&lt;p&gt;The foundation of architectural thinking lies in understanding that everything in software architecture involves trade-offs.
+Architectural decisions require careful consideration of competing factors, such as&lt;/p&gt;</description></item><item><title>Prompt Engineering 101 🤖🪄</title><link>https://2kabhishek.github.io/blog/post/prompt-engg/</link><pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/prompt-engg/</guid><description>&lt;p&gt;Are you feeling lost in the new world of AI tools and Prompt Engineering?
 Don&amp;rsquo;t worry, we got you!
 In this article, we&amp;rsquo;ll demystify everything and equip you with the knowledge you need to get the most out of AI tools like ChatGPT.
 So, let&amp;rsquo;s get started!&lt;/p&gt;
 &lt;h2 id="what-is-prompt-engineering"&gt;What Is Prompt Engineering?&lt;/h2&gt;
 &lt;p&gt;Prompt engineering is like being the conductor of an AI orchestra.
 It&amp;rsquo;s the art of crafting carefully tailored instructions, or prompts, that guide language models like GPT-3.5 (Used in ChatGPT) to produce the outputs we desire.
-Think of it as giving your AI companion the perfect set of directions to create the results you&amp;rsquo;re looking for.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
+Think of it as giving your AI companion the perfect set of directions to create the results you&amp;rsquo;re looking for.&lt;/p&gt;
+&lt;p&gt;In this article, we&amp;rsquo;ll explore the fundamental principles of prompt engineering and how they can be applied in practice.&lt;/p&gt;</description></item><item><title>win2k - Ultimate Dev Setup for Windows 🪟🪄</title><link>https://2kabhishek.github.io/blog/post/win2k/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/win2k/</guid><description>&lt;p&gt;Do you find the Windows dev environment lacking? Do you miss your precious CLI tools on Windows?&lt;/p&gt;
 &lt;p&gt;Well I felt the same way too. That&amp;rsquo;s why I combined a package manager, a powerful CLI editor, tiling window management and lots of other tools in a easy to set up solution.&lt;/p&gt;
 &lt;h1 id="introducing-win2k"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/win2k"target="_blank" rel="noopener"&gt;win2k&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
 alt="win2k screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
+&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;
+&lt;p&gt;It makes developing on Windows much more pleasant for CLI lovers.&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Can set up a complete dev environment within minutes&lt;/li&gt;
+&lt;li&gt;Full featured CLI dev environment on Windows (natively, without WSL!)&lt;/li&gt;
+&lt;li&gt;Powerful personalized editing with &lt;a href="https://github.com/2kabhishek/nvim2k"target="_blank" rel="noopener"&gt;nvim2k&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shiny and extensible prompt with &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt; and &lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modern and intuitive keybindings for Windows Terminal inspired by &lt;a href="https://github.com/2kabhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tiling window management with &lt;a href="https://github.com/LGUG2Z/komorebi"target="_blank" rel="noopener"&gt;komorebi&lt;/a&gt; and &lt;a href="https://www.autohotkey.com/"target="_blank" rel="noopener"&gt;AutoHotKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Statusbar support with &lt;a href="https://github.com/denBot/yasb"target="_blank" rel="noopener"&gt;yasb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Powershell &amp;gt;= 7 (recommended), Most features should work on Powershell 1.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scoop.sh/"target="_blank" rel="noopener"&gt;scoop&lt;/a&gt; — for package management&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/Regular/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.ttf"target="_blank" rel="noopener"&gt;Meslo Nerd Font&lt;/a&gt; — Recommended font for glyphs support&lt;/li&gt;
+&lt;li&gt;Git with SSH setup — for cloning submodules, you can easily do this with the &lt;a href="https://cli.github.com/"target="_blank" rel="noopener"&gt;GitHub CLI&lt;/a&gt; by running &lt;code&gt;gh auth login&lt;/code&gt; and selecting SSH as protocol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ps1" data-lang="ps1"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install scoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser &lt;span style="color:#75715e"&gt;# Optional: Needed to run a remote script the first time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;irm get.scoop.sh | iex
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install git if you haven&amp;#39;t already&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;scoop install git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/2kabhishek/win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;.\setup.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will install all necessary packages, modules and setup symlinks for you.&lt;/p&gt;</description></item><item><title>tmux-tilit - better tiling for tmux 🪟🪓</title><link>https://2kabhishek.github.io/blog/post/tmux-tilit/</link><pubDate>Wed, 11 Jan 2023 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux-tilit/</guid><description>&lt;p&gt;If you have used tmux then you already know that tmux provides ways to create multiple panes on your terminal among many other things.&lt;/p&gt;
 &lt;p&gt;You might have also felt that the default way of doing these things is kind of clumsy and doesn&amp;rsquo;t feel natural.&lt;/p&gt;
 &lt;h1 id="introducing-tmux-tilit"&gt;Introducing &lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;:&lt;/h1&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
@@ -88,25 +190,73 @@ alt="tmux-tilit screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/2KAbhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt; is a tmux plugin that adds tiling window manager like features and keybindings to tmux.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;tmux-tilit was inspired by &lt;a href="https://github.com/jabirali/tmux-tilish"target="_blank" rel="noopener"&gt;tmux-tilish&lt;/a&gt;.
-I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+I wanted to add some new commadns, make the keybindings match better with tmux&amp;rsquo;s defaults, hence tilit was born!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;tpm&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-tmux-tilit"&gt;Installing tmux-tilit&lt;/h2&gt;
+&lt;p&gt;To get tmux-tilit, add the following to your &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
 alt="co-author.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p&gt;
 &lt;p&gt;Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p&gt;
-&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;co-author.nvim&lt;/code&gt; automatically works with telescope and presents the list in a nice fuzzy searchable UI.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Noticed something similar on a co-workers using IntelliJ, and I wanted it!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-co-authornvim"&gt;Installing co-author.nvim&lt;/h2&gt;
+&lt;p&gt;To get co-author.nvim, add the following to your plugin list:&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png" width="100%" height="auto"
 alt="Posh2K"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt; is a prompt for &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;, it works on all shells, has multiple segments with aesthetically pleasing colors.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.&lt;/p&gt;
-&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;</description></item><item><title>Data Structure and Algorithms are Overrated! 🚫🪴</title><link>https://2kabhishek.github.io/blog/post/dsa-is-overrated/</link><pubDate>Fri, 28 Oct 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/dsa-is-overrated/</guid><description>&lt;h2 id="-dsa-is-overrated-"&gt;🚫 DSA is OVERRATED!! 🚫&lt;/h2&gt;
+&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;a href="https://ohmyposh.dev/docs/installation/linux"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="getting-posh2k"&gt;Getting Posh2K&lt;/h2&gt;
+&lt;p&gt;To get Posh2K, follow these steps:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/Posh2K
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Powershell, add this to $Profile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init pwsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | Invoke-Expression
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Zsh, add this to ~/.zshrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init zsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Bash, add this to ~/.bashrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init bash --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Fish, add this to ~/config/fish/config.fish&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init fish --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | source
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for nu shell, run&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init nu --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source ~/oh-my-posh.nu
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for cmd, install Clink, then add this&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;load&lt;span style="color:#f92672"&gt;(&lt;/span&gt;io.popen&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;oh-my-posh init cmd --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;:read&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*a&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;))()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="more"&gt;More&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K repo&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Data Structure and Algorithms are Overrated! 🚫🪴</title><link>https://2kabhishek.github.io/blog/post/dsa-is-overrated/</link><pubDate>Fri, 28 Oct 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/dsa-is-overrated/</guid><description>&lt;h2 id="-dsa-is-overrated-"&gt;🚫 DSA is OVERRATED!! 🚫&lt;/h2&gt;
 &lt;p&gt;I recently saw some posts on LinkedIn and Twitter about how a 1% decrease in load time increased revenues for a company.&lt;/p&gt;
 &lt;p&gt;Sure, I agree, we all want fast software. 🚀&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s the thing though,
 One can build fast and robust software without spending 1000 hours on Data Structure and Algorithms. ✨&lt;/p&gt;
-&lt;p&gt;Believing that crazy DSA skills are needed for optimizing software is just not right, any good developer will look at 20 other things before even thinking about runtime complexity.&lt;/p&gt;</description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/post/links-showcase/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/links-showcase/</guid><description>&lt;p&gt;Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p&gt;
+&lt;p&gt;Believing that crazy DSA skills are needed for optimizing software is just not right, any good developer will look at 20 other things before even thinking about runtime complexity.&lt;/p&gt;
+&lt;p&gt;Sure the skills you learn from slogging DSA for hundreds of hours will help you write better software, but is spending all of that time really worth it? 🤔&lt;/p&gt;
+&lt;p&gt;It just doesn&amp;rsquo;t make sense to have your potential teammate spend so much time on something that a $10 Copilot license or a quick Google search can do for you.&lt;/p&gt;</description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/post/links-showcase/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/links-showcase/</guid><description>&lt;p&gt;Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p&gt;
 &lt;p&gt;Well, now you can!&lt;/p&gt;
 &lt;h2 id="introducing-links"&gt;Introducing links&lt;/h2&gt;
 &lt;p&gt;Present all your links in style with an easily accessible and highly customizable web app! ✨&lt;/p&gt;
@@ -117,7 +267,18 @@ One can build fast and robust software without spending 1000 hours on Data Struc
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd links
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
-&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;</description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/post/tmux2k/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo&lt;/li&gt;
+&lt;li&gt;Clone it&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your internet username.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;links&lt;/code&gt; JSON array in &lt;code&gt;script.js&lt;/code&gt;, add/remove link elements as required.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your username.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon, update the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub and enable GitHub Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/links&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Tmux2K - Power &amp; Pizzazz for tmux 🥊💅</title><link>https://2kabhishek.github.io/blog/post/tmux2k/</link><pubDate>Sat, 13 Aug 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tmux2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t389wzwbu5gm694lasi1.png" width="100%" height="auto"
 alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
@@ -133,7 +294,40 @@ alt="tmux2k"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id="installing-tmux2k"&gt;Installing tmux2k&lt;/h2&gt;
 &lt;p&gt;Using &lt;code&gt;tpm&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If you are a &lt;code&gt;tpm&lt;/code&gt; user, you can install the theme and keep up to date by adding the following to your &lt;code&gt;.tmux.conf&lt;/code&gt; file:&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
+&lt;p&gt;If you are a &lt;code&gt;tpm&lt;/code&gt; user, you can install the theme and keep up to date by adding the following to your &lt;code&gt;.tmux.conf&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @plugin &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/tmux2k&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add any configuration options below this line in your tmux config.&lt;/p&gt;
+&lt;h3 id="activating-tmux2k"&gt;Activating tmux2k&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure run -b &lt;code&gt;~/.tmux/plugins/tpm/tpm&lt;/code&gt; is at the bottom of your &lt;code&gt;.tmux.conf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;tmux&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;tpm&lt;/code&gt; install command: prefix + I (default prefix is &lt;code&gt;ctrl+b&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="configuring-tmux2k"&gt;Configuring tmux2k&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Tmux 2K default configs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# available plugins: battery, cpu-usage, git, gpu-usage, ram-usage, network, network-bandwidth, network-ping, weather, time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-left-plugins &lt;span style="color:#e6db74"&gt;&amp;#34;git cpu-usage ram-usage&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-right-plugins &lt;span style="color:#e6db74"&gt;&amp;#34;battery network time&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-powerline true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-fahrenheit false
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-military-time true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-border-contrast true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# available colors: white, gray, dark_gray, light_purple, dark_purple, cyan, green, orange, red, pink, yellow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-&lt;span style="color:#f92672"&gt;[&lt;/span&gt;plugin-name&lt;span style="color:#f92672"&gt;]&lt;/span&gt;-colors &lt;span style="color:#e6db74"&gt;&amp;#34;[background] [foreground]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-cpu-usage-colors &lt;span style="color:#e6db74"&gt;&amp;#34;blue dark_gray&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# it can accept `session`, `rocket`, `window`, or any character.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-left-icon &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# update powerline symbols&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-left-sep &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-show-right-sep &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# change refresh rate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set -g @tmux2k-refresh-rate &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="how-it-was-built"&gt;How it was built&lt;/h2&gt;
+&lt;p&gt;tmux2k was built using &lt;code&gt;neovim&lt;/code&gt;, &lt;code&gt;shellcheck&lt;/code&gt;, &lt;code&gt;nerd-fonts&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
 &lt;p&gt;Present all your projects in style with a super customizable web app! ✨&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Projects&lt;/code&gt; uses the GitHub API to list all your GitHub projects in a nice searchable grid.
 Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;/p&gt;
@@ -144,7 +338,22 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd projects
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
-&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;</description></item><item><title>Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼</title><link>https://2kabhishek.github.io/blog/post/five-git-tricks/</link><pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/five-git-tricks/</guid><description>&lt;p&gt;Git is the most widely used version control system in the world, and it is something that every Software Craftsperson should master.&lt;/p&gt;
+&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo: &lt;a href="https://github.com/2kabhishek/projects"target="_blank" rel="noopener"&gt;https://github.com/2kabhishek/projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone it locally / Open it in GitHub Codespaces&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your GitHub username.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your own.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon by updating the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit and push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub, under &lt;code&gt;Pages&lt;/code&gt; enable GitHub Pages.
+&lt;ul&gt;
+&lt;li&gt;Choose &amp;lsquo;Deploy from a branch&amp;rsquo; with the &lt;code&gt;main&lt;/code&gt; branch and &lt;code&gt;/&lt;/code&gt; as the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/projects&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Five Git Tricks To Make Dev Work Easier ⛑️🤹🏼</title><link>https://2kabhishek.github.io/blog/post/five-git-tricks/</link><pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/five-git-tricks/</guid><description>&lt;p&gt;Git is the most widely used version control system in the world, and it is something that every Software Craftsperson should master.&lt;/p&gt;
 &lt;p&gt;In this article, we&amp;rsquo;ll be going through five git tricks that will make your software crafting easier.&lt;/p&gt;
 &lt;p&gt;Here are the tricks we&amp;rsquo;ll be covering in this article:&lt;/p&gt;
 &lt;ol&gt;
@@ -155,7 +364,8 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;li&gt;&lt;a href="#delete-a-branch-from-remote"&gt;Delete a branch from remote&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="quickly-set-up-git-ssh-credentials-with-github-cli"&gt;Quickly set up Git SSH credentials with GitHub CLI&lt;/h2&gt;
-&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
+&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;
+&lt;p&gt;If you have set up git with ssh credentials earlier then you definitely know how cumbersome the entire process can be, for those who are unaware here&amp;rsquo;s a very brief overview:&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
 This post is for all the people who are struggling to get those Pull Requests in and have to resort to special repositories which are targeted toway Hacktoberfest only (nothing wrong with using these).&lt;/p&gt;
 &lt;p&gt;But there&amp;rsquo;s another way with which you can make valuable contributions easily to the biggest of projects and later on, look at them and feel proud. 😄&lt;/p&gt;
 &lt;h2 id="documentation-matters"&gt;Documentation Matters&lt;/h2&gt;
@@ -164,7 +374,8 @@ Most of the repositories out there could also use better documentation and the m
 &lt;h3 id="gulp-runner"&gt;Gulp Runner&lt;/h3&gt;
 &lt;p&gt;Like many of us, I have a &lt;a href="https://2kabhishek.github.io"target="_blank" rel="noopener"&gt;personal site&lt;/a&gt; deployed on GitHub Pages. 🌐&lt;/p&gt;
 &lt;p&gt;It uses SCSS so I have to convert it to CSS pre-deployment, I also like to have my scripts and styles minified.
-While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
+While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;
+&lt;p&gt;The only issue is when I have to make some quick updates to the styles or scripts on a new machine or on my phone, I have to setup the local dev environment along with node, npm and lots of node modules.&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
 &lt;p&gt;Brief: MySQL daemon fails to start&lt;/p&gt;
 &lt;p&gt;Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo systemctl start mysqld&lt;/code&gt;&lt;/p&gt;
@@ -172,10 +383,19 @@ While building the site I used gulp for these tasks and everything worked as it 
 &lt;p&gt;&lt;code&gt;Job for mariadb.service failed because the control process exited with error code.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s look at &lt;code&gt;journalctl -xe&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;A start job for unit mariadb.service has finished with a failure.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
+&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;InnoDB: The innodb\_system data file 'ibdata1' must be writable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ah, there&amp;rsquo;s the culprit mysql doesn&amp;rsquo;t have write access to this file.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+&lt;p&gt;A quick look at the man page and after some google searches the solution I came up with was simple:&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
 Do you work on multiple machines, and are struggling to keep the repositories in sync?
 Have you ever moved to a new machine and spent what seems like an eternity cloning all your projects one by one?&lt;/p&gt;
-&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;</description></item><item><title>Remove Screen Flickering OBS 💻📹</title><link>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</link><pubDate>Mon, 08 Jun 2020 00:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</guid><description>&lt;p&gt;I was recently trying out OBS for my new &lt;a href="https://www.youtube.com/channel/UCTedGjRpeTc8NTbchraGIuw"target="_blank" rel="noopener"&gt;YouTube Channel&lt;/a&gt;! but faced weird flickering issues when recording, after a lot of tweaking I found the solution.&lt;/p&gt;
+&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;
+&lt;h2 id="introducing-ghpm---github-project-manager"&gt;Introducing &lt;a href="https://github.com/2kabhishek/ghpm"target="_blank" rel="noopener"&gt;GHPM - GitHub Project Manager&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is a utility to fix a few problems a developer faces while managing GitHub projects.&lt;/p&gt;
+&lt;p&gt;GHPM allows you to clone all the repositories in a user&amp;rsquo;s GitHub profile, saving you lots of time.
+All the repositories will be cloned in the current directory.&lt;/p&gt;
+&lt;p&gt;It lets you pull and push changes for all the git repositories in a directory, saving you lots of cd and git pull/push.&lt;/p&gt;</description></item><item><title>Remove Screen Flickering OBS 💻📹</title><link>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</link><pubDate>Mon, 08 Jun 2020 00:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/remove-screen-flickering-obs/</guid><description>&lt;p&gt;I was recently trying out OBS for my new &lt;a href="https://www.youtube.com/channel/UCTedGjRpeTc8NTbchraGIuw"target="_blank" rel="noopener"&gt;YouTube Channel&lt;/a&gt;! but faced weird flickering issues when recording, after a lot of tweaking I found the solution.&lt;/p&gt;
 &lt;p&gt;You have to turn of Vsync on your system.&lt;/p&gt;
 &lt;p&gt;On KDE the steps are as follows:&lt;/p&gt;
 &lt;ol&gt;
@@ -188,7 +408,26 @@ Have you ever moved to a new machine and spent what seems like an eternity cloni
 Try again, and you shouldn&amp;rsquo;t face flickering issues anymore.&lt;/p&gt;</description></item><item><title>Sync Forked Repository With Upstream 🔁✔️</title><link>https://2kabhishek.github.io/blog/post/sync-forked-repository/</link><pubDate>Sun, 07 Jun 2020 13:24:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/sync-forked-repository/</guid><description>&lt;p&gt;Here&amp;rsquo;s the situation, You have forked a repository on GitHub, you have made your changes and sent a pull request, and that request has been merged.&lt;/p&gt;
 &lt;p&gt;Now you want to make further changes, but the repository mentions that you are X commits ahead or/and X commits behind upstream repository.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;So how do you sync it?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;</description></item><item><title>Enable Dark Mode Across Chrome 🌚😎</title><link>https://2kabhishek.github.io/blog/post/chrome-dark-mode/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/chrome-dark-mode/</guid><description>&lt;p&gt;There are lots of extensions out there that turn your web browsing experience much better if you prefer dark backgrounds (who doesn&amp;rsquo;t right?).&lt;/p&gt;
+&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another way to do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone your fork&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/yourname/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd yourname/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Add upstream remote&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add upstream https://github.com/original-author/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Ignore all changes in fork and sync with upstream&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git reset --hard upstream/master
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -f origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Only do this if you have no changes on your fork that you would like to keep.
+This will set your fork&amp;rsquo;s master to be the same as upstream&amp;rsquo;s master.
+Now you are free to make any changes you wish to make.&lt;/p&gt;</description></item><item><title>Enable Dark Mode Across Chrome 🌚😎</title><link>https://2kabhishek.github.io/blog/post/chrome-dark-mode/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/chrome-dark-mode/</guid><description>&lt;p&gt;There are lots of extensions out there that turn your web browsing experience much better if you prefer dark backgrounds (who doesn&amp;rsquo;t right?).&lt;/p&gt;
 &lt;p&gt;My favourite one is &lt;a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"target="_blank" rel="noopener"&gt;Dark Reader&lt;/a&gt; but there&amp;rsquo;s just one problem, mobile versions of chrome don&amp;rsquo;t support extensions.&lt;/p&gt;
 &lt;p&gt;This trick will help you turn on dark mode everywhere.&lt;/p&gt;
 &lt;p&gt;Steps:&lt;/p&gt;
@@ -201,33 +440,257 @@ Try again, and you shouldn&amp;rsquo;t face flickering issues anymore.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;On desktop versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Force Dark Mode for Web Contents&amp;rdquo; which is tagged &lt;code&gt;#enable-force-dark&lt;/code&gt;.
-On Android versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Darken websites checkbox in themes setting&amp;rdquo; which is tagged &lt;code&gt;#darken-websites-checkbox-in-themes-setting&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Add Numbers Without Arithmetic Operators 🙅‍♂️➕</title><link>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</link><pubDate>Sun, 03 May 2020 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</guid><description>&lt;p&gt;What if you are given a problem where you have to add two integers but you can&amp;rsquo;t use any arithmetic operators (+ - * / % // **), like LeetCode&amp;rsquo;s problem &lt;a href="https://leetcode.com/problems/sum-of-two-integers"target="_blank" rel="noopener"&gt;#371&lt;/a&gt;.&lt;/p&gt;
+On Android versions you&amp;rsquo;ll have to enable the flag &amp;ldquo;Darken websites checkbox in themes setting&amp;rdquo; which is tagged &lt;code&gt;#darken-websites-checkbox-in-themes-setting&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart Chrome and enjoy the dark side.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s all, Thank you for reading.
+Hopefully this post was helpful to you, see you in the next one.&lt;/p&gt;</description></item><item><title>Add Numbers Without Arithmetic Operators 🙅‍♂️➕</title><link>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</link><pubDate>Sun, 03 May 2020 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/add-numbers-without-arithmetic/</guid><description>&lt;p&gt;What if you are given a problem where you have to add two integers but you can&amp;rsquo;t use any arithmetic operators (+ - * / % // **), like LeetCode&amp;rsquo;s problem &lt;a href="https://leetcode.com/problems/sum-of-two-integers"target="_blank" rel="noopener"&gt;#371&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id="so-how-do-you-approach-this-problem"&gt;So how do you approach this problem?&lt;/h3&gt;
 &lt;p&gt;Answer: Bit manipulation&lt;/p&gt;
 &lt;p&gt;Problems like this can be solved using bit-wise operators as basic mathematics rules work in the same way whether it be binary or decimal.
-All we have to do is:&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
+All we have to do is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Figure out how the basic mathematical operation works step by step.&lt;/li&gt;
+&lt;li&gt;Replicate these operators using bit-wise operators (&amp;amp; | ~ ^ &amp;laquo; &amp;raquo;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In case of addition in decimal system the process looks something like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If sum of two digits is less than 10 we add it to our sum.&lt;/li&gt;
+&lt;li&gt;If sum is greater than 10 then we add the least significant bit to sum and carry 1 to next operation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="when-doing-this-operation-in-binary-which-bit-wise-operators-do-we-need"&gt;When doing this operation in binary which bit-wise operators do we need?&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s look at an example: 2 + 1 = 3&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
 &lt;p&gt;I have just the right tool for this job that lets you do all this and more and it&amp;rsquo;s called &amp;ldquo;scrcpy&amp;rdquo;.
 It is a tool created by folks at Genymotion.&lt;/p&gt;
 &lt;h3 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h3&gt;
 &lt;p&gt;Android device with Lollipop (API 21 / Android 5.0) or newer with USB debugging turned on.
 adb - Android debugging bridge.
-scrcpy itself.&lt;/p&gt;</description></item><item><title>Microsoft Actually Loves️ Linux? 🐧❤</title><link>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</link><pubDate>Thu, 19 Mar 2020 08:40:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</guid><description>&lt;p&gt;Any of you who use npm should have received a mail and that is the reason behind this post.&lt;/p&gt;
+scrcpy itself.&lt;/p&gt;
+&lt;h3 id="installation-instructions"&gt;&lt;strong&gt;Installation instructions:&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id="windows"&gt;Windows&lt;/h4&gt;
+&lt;p&gt;You can get the pre built release which includes both adb and scrcpy from &lt;a href="https://github.com/Genymobile/scrcpy/releases/"target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="linux"&gt;Linux&lt;/h4&gt;
+&lt;p&gt;Install the packages android-tools and scrcpy using your distro&amp;rsquo;s package manager, there&amp;rsquo;s also a snap package.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Debian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt install android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Arch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo pacman -S android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="macos"&gt;macOS&lt;/h4&gt;
+&lt;p&gt;brew cask install android-platform-tools
+brew install scrcpy&lt;/p&gt;</description></item><item><title>Microsoft Actually Loves️ Linux? 🐧❤</title><link>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</link><pubDate>Thu, 19 Mar 2020 08:40:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</guid><description>&lt;p&gt;Any of you who use npm should have received a mail and that is the reason behind this post.&lt;/p&gt;
 &lt;p&gt;Microsoft has made a lot of progress in between Steve Ballmer&amp;rsquo;s &amp;ldquo;Linux is a cancer&amp;rdquo; and Satya Nadella&amp;rsquo;s &amp;ldquo;Microsoft ♥ Linux&amp;rdquo; in the Open Source world.
 Most of what microsoft has been doing recently is very inclusive of OSS.&lt;/p&gt;
 &lt;p&gt;Things from the top of my head include WSL, VS Code, GitHub, Dot Net Core, Powershell and now npm and the list is &lt;a href="opensource.microsoft.com"&gt;very long&lt;/a&gt;.
-Although one can argue that Microsoft is doing all this to push it&amp;rsquo;s Azure platform but still getting quality cross platform open source software is always welcome.&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
+Although one can argue that Microsoft is doing all this to push it&amp;rsquo;s Azure platform but still getting quality cross platform open source software is always welcome.&lt;/p&gt;
+&lt;p&gt;Hopefully Microsoft will keep the ball rolling in the right direction and we&amp;rsquo;ll hear more good news in the future. 😄&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
 &lt;p&gt;The file wasn&amp;rsquo;t supposed to be there, maybe it was something you forgot to mention in your &lt;code&gt;gitignore&lt;/code&gt; or something that was supposed to be an environment variable, or maybe it was a binary not related to the project at all ( Cat GIFs? 😉).&lt;/p&gt;
-&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;</description></item><item><title>Navigating JavaScript 🤷‍♂️🧭</title><link>https://2kabhishek.github.io/blog/post/navigating-javascript/</link><pubDate>Thu, 08 Aug 2019 09:31:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/navigating-javascript/</guid><description>&lt;p&gt;JavaScript is taking the world by storm, once used to add functionality to the web, now it is being used in almost all types of software development.&lt;/p&gt;
-&lt;p&gt;For example, Using JavaScript you can do things like build Progressive Web Apps (web apps with native app like features) , create desktop apps using electron, make Android &amp;amp; iOS apps with React Native, do server stuff using Node and Express and &lt;strong&gt;many&lt;/strong&gt; more.&lt;/p&gt;</description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/post/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/shell-keybindings/</guid><description>&lt;p&gt;A shell also known as the command line is one of the most important tools for any software developer.
+&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to fix it using a few commands:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Clone your repo and make sure all branches are up-to-date with remote.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identity the filename and its path that you want to remove.&lt;/p&gt;</description></item><item><title>Navigating JavaScript 🤷‍♂️🧭</title><link>https://2kabhishek.github.io/blog/post/navigating-javascript/</link><pubDate>Thu, 08 Aug 2019 09:31:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/navigating-javascript/</guid><description>&lt;p&gt;JavaScript is taking the world by storm, once used to add functionality to the web, now it is being used in almost all types of software development.&lt;/p&gt;
+&lt;p&gt;For example, Using JavaScript you can do things like build Progressive Web Apps (web apps with native app like features) , create desktop apps using electron, make Android &amp;amp; iOS apps with React Native, do server stuff using Node and Express and &lt;strong&gt;many&lt;/strong&gt; more.&lt;/p&gt;
+&lt;p&gt;If that wasn&amp;rsquo;t overwhelming and confusing enough, there exists more flavours of JavaScript out there than you can count 😵 &amp;amp; what is JavaScript and what&amp;rsquo;s not is a post for another time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So how do you get started with this interesting piece of technology?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ The first thing you should do is learn &lt;strong&gt;Vanilla JS&lt;/strong&gt;.
+Strong fundamentals go a long way.
+I will suggest &lt;a href="https://javascript30.com/"target="_blank" rel="noopener"&gt;JavaScript30&lt;/a&gt; a free course by Wes Bos, that focuses on Vanilla JS.&lt;/p&gt;</description></item><item><title>Must Know Shell Keybindings 🐧🐚</title><link>https://2kabhishek.github.io/blog/post/shell-keybindings/</link><pubDate>Sun, 19 May 2019 04:51:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/shell-keybindings/</guid><description>&lt;p&gt;A shell also known as the command line is one of the most important tools for any software developer.
 You can do very complex things very quickly here.
 Learning to use the shell efficiently can make your life much easier.&lt;/p&gt;
 &lt;p&gt;In this post I&amp;rsquo;ll be writing about the most useful keybindings for the bash and zsh shells.
 *nix systems generally ship with the Bourne again shell or bash and zsh or Z shell is also quite popular among developers as it provides some very powerful features.
-Some of these shortcuts may work with other shells too.&lt;/p&gt;</description></item><item><title>Two Factor Authentication 🔏👤</title><link>https://2kabhishek.github.io/blog/post/two-factor-authentication/</link><pubDate>Sun, 05 May 2019 10:48:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/two-factor-authentication/</guid><description>&lt;p&gt;In a previous post, I wrote about password managers and why you should have one.
+Some of these shortcuts may work with other shells too.&lt;/p&gt;
+&lt;h2 id="navigation-"&gt;Navigation 🚀&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;f/b&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Move cursor to previous/next word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;a/e&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Move cursor to beginning/end of command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;xx&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Toggle between the start of line and current cursor position&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="editing-"&gt;Editing ✏️&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;.&lt;/kbd&gt; or &lt;code&gt;!$&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Previous commands last argument&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Capitalize word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;d&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete next word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Del&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete previous word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;l/u&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Lowercase/Uppercase word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;r&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cancel the changes, revert&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap current word with previous&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;w&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete until beginning (zsh)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;_&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;k&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cut till end&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap the last two characters before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;u&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Delete whole line (zsh)/ cut until beginning (bash)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;w&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cut previous word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;x,e&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Open command in editor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;y&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Paste&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Esc&lt;/kbd&gt; + &lt;kbd&gt;t&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Swap the last two words before the cursor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;!*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;All arguments of previous command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="process-"&gt;Process 📊&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Interrupt/Kill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;d&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Close current shell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;l&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Clear screen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;z&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Background/Foreground job&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="history-"&gt;History ⏳&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;r&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;History search&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;s&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Go back to the next most recent command&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;^abc^def&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Run previous command, replacing abc with def&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="modes-"&gt;Modes 🕹️&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Keybinding&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;x,v&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;vi mode (zsh)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;bindkey -e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Emacs mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;set -o vi&lt;/code&gt; / &lt;code&gt;bindkey -v&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Vi mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you know any other useful keybindings, feel free to comment below.&lt;/p&gt;</description></item><item><title>Two Factor Authentication 🔏👤</title><link>https://2kabhishek.github.io/blog/post/two-factor-authentication/</link><pubDate>Sun, 05 May 2019 10:48:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/two-factor-authentication/</guid><description>&lt;p&gt;In a previous post, I wrote about password managers and why you should have one.
 In this follow-up article I&amp;rsquo;ll try to explain Two-Factor Authentication or 2FA and how it can make your security more robust.&lt;/p&gt;
 &lt;p&gt;So what 2FA does is that It adds another layer to your security.
 After you provide your username and password 2FA will ask for a special code that you may receive via SMS or an authenticator app.
-You can only login after providing the 2FA code.&lt;/p&gt;</description></item><item><title>Tracking Code Time ⏲️💻</title><link>https://2kabhishek.github.io/blog/post/tracking-code-time/</link><pubDate>Thu, 02 May 2019 23:06:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tracking-code-time/</guid><description>&lt;p&gt;If you code professionally or as a hobby or are just learning to code, tracking code time can be very useful to you as it can unlock some valuable insights for you.&lt;/p&gt;
+You can only login after providing the 2FA code.&lt;/p&gt;
+&lt;p&gt;So now, even if someone manages to get their hands on your login credentials they still won&amp;rsquo;t be able to access your account.
+2FA is not unbreakable, but it is more secure than passwords.&lt;/p&gt;
+&lt;p&gt;Most of the online services provide 2FA including Google, Facebook, Twitter, GitHub, Steam etc.
+You can setup 2FA for your account by going to the security settings of that platform.
+You can also visit &lt;a href="https://twofactorauth.org/"target="_blank" rel="noopener"&gt;twofactorauth&lt;/a&gt; to check if a service provides 2FA or not.&lt;/p&gt;</description></item><item><title>Tracking Code Time ⏲️💻</title><link>https://2kabhishek.github.io/blog/post/tracking-code-time/</link><pubDate>Thu, 02 May 2019 23:06:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/tracking-code-time/</guid><description>&lt;p&gt;If you code professionally or as a hobby or are just learning to code, tracking code time can be very useful to you as it can unlock some valuable insights for you.&lt;/p&gt;
 &lt;p&gt;I recently came across one such tool and have a overview of its features here.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://wakatime.com/"target="_blank" rel="noopener"&gt;Wakatime&lt;/a&gt; is one of those tools, that logs all your coding related info like:&lt;/p&gt;
 &lt;ul&gt;
@@ -235,13 +698,21 @@ You can only login after providing the 2FA code.&lt;/p&gt;</description></item><
 &lt;li&gt;which project you are working on&lt;/li&gt;
 &lt;li&gt;which language you are using&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;All that data is presented very gracefully on the wakatime &lt;a href="http://wakatime.com/dashboard"target="_blank" rel="noopener"&gt;dashboard&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Password Managers 101 🔑🌐</title><link>https://2kabhishek.github.io/blog/post/password-managers-101/</link><pubDate>Thu, 02 May 2019 22:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/password-managers-101/</guid><description>&lt;p&gt;All of us have at least 20 (definitely more!) accounts on the internet today and managing all those passwords can get tricky if not done correctly.&lt;/p&gt;
+&lt;p&gt;All that data is presented very gracefully on the wakatime &lt;a href="http://wakatime.com/dashboard"target="_blank" rel="noopener"&gt;dashboard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Another great feature of wakatime is goals where you can set goals for yourself and wakatime will keep track of those goals and send reminders via mail as well.
+This can help you if you are trying to learn a certain framework or library or language or maybe you are trying to learn a new editor like vim.&lt;/p&gt;</description></item><item><title>Password Managers 101 🔑🌐</title><link>https://2kabhishek.github.io/blog/post/password-managers-101/</link><pubDate>Thu, 02 May 2019 22:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/password-managers-101/</guid><description>&lt;p&gt;All of us have at least 20 (definitely more!) accounts on the internet today and managing all those passwords can get tricky if not done correctly.&lt;/p&gt;
 &lt;p&gt;You can easily forget your password and if you don&amp;rsquo;t you have a very easy to guess password, and that is a very terrible thing to do.
 You also have to remember other information like credit card informations, licence keys, secure notes etc.&lt;/p&gt;
 &lt;p&gt;A simple solution to those problems is a password manager.
-A password manager creates a database of your passwords, username and other details.&lt;/p&gt;</description></item><item><title>Hidden World Of Podcasts 🎙️🎧</title><link>https://2kabhishek.github.io/blog/post/hidden-world-of-podcasts/</link><pubDate>Wed, 17 Apr 2019 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/hidden-world-of-podcasts/</guid><description>&lt;p&gt;What do you have playing on your earphones while traveling, driving or doing something less mentally taxing?
+A password manager creates a database of your passwords, username and other details.&lt;/p&gt;
+&lt;p&gt;Those passwords could then be easily synced across your devices and with things like autofill they make the whole online experience much simpler to everyone without worrying about a gazillion passwords.
+You do have to remember the master password for your specific database and that&amp;rsquo;s a necessary evil.&lt;/p&gt;</description></item><item><title>Hidden World Of Podcasts 🎙️🎧</title><link>https://2kabhishek.github.io/blog/post/hidden-world-of-podcasts/</link><pubDate>Wed, 17 Apr 2019 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/hidden-world-of-podcasts/</guid><description>&lt;p&gt;What do you have playing on your earphones while traveling, driving or doing something less mentally taxing?
 I&amp;rsquo;m sure most of your answers will be music and I do love my music.&lt;/p&gt;
 &lt;p&gt;But there&amp;rsquo;s another form of audio only media out there that can take your ears on a joyride - &amp;quot; &lt;strong&gt;Podcasts&lt;/strong&gt;&amp;quot;&lt;/p&gt;
 &lt;p&gt;Yes, podcasts a very powerful form of media which is often under explored.
 Some of you might have never listened to one and that&amp;rsquo;s relatable since I myself discovered podcasts a short time ago.
-Podcasts are not a very popular form of media around the world.&lt;/p&gt;</description></item></channel></rss>
+Podcasts are not a very popular form of media around the world.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So&amp;hellip; What are podcasts?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Podcasts are audio only form of media similar to shows on a radio, but unlike radio shows, podcasts are distributed via the internet.
+Podcasts cover topics on almost everything from philosophy to sports, technology to spirituality, news to comedy and everything in between.
+If you have a niche hobby there&amp;rsquo;s a pretty good chance that you&amp;rsquo;ll find a podcast for that out there.&lt;/p&gt;</description></item></channel></rss>

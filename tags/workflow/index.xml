@@ -16,7 +16,16 @@ When this happens, it&amp;rsquo;s crucial to &lt;strong&gt;&amp;ldquo;Assume Pos
 &lt;h2 id="why-assume-positive-intent"&gt;Why Assume Positive Intent?&lt;/h2&gt;
 &lt;p&gt;When someone pushes back against an idea or suggestion, it&amp;rsquo;s easy to misinterpret their actions as being driven by personal motives like spite or a lack of trust.
 However, it&amp;rsquo;s far more productive to assume that they are not acting out of negativity.
-The person pushing back could be influenced by several factors:&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
+The person pushing back could be influenced by several factors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Historical Reasons&lt;/strong&gt;:
+They may have been burned by similar decisions in the past and carry that caution forward.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceived Risks&lt;/strong&gt;:
+They might see risks that we haven&amp;rsquo;t considered or feel that the proposed solution is too risky given the current context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Different Perspectives&lt;/strong&gt;:
+They may have a different understanding of the problem or constraints based on their experiences.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By assuming positive intent, we approach the conversation with empathy and openness, making it easier to understand their concerns and build constructive dialogue.&lt;/p&gt;</description></item><item><title>Pending Code Reviews Are Blockers for Your Team 🚧</title><link>https://2kabhishek.github.io/blog/post/pending-code-reviews/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/pending-code-reviews/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked and interacted with a lot of people working in engineering teams across various contexts, and one of the most common pain points I&amp;rsquo;ve encountered is the prolonged wait time for code reviews.&lt;/p&gt;
 &lt;p&gt;Long delays in code reviews can cause several issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -25,6 +34,14 @@ The person pushing back could be influenced by several factors:&lt;/p&gt;</descr
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Idle Time and Context Switching 🦥&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
+&lt;p&gt;Developers either move on to new tasks or, worse, sit idle waiting for reviews. When feedback finally arrives, they must context switch, which disrupts their flow and reduces productivity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are steps you can take to improve this process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start Early 🐦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You don’t have to wait until your PR is fully refined to start getting feedback. It’s beneficial to seek input early—either right after the first draft or even during the ideation phase. This approach helps align the team early on and reduces the scope of later revisions.&lt;/p&gt;</description></item><item><title>Keybindings FTW! ⌨️🥂</title><link>https://2kabhishek.github.io/blog/post/keybindings/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/keybindings/</guid><description>&lt;p&gt;Keybindings or keyboard shortcuts are essential to an efficient workflow.
 They help you navigate faster, be more productive and reduce the time you spend on repetitive tasks.&lt;/p&gt;
-&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
+&lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item></channel></rss>

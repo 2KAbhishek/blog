@@ -2,7 +2,14 @@
 &lt;p&gt;If you need a new feature, you can just go ahead and add it yourself!&lt;/p&gt;
 &lt;p&gt;I recently did this with &lt;a href="https://github.com/jesseduffield/lazygit"target="_blank" rel="noopener"&gt;lazygit&lt;/a&gt;, a terminal-based git client I use every day.
 I wanted to add co-authors to commits, which is handy for pair programming at Incubyte&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;</description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/post/links-showcase/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/links-showcase/</guid><description>&lt;p&gt;Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit/pull/3097"target="_blank" rel="noopener"&gt;My pull request&lt;/a&gt; for this feature got merged recently, and now I&amp;rsquo;m thrilled to use it with the latest release!&lt;/p&gt;
+&lt;p&gt;Here are some tips I learned along the way:&lt;/p&gt;
+&lt;h3 id="add-value"&gt;Add Value&lt;/h3&gt;
+&lt;p&gt;Make sure your contribution adds value to the project. Don&amp;rsquo;t just contribute because it&amp;rsquo;s trendy.&lt;/p&gt;
+&lt;h3 id="ask-for-help"&gt;Ask for Help&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t expect to get everything right on the first try. Ask the project maintainers for feedback and guidance.&lt;/p&gt;
+&lt;h3 id="be-patient"&gt;Be Patient&lt;/h3&gt;
+&lt;p&gt;Remember, many open source projects are labors of love. Be patient if things take time or responses are slow.&lt;/p&gt;</description></item><item><title>Links - Present Your Links In Style 🔗🔮</title><link>https://2kabhishek.github.io/blog/post/links-showcase/</link><pubDate>Sat, 13 Aug 2022 10:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/links-showcase/</guid><description>&lt;p&gt;Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?&lt;/p&gt;
 &lt;p&gt;Well, now you can!&lt;/p&gt;
 &lt;h2 id="introducing-links"&gt;Introducing links&lt;/h2&gt;
 &lt;p&gt;Present all your links in style with an easily accessible and highly customizable web app! ✨&lt;/p&gt;
@@ -13,7 +20,18 @@ I wanted to add co-authors to commits, which is handy for pair programming at In
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd links
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
-&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
+&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo&lt;/li&gt;
+&lt;li&gt;Clone it&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your internet username.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;links&lt;/code&gt; JSON array in &lt;code&gt;script.js&lt;/code&gt;, add/remove link elements as required.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your username.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon, update the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub and enable GitHub Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/links&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
 &lt;p&gt;Present all your projects in style with a super customizable web app! ✨&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Projects&lt;/code&gt; uses the GitHub API to list all your GitHub projects in a nice searchable grid.
 Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;/p&gt;
@@ -24,7 +42,22 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd projects
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
-&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
+&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo: &lt;a href="https://github.com/2kabhishek/projects"target="_blank" rel="noopener"&gt;https://github.com/2kabhishek/projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone it locally / Open it in GitHub Codespaces&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your GitHub username.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your own.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon by updating the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit and push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub, under &lt;code&gt;Pages&lt;/code&gt; enable GitHub Pages.
+&lt;ul&gt;
+&lt;li&gt;Choose &amp;lsquo;Deploy from a branch&amp;rsquo; with the &lt;code&gt;main&lt;/code&gt; branch and &lt;code&gt;/&lt;/code&gt; as the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/projects&lt;/code&gt;&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
 This post is for all the people who are struggling to get those Pull Requests in and have to resort to special repositories which are targeted toway Hacktoberfest only (nothing wrong with using these).&lt;/p&gt;
 &lt;p&gt;But there&amp;rsquo;s another way with which you can make valuable contributions easily to the biggest of projects and later on, look at them and feel proud. 😄&lt;/p&gt;
 &lt;h2 id="documentation-matters"&gt;Documentation Matters&lt;/h2&gt;
@@ -33,12 +66,44 @@ Most of the repositories out there could also use better documentation and the m
 &lt;h3 id="gulp-runner"&gt;Gulp Runner&lt;/h3&gt;
 &lt;p&gt;Like many of us, I have a &lt;a href="https://2kabhishek.github.io"target="_blank" rel="noopener"&gt;personal site&lt;/a&gt; deployed on GitHub Pages. 🌐&lt;/p&gt;
 &lt;p&gt;It uses SCSS so I have to convert it to CSS pre-deployment, I also like to have my scripts and styles minified.
-While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
+While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;
+&lt;p&gt;The only issue is when I have to make some quick updates to the styles or scripts on a new machine or on my phone, I have to setup the local dev environment along with node, npm and lots of node modules.&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
 Do you work on multiple machines, and are struggling to keep the repositories in sync?
 Have you ever moved to a new machine and spent what seems like an eternity cloning all your projects one by one?&lt;/p&gt;
-&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;</description></item><item><title>Sync Forked Repository With Upstream 🔁✔️</title><link>https://2kabhishek.github.io/blog/post/sync-forked-repository/</link><pubDate>Sun, 07 Jun 2020 13:24:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/sync-forked-repository/</guid><description>&lt;p&gt;Here&amp;rsquo;s the situation, You have forked a repository on GitHub, you have made your changes and sent a pull request, and that request has been merged.&lt;/p&gt;
+&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;
+&lt;h2 id="introducing-ghpm---github-project-manager"&gt;Introducing &lt;a href="https://github.com/2kabhishek/ghpm"target="_blank" rel="noopener"&gt;GHPM - GitHub Project Manager&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is a utility to fix a few problems a developer faces while managing GitHub projects.&lt;/p&gt;
+&lt;p&gt;GHPM allows you to clone all the repositories in a user&amp;rsquo;s GitHub profile, saving you lots of time.
+All the repositories will be cloned in the current directory.&lt;/p&gt;
+&lt;p&gt;It lets you pull and push changes for all the git repositories in a directory, saving you lots of cd and git pull/push.&lt;/p&gt;</description></item><item><title>Sync Forked Repository With Upstream 🔁✔️</title><link>https://2kabhishek.github.io/blog/post/sync-forked-repository/</link><pubDate>Sun, 07 Jun 2020 13:24:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/sync-forked-repository/</guid><description>&lt;p&gt;Here&amp;rsquo;s the situation, You have forked a repository on GitHub, you have made your changes and sent a pull request, and that request has been merged.&lt;/p&gt;
 &lt;p&gt;Now you want to make further changes, but the repository mentions that you are X commits ahead or/and X commits behind upstream repository.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;So how do you sync it?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
+&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another way to do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone your fork&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/yourname/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd yourname/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Add upstream remote&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add upstream https://github.com/original-author/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Ignore all changes in fork and sync with upstream&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git reset --hard upstream/master
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -f origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Only do this if you have no changes on your fork that you would like to keep.
+This will set your fork&amp;rsquo;s master to be the same as upstream&amp;rsquo;s master.
+Now you are free to make any changes you wish to make.&lt;/p&gt;</description></item><item><title>Trim Unnecessary Files From Git History ✂️🗃️</title><link>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</link><pubDate>Sun, 25 Aug 2019 18:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/trim-unnecessary-files-from-git/</guid><description>&lt;p&gt;Here&amp;rsquo;s a common scenario, You have committed a file to your git repo and have also pushed to remote.&lt;/p&gt;
 &lt;p&gt;The file wasn&amp;rsquo;t supposed to be there, maybe it was something you forgot to mention in your &lt;code&gt;gitignore&lt;/code&gt; or something that was supposed to be an environment variable, or maybe it was a binary not related to the project at all ( Cat GIFs? 😉).&lt;/p&gt;
-&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This not only raises some security concerns but also drives the size of your repository up and simply deleting the file won&amp;rsquo;t fix the problem.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to fix it using a few commands:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Clone your repo and make sure all branches are up-to-date with remote.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identity the filename and its path that you want to remove.&lt;/p&gt;</description></item></channel></rss>

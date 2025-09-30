@@ -4,17 +4,91 @@
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/win2k/main/images/screenshot.png" width="100%" height="auto"
 alt="win2k screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;win2k is a set of handcrafted configs for setting up a complete dev environment on Windows.&lt;/p&gt;
+&lt;p&gt;It makes developing on Windows much more pleasant for CLI lovers.&lt;/p&gt;
+&lt;h2 id="-features"&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Can set up a complete dev environment within minutes&lt;/li&gt;
+&lt;li&gt;Full featured CLI dev environment on Windows (natively, without WSL!)&lt;/li&gt;
+&lt;li&gt;Powerful personalized editing with &lt;a href="https://github.com/2kabhishek/nvim2k"target="_blank" rel="noopener"&gt;nvim2k&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shiny and extensible prompt with &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt; and &lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modern and intuitive keybindings for Windows Terminal inspired by &lt;a href="https://github.com/2kabhishek/tmux-tilit"target="_blank" rel="noopener"&gt;tmux-tilit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tiling window management with &lt;a href="https://github.com/LGUG2Z/komorebi"target="_blank" rel="noopener"&gt;komorebi&lt;/a&gt; and &lt;a href="https://www.autohotkey.com/"target="_blank" rel="noopener"&gt;AutoHotKey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Statusbar support with &lt;a href="https://github.com/denBot/yasb"target="_blank" rel="noopener"&gt;yasb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;h3 id="-requirements"&gt;⚡ Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Powershell &amp;gt;= 7 (recommended), Most features should work on Powershell 1.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scoop.sh/"target="_blank" rel="noopener"&gt;scoop&lt;/a&gt; — for package management&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/Regular/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.ttf"target="_blank" rel="noopener"&gt;Meslo Nerd Font&lt;/a&gt; — Recommended font for glyphs support&lt;/li&gt;
+&lt;li&gt;Git with SSH setup — for cloning submodules, you can easily do this with the &lt;a href="https://cli.github.com/"target="_blank" rel="noopener"&gt;GitHub CLI&lt;/a&gt; by running &lt;code&gt;gh auth login&lt;/code&gt; and selecting SSH as protocol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ps1" data-lang="ps1"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install scoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser &lt;span style="color:#75715e"&gt;# Optional: Needed to run a remote script the first time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;irm get.scoop.sh | iex
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install git if you haven&amp;#39;t already&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;scoop install git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https&lt;span style="color:#960050;background-color:#1e0010"&gt;:&lt;/span&gt;//github.com/2kabhishek/win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd win2k
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;.\setup.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will install all necessary packages, modules and setup symlinks for you.&lt;/p&gt;</description></item><item><title>Posh2K - A universal prompt for power users 💪🌈</title><link>https://2kabhishek.github.io/blog/post/posh2k/</link><pubDate>Sun, 04 Dec 2022 00:58:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/posh2k/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png"&gt;&lt;img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tzdqbmny606hz26vudub.png" width="100%" height="auto"
 alt="Posh2K"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K&lt;/a&gt; is a prompt for &lt;a href="https://ohmyposh.dev/"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;, it works on all shells, has multiple segments with aesthetically pleasing colors.&lt;/p&gt;
 &lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;Most of my workflow is based on the command line, recently I had to use a Windows system for some work and was really displeased by the CLI experience.&lt;/p&gt;
-&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
+&lt;p&gt;So, I needed a prompt that can work across shells and has support for different segments and Posh2K was born.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;a href="https://ohmyposh.dev/docs/installation/linux"target="_blank" rel="noopener"&gt;oh-my-posh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="getting-posh2k"&gt;Getting Posh2K&lt;/h2&gt;
+&lt;p&gt;To get Posh2K, follow these steps:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/Posh2K
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Powershell, add this to $Profile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init pwsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | Invoke-Expression
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Zsh, add this to ~/.zshrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init zsh --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Bash, add this to ~/.bashrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;eval &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;oh-my-posh init bash --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for Fish, add this to ~/config/fish/config.fish&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init fish --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json | source
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for nu shell, run&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oh-my-posh init nu --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source ~/oh-my-posh.nu
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# for cmd, install Clink, then add this&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;load&lt;span style="color:#f92672"&gt;(&lt;/span&gt;io.popen&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;oh-my-posh init cmd --config ~/PATH_TO_DIR/Posh2K/posh2k.omp.json&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;:read&lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*a&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;))()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="more"&gt;More&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/2kabhishek/Posh2K"target="_blank" rel="noopener"&gt;Posh2K repo&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Control your Android device from PC 📱💻</title><link>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</link><pubDate>Tue, 28 Apr 2020 07:14:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/control-android-device-from-pc/</guid><description>&lt;p&gt;Wouldn&amp;rsquo;t it be convenient if you could mirror your Android device&amp;rsquo;s screen onto your PC and interact with it?&lt;/p&gt;
 &lt;p&gt;I have just the right tool for this job that lets you do all this and more and it&amp;rsquo;s called &amp;ldquo;scrcpy&amp;rdquo;.
 It is a tool created by folks at Genymotion.&lt;/p&gt;
 &lt;h3 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h3&gt;
 &lt;p&gt;Android device with Lollipop (API 21 / Android 5.0) or newer with USB debugging turned on.
 adb - Android debugging bridge.
-scrcpy itself.&lt;/p&gt;</description></item></channel></rss>
+scrcpy itself.&lt;/p&gt;
+&lt;h3 id="installation-instructions"&gt;&lt;strong&gt;Installation instructions:&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id="windows"&gt;Windows&lt;/h4&gt;
+&lt;p&gt;You can get the pre built release which includes both adb and scrcpy from &lt;a href="https://github.com/Genymobile/scrcpy/releases/"target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="linux"&gt;Linux&lt;/h4&gt;
+&lt;p&gt;Install the packages android-tools and scrcpy using your distro&amp;rsquo;s package manager, there&amp;rsquo;s also a snap package.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Debian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt install android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Arch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo pacman -S android-tools scrcpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="macos"&gt;macOS&lt;/h4&gt;
+&lt;p&gt;brew cask install android-platform-tools
+brew install scrcpy&lt;/p&gt;</description></item></channel></rss>

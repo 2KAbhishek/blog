@@ -16,10 +16,39 @@ alt="nerdy.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
+&lt;p&gt;These two plugins are optional but highly recommended for a smoother user experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/stevearc/dressing.nvim"target="_blank" rel="noopener"&gt;dressing.nvim&lt;/a&gt; — for prettier select UI&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nvim-telescope/telescope.nvim"target="_blank" rel="noopener"&gt;telescope&lt;/a&gt; — for fuzzy searching in list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-installation"&gt;🚀 Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-lua" data-lang="lua"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Lazy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; dependencies &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;stevearc/dressing.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;nvim-telescope/telescope.nvim&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cmd &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Nerdy&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;-- Packer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;use &lt;span style="color:#e6db74"&gt;&amp;#39;2kabhishek/nerdy.nvim&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="-usage"&gt;💻 Usage&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nerdy.nvim&lt;/code&gt; adds a new command &lt;code&gt;Nerdy&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Co-author.nvim - Add commit authors from nvim 💻🪄</title><link>https://2kabhishek.github.io/blog/post/co-author/</link><pubDate>Mon, 02 Jan 2023 10:28:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/co-author/</guid><description>&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer"
 href="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png"&gt;&lt;img loading="lazy" src="https://raw.githubusercontent.com/2kabhishek/co-author.nvim/main/images/screenshot.png" width="100%" height="auto"
 alt="co-author.nvim screenshot"/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="what-is-this"&gt;What is this&lt;/h2&gt;
 &lt;p&gt;How many times have you been working on a piece of code with someone and then when committing you ask their full name and email address for adding a Co-author to the commit?&lt;/p&gt;
 &lt;p&gt;Upgrade to 21st century, use this plugin to automatically fetch author details from your commit history and then add to your commit message, all from inside neovim.&lt;/p&gt;
-&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;It shows you a list of all the unique authors in your current repo.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;co-author.nvim&lt;/code&gt; automatically works with telescope and presents the list in a nice fuzzy searchable UI.&lt;/p&gt;
+&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Noticed something similar on a co-workers using IntelliJ, and I wanted it!&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure you have met the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have installed the latest version of &lt;code&gt;neovim&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-co-authornvim"&gt;Installing co-author.nvim&lt;/h2&gt;
+&lt;p&gt;To get co-author.nvim, add the following to your plugin list:&lt;/p&gt;</description></item></channel></rss>

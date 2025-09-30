@@ -9,7 +9,8 @@
 &lt;li&gt;&lt;a href="#delete-a-branch-from-remote"&gt;Delete a branch from remote&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="quickly-set-up-git-ssh-credentials-with-github-cli"&gt;Quickly set up Git SSH credentials with GitHub CLI&lt;/h2&gt;
-&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
+&lt;p&gt;The first thing you want to do before trying out these tricks is to set up &lt;code&gt;git&lt;/code&gt; and its credentials.&lt;/p&gt;
+&lt;p&gt;If you have set up git with ssh credentials earlier then you definitely know how cumbersome the entire process can be, for those who are unaware here&amp;rsquo;s a very brief overview:&lt;/p&gt;</description></item><item><title>What I Learned From Hacktoberfest 🥳🧑‍💻</title><link>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</link><pubDate>Thu, 08 Oct 2020 00:01:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/learnings-from-hacktoberfest/</guid><description>&lt;p&gt;I recently completed my Hacktoberfest PRs and
 This post is for all the people who are struggling to get those Pull Requests in and have to resort to special repositories which are targeted toway Hacktoberfest only (nothing wrong with using these).&lt;/p&gt;
 &lt;p&gt;But there&amp;rsquo;s another way with which you can make valuable contributions easily to the biggest of projects and later on, look at them and feel proud. 😄&lt;/p&gt;
 &lt;h2 id="documentation-matters"&gt;Documentation Matters&lt;/h2&gt;
@@ -18,14 +19,40 @@ Most of the repositories out there could also use better documentation and the m
 &lt;h3 id="gulp-runner"&gt;Gulp Runner&lt;/h3&gt;
 &lt;p&gt;Like many of us, I have a &lt;a href="https://2kabhishek.github.io"target="_blank" rel="noopener"&gt;personal site&lt;/a&gt; deployed on GitHub Pages. 🌐&lt;/p&gt;
 &lt;p&gt;It uses SCSS so I have to convert it to CSS pre-deployment, I also like to have my scripts and styles minified.
-While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
+While building the site I used gulp for these tasks and everything worked as it should.&lt;/p&gt;
+&lt;p&gt;The only issue is when I have to make some quick updates to the styles or scripts on a new machine or on my phone, I have to setup the local dev environment along with node, npm and lots of node modules.&lt;/p&gt;</description></item><item><title>Manage GitHub Projects Easily ♻📂</title><link>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/manage-your-github-projects/</guid><description>&lt;p&gt;Do you have a lot of repositories on GitHub and are always making changes to them?
 Do you work on multiple machines, and are struggling to keep the repositories in sync?
 Have you ever moved to a new machine and spent what seems like an eternity cloning all your projects one by one?&lt;/p&gt;
-&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;</description></item><item><title>Sync Forked Repository With Upstream 🔁✔️</title><link>https://2kabhishek.github.io/blog/post/sync-forked-repository/</link><pubDate>Sun, 07 Jun 2020 13:24:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/sync-forked-repository/</guid><description>&lt;p&gt;Here&amp;rsquo;s the situation, You have forked a repository on GitHub, you have made your changes and sent a pull request, and that request has been merged.&lt;/p&gt;
+&lt;p&gt;If your answer to any of these questions was yes, well I have a solution for you.&lt;/p&gt;
+&lt;h2 id="introducing-ghpm---github-project-manager"&gt;Introducing &lt;a href="https://github.com/2kabhishek/ghpm"target="_blank" rel="noopener"&gt;GHPM - GitHub Project Manager&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is a utility to fix a few problems a developer faces while managing GitHub projects.&lt;/p&gt;
+&lt;p&gt;GHPM allows you to clone all the repositories in a user&amp;rsquo;s GitHub profile, saving you lots of time.
+All the repositories will be cloned in the current directory.&lt;/p&gt;
+&lt;p&gt;It lets you pull and push changes for all the git repositories in a directory, saving you lots of cd and git pull/push.&lt;/p&gt;</description></item><item><title>Sync Forked Repository With Upstream 🔁✔️</title><link>https://2kabhishek.github.io/blog/post/sync-forked-repository/</link><pubDate>Sun, 07 Jun 2020 13:24:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/sync-forked-repository/</guid><description>&lt;p&gt;Here&amp;rsquo;s the situation, You have forked a repository on GitHub, you have made your changes and sent a pull request, and that request has been merged.&lt;/p&gt;
 &lt;p&gt;Now you want to make further changes, but the repository mentions that you are X commits ahead or/and X commits behind upstream repository.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;So how do you sync it?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;</description></item><item><title>Microsoft Actually Loves️ Linux? 🐧❤</title><link>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</link><pubDate>Thu, 19 Mar 2020 08:40:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</guid><description>&lt;p&gt;Any of you who use npm should have received a mail and that is the reason behind this post.&lt;/p&gt;
+&lt;p&gt;You can delete your fork and fork the original repository again, but that is a very tedious thing to do.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another way to do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone your fork&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/yourname/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd yourname/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Add upstream remote&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add upstream https://github.com/original-author/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Ignore all changes in fork and sync with upstream&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git reset --hard upstream/master
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -f origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Only do this if you have no changes on your fork that you would like to keep.
+This will set your fork&amp;rsquo;s master to be the same as upstream&amp;rsquo;s master.
+Now you are free to make any changes you wish to make.&lt;/p&gt;</description></item><item><title>Microsoft Actually Loves️ Linux? 🐧❤</title><link>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</link><pubDate>Thu, 19 Mar 2020 08:40:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/microsoft-loves-linux/</guid><description>&lt;p&gt;Any of you who use npm should have received a mail and that is the reason behind this post.&lt;/p&gt;
 &lt;p&gt;Microsoft has made a lot of progress in between Steve Ballmer&amp;rsquo;s &amp;ldquo;Linux is a cancer&amp;rdquo; and Satya Nadella&amp;rsquo;s &amp;ldquo;Microsoft ♥ Linux&amp;rdquo; in the Open Source world.
 Most of what microsoft has been doing recently is very inclusive of OSS.&lt;/p&gt;
 &lt;p&gt;Things from the top of my head include WSL, VS Code, GitHub, Dot Net Core, Powershell and now npm and the list is &lt;a href="opensource.microsoft.com"&gt;very long&lt;/a&gt;.
-Although one can argue that Microsoft is doing all this to push it&amp;rsquo;s Azure platform but still getting quality cross platform open source software is always welcome.&lt;/p&gt;</description></item></channel></rss>
+Although one can argue that Microsoft is doing all this to push it&amp;rsquo;s Azure platform but still getting quality cross platform open source software is always welcome.&lt;/p&gt;
+&lt;p&gt;Hopefully Microsoft will keep the ball rolling in the right direction and we&amp;rsquo;ll hear more good news in the future. 😄&lt;/p&gt;</description></item></channel></rss>

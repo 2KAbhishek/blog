@@ -2,8 +2,15 @@
 In this follow-up article I&amp;rsquo;ll try to explain Two-Factor Authentication or 2FA and how it can make your security more robust.&lt;/p&gt;
 &lt;p&gt;So what 2FA does is that It adds another layer to your security.
 After you provide your username and password 2FA will ask for a special code that you may receive via SMS or an authenticator app.
-You can only login after providing the 2FA code.&lt;/p&gt;</description></item><item><title>Password Managers 101 🔑🌐</title><link>https://2kabhishek.github.io/blog/post/password-managers-101/</link><pubDate>Thu, 02 May 2019 22:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/password-managers-101/</guid><description>&lt;p&gt;All of us have at least 20 (definitely more!) accounts on the internet today and managing all those passwords can get tricky if not done correctly.&lt;/p&gt;
+You can only login after providing the 2FA code.&lt;/p&gt;
+&lt;p&gt;So now, even if someone manages to get their hands on your login credentials they still won&amp;rsquo;t be able to access your account.
+2FA is not unbreakable, but it is more secure than passwords.&lt;/p&gt;
+&lt;p&gt;Most of the online services provide 2FA including Google, Facebook, Twitter, GitHub, Steam etc.
+You can setup 2FA for your account by going to the security settings of that platform.
+You can also visit &lt;a href="https://twofactorauth.org/"target="_blank" rel="noopener"&gt;twofactorauth&lt;/a&gt; to check if a service provides 2FA or not.&lt;/p&gt;</description></item><item><title>Password Managers 101 🔑🌐</title><link>https://2kabhishek.github.io/blog/post/password-managers-101/</link><pubDate>Thu, 02 May 2019 22:45:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/password-managers-101/</guid><description>&lt;p&gt;All of us have at least 20 (definitely more!) accounts on the internet today and managing all those passwords can get tricky if not done correctly.&lt;/p&gt;
 &lt;p&gt;You can easily forget your password and if you don&amp;rsquo;t you have a very easy to guess password, and that is a very terrible thing to do.
 You also have to remember other information like credit card informations, licence keys, secure notes etc.&lt;/p&gt;
 &lt;p&gt;A simple solution to those problems is a password manager.
-A password manager creates a database of your passwords, username and other details.&lt;/p&gt;</description></item></channel></rss>
+A password manager creates a database of your passwords, username and other details.&lt;/p&gt;
+&lt;p&gt;Those passwords could then be easily synced across your devices and with things like autofill they make the whole online experience much simpler to everyone without worrying about a gazillion passwords.
+You do have to remember the master password for your specific database and that&amp;rsquo;s a necessary evil.&lt;/p&gt;</description></item></channel></rss>

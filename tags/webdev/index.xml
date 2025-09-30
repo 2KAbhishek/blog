@@ -9,7 +9,18 @@
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd links
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
-&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
+&lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo&lt;/li&gt;
+&lt;li&gt;Clone it&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your internet username.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;links&lt;/code&gt; JSON array in &lt;code&gt;script.js&lt;/code&gt;, add/remove link elements as required.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your username.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon, update the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub and enable GitHub Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/links&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Projects - Showcase All Your Projects 🛍️🎇</title><link>https://2kabhishek.github.io/blog/post/projects-showcase-github/</link><pubDate>Sun, 31 Jul 2022 11:36:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/projects-showcase-github/</guid><description>&lt;h2 id="introducing-projects"&gt;Introducing Projects&lt;/h2&gt;
 &lt;p&gt;Present all your projects in style with a super customizable web app! ✨&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Projects&lt;/code&gt; uses the GitHub API to list all your GitHub projects in a nice searchable grid.
 Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;/p&gt;
@@ -20,7 +31,22 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd projects
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
-&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
+&lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fork the repo: &lt;a href="https://github.com/2kabhishek/projects"target="_blank" rel="noopener"&gt;https://github.com/2kabhishek/projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone it locally / Open it in GitHub Codespaces&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;script.js&lt;/code&gt; and update the &lt;code&gt;username&lt;/code&gt; variable to your GitHub username.&lt;/li&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; and update the &lt;code&gt;title&lt;/code&gt; tag to make it your own.&lt;/li&gt;
+&lt;li&gt;You may also want to update the favicon by updating the &lt;code&gt;link&lt;/code&gt; tag in &lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit and push your changes&lt;/li&gt;
+&lt;li&gt;Go to repo settings on GitHub, under &lt;code&gt;Pages&lt;/code&gt; enable GitHub Pages.
+&lt;ul&gt;
+&lt;li&gt;Choose &amp;lsquo;Deploy from a branch&amp;rsquo; with the &lt;code&gt;main&lt;/code&gt; branch and &lt;code&gt;/&lt;/code&gt; as the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site should be live on &lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/projects&lt;/code&gt;&lt;/p&gt;</description></item><item><title>MySQL Daemon Startup Fix 🛠️🕵️</title><link>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</link><pubDate>Fri, 28 Aug 2020 11:54:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/fix-mysql-daemon-startup/</guid><description>&lt;h2 id="problem"&gt;Problem&lt;/h2&gt;
 &lt;p&gt;Brief: MySQL daemon fails to start&lt;/p&gt;
 &lt;p&gt;Details: So, I recently installed MariaDB (Community fork of MySQL) on my Manjaro system and when I started the system with:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo systemctl start mysqld&lt;/code&gt;&lt;/p&gt;
@@ -28,5 +54,14 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;p&gt;&lt;code&gt;Job for mariadb.service failed because the control process exited with error code.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s look at &lt;code&gt;journalctl -xe&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;A start job for unit mariadb.service has finished with a failure.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Navigating JavaScript 🤷‍♂️🧭</title><link>https://2kabhishek.github.io/blog/post/navigating-javascript/</link><pubDate>Thu, 08 Aug 2019 09:31:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/navigating-javascript/</guid><description>&lt;p&gt;JavaScript is taking the world by storm, once used to add functionality to the web, now it is being used in almost all types of software development.&lt;/p&gt;
-&lt;p&gt;For example, Using JavaScript you can do things like build Progressive Web Apps (web apps with native app like features) , create desktop apps using electron, make Android &amp;amp; iOS apps with React Native, do server stuff using Node and Express and &lt;strong&gt;many&lt;/strong&gt; more.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Not very helpful, let&amp;rsquo;s look at mysqld&amp;rsquo;s status with: &lt;code&gt;systemctl status mysqld&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;InnoDB: The innodb\_system data file 'ibdata1' must be writable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ah, there&amp;rsquo;s the culprit mysql doesn&amp;rsquo;t have write access to this file.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+&lt;p&gt;A quick look at the man page and after some google searches the solution I came up with was simple:&lt;/p&gt;</description></item><item><title>Navigating JavaScript 🤷‍♂️🧭</title><link>https://2kabhishek.github.io/blog/post/navigating-javascript/</link><pubDate>Thu, 08 Aug 2019 09:31:00 +0530</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/navigating-javascript/</guid><description>&lt;p&gt;JavaScript is taking the world by storm, once used to add functionality to the web, now it is being used in almost all types of software development.&lt;/p&gt;
+&lt;p&gt;For example, Using JavaScript you can do things like build Progressive Web Apps (web apps with native app like features) , create desktop apps using electron, make Android &amp;amp; iOS apps with React Native, do server stuff using Node and Express and &lt;strong&gt;many&lt;/strong&gt; more.&lt;/p&gt;
+&lt;p&gt;If that wasn&amp;rsquo;t overwhelming and confusing enough, there exists more flavours of JavaScript out there than you can count 😵 &amp;amp; what is JavaScript and what&amp;rsquo;s not is a post for another time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So how do you get started with this interesting piece of technology?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ The first thing you should do is learn &lt;strong&gt;Vanilla JS&lt;/strong&gt;.
+Strong fundamentals go a long way.
+I will suggest &lt;a href="https://javascript30.com/"target="_blank" rel="noopener"&gt;JavaScript30&lt;/a&gt; a free course by Wes Bos, that focuses on Vanilla JS.&lt;/p&gt;</description></item></channel></rss>
