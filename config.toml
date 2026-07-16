@@ -2,7 +2,7 @@ baseURL = "https://2kabhishek.github.io/blog/"
 title = "2KAbhishek Blogs"
 copyright = "2KAbhishek"
 
-languageCode = "en"
+locale = "en"
 hasCJKLanguage = true
 defaultContentLanguage = "en"
 summaryLength = 120
