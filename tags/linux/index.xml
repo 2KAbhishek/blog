@@ -3,7 +3,7 @@ They help you navigate faster, be more productive and reduce the time you spend 
 &lt;p&gt;My workflow is heavily keyboard driven and primmarily relies on a browser and a terminal within a tiling window manager, for these I use my own set of keybindings. Because I work on multiple machines and operating systems, I have to keep track of all the keybindings I use and make sure they are somewhat consistent across all the systems and tools.&lt;/p&gt;
 &lt;p&gt;I realized that this keybinding information was scattered across the internet and several configuration files, making it hard to find when needed. So, I embarked on a journey to document all the keyboard shortcuts I use daily!&lt;/p&gt;</description></item><item><title>Do Not Parse ls! (Use this instead) ❌📂</title><link>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</link><pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate><author>iam2kabhishek@gmail.com (2KAbhishek)</author><guid>https://2kabhishek.github.io/blog/post/do-not-parse-ls/</guid><description>&lt;h2 id="tldr"&gt;TLDR&lt;/h2&gt;
 &lt;p&gt;ls parsing bad, do this&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -1iq | grep -o &lt;span style="color:#e6db74"&gt;&amp;#39;^ *[0-9]*&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# get file inodes&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -1iq | grep -o &lt;span style="color:#e6db74"&gt;&amp;#39;^ *[0-9]*&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# get file inodes&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;find /path/to/search -inum &amp;lt;inode_number&amp;gt; &lt;span style="color:#75715e"&gt;# convert inodes to file info&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can continue your doomscroll now 👍🏼&lt;/p&gt;
 &lt;hr&gt;
@@ -18,7 +18,7 @@ In this post, I will discuss how I organize my zsh config and how you can do it 
 &lt;p&gt;Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;h2 id="config-structure"&gt;Config Structure&lt;/h2&gt;
 &lt;p&gt;Before diving into the config files, let&amp;rsquo;s examine the structure of my config directory:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── shell
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── aliases.sh
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── environment.sh
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── functions.sh
@@ -60,7 +60,7 @@ scrcpy itself.&lt;/p&gt;
 &lt;p&gt;You can get the pre built release which includes both adb and scrcpy from &lt;a href="https://github.com/Genymobile/scrcpy/releases/"target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id="linux"&gt;Linux&lt;/h4&gt;
 &lt;p&gt;Install the packages android-tools and scrcpy using your distro&amp;rsquo;s package manager, there&amp;rsquo;s also a snap package.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Debian&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Debian&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt install android-tools scrcpy
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Arch&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo pacman -S android-tools scrcpy

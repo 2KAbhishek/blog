@@ -6,7 +6,7 @@
 &lt;p&gt;Needed a place to display all my profiles, used my &lt;a href="https://2kabhishek.github.io/projects"target="_blank" rel="noopener"&gt;project&amp;rsquo;s repo&lt;/a&gt; as inspiration.&lt;/p&gt;
 &lt;h2 id="getting-links"&gt;Getting links&lt;/h2&gt;
 &lt;p&gt;To get links, follow these steps:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/links
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd links
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="setup-your-own-links"&gt;Setup Your Own links&lt;/h2&gt;
 &lt;p&gt;You can easily set up links to show your own profiles.&lt;/p&gt;
@@ -28,7 +28,7 @@ Also shows pretty programming icons using &lt;code&gt;devicons&lt;/code&gt;.&lt;
 &lt;p&gt;Needed a way to display all my projects, that should auto update from my GitHub&lt;/p&gt;
 &lt;h2 id="getting-projects"&gt;Getting Projects&lt;/h2&gt;
 &lt;p&gt;To get projects, follow these steps:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/2kabhishek/projects
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd projects
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="setup-your-own-projects"&gt;Setup Your Own Projects&lt;/h3&gt;
 &lt;p&gt;You can set up projects for yourself by following these steps:&lt;/p&gt;
